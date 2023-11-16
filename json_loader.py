@@ -11,4 +11,4 @@ def load_json(file_path, encoding):
     except json.JSONDecodeError:
         print(f"Die Datei {file_path} konnte nicht als JSON geparsed werden. Stellen Sie sicher, dass es eine gültige JSON-Datei ist.")
     except UnicodeDecodeError:
-        print(f"Die Datei {file_path} konnte nicht mit der Kodierung 'iso-8859-1' gelesen werden.")
+        print(f"Die Datei {file_path} konnte nicht mit der Kodierung {encoding} gelesen werden.")
