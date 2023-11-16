@@ -1,6 +1,8 @@
 ### Requirements:
 - Follow these instructions: https://medium.com/@dipan.saha/managing-git-repositories-with-vscode-setting-up-a-virtual-environment-62980b9e8106#:~:text=Open%20a%20powershell%20terminal%20within,virtual%20environment%20to%20your%20workspace.
 
+<mark>Ausführung von Skripts in Windows erlauben: set-executionpolicy remotesigned</mark>
+
 ### TL;DR
 ```
 python -m venv .venv
