@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 import os
 from src.helpers.json_loader import load_json
-from src.helpers.openai_config import OpenAIConfig
 from src.templates.openai_prompter import OpenAIPrompter
 
 # load environment variables (.env)
@@ -13,6 +12,6 @@ encoding = os.getenv('ENCODING')
 load_json(json_file, encoding)
 
 # connect with open ai api
-OpenAIConfig.setup()
-
 prompter = OpenAIPrompter()
+result = prompter.create_completion("Joshua ist ein", 40)
+print(result)
