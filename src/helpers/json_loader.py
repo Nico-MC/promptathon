@@ -7,7 +7,7 @@ def load_json(json_file, encoding):
         with open(json_file, 'r', encoding=encoding) as file:
             data = json.load(file)
             # print(data)
-        print(f"{ConsoleColors.OKGREEN}Loading JSON file {json_file} finished.\n{ConsoleColors.ENDC}")
+        print(f"{ConsoleColors.OKGREEN}Loading JSON file {json_file} finished.{ConsoleColors.ENDC}\n")
 
     except FileNotFoundError:
         print(f"{ConsoleColors.FAIL}The file {json_file} was not found.{ConsoleColors.ENDC}")
