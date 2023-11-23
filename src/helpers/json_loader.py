@@ -32,3 +32,4 @@ def sort_json(comments: str, json_file: str):
         json.dump(grouped_data, file, ensure_ascii=False, indent=4)
 
     print(f"{ConsoleColors.OKGREEN}Json file '{output_file_path}' was saved in root directory.{ConsoleColors.ENDC}\n")
+    return grouped_data
