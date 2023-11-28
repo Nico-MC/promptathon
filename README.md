@@ -1,3 +1,9 @@
+# Martin AI
+
+Martin AI is the repository for all the code to improve Martin-Gebühren-Info and its content with artificial intelligence.
+
+## Classification Promptathon
+
 ### Requirements:
 - Follow these instructions: https://medium.com/@dipan.saha/managing-git-repositories-with-vscode-setting-up-a-virtual-environment-62980b9e8106#:~:text=Open%20a%20powershell%20terminal%20within,virtual%20environment%20to%20your%20workspace.
 
