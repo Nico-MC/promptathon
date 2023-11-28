@@ -19,17 +19,6 @@ def load_json(json_file: str, encoding: str):
         print(f"{ConsoleColors.FAIL}The file {json_file} could not be read with the encoding {encoding}.{ConsoleColors.ENDC}")
 
 
-def sort_json(comments: str, json_file: str):
-    sql_key = list(comments.keys())[0]
-    data = comments[sql_key]
-
-    grouped_data = defaultdict(list)
-    for entry in data:
-        grouped_data[entry["ziffer_nr"]].append(entry)
-
-    output_file_path = 'sorted_'+json_file
-    with open(output_file_path, 'w', encoding='utf-8') as file:
-        json.dump(grouped_data, file, ensure_ascii=False, indent=4)
-
-    print(f"{ConsoleColors.OKGREEN}Json file '{output_file_path}' was saved in root directory.{ConsoleColors.ENDC}\n")
-    return grouped_data
+def sort_json(json: str):
+    json_dict = {item["id"]: item for item in json}
+    return json_dict
