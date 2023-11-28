@@ -22,6 +22,5 @@ text = comment['text']
 comment = "Titel: " + title + "\n" + "Text: " + text
 
 result = prompter.create_chat(comment, 200, 1)
-print(f"{ConsoleColors.OKGREEN}{result}{ConsoleColors.ENDC}\n")
 
 
