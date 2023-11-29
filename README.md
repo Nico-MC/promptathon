@@ -18,7 +18,7 @@ Martin AI is the repository for all the code to improve Martin-Gebühren-Info an
 </br></br>
 
 <mark>CAUTION ⚠️: Bei Skriptfehler in Windows folgenden Schritt durchführen (Ausführung von Skripts in Windows erlauben):</mark>
-- JSON in Notepad++ öffnen
+- Ausführung von Skripts in Windows erlauben: set-executionpolicy remotesigned
 </br></br>
 
 <mark>(Optional) Shift + Control + P --> Click 'Python: Select Interpreter' --> select .venv</mark>
