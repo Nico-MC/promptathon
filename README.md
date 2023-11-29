@@ -21,7 +21,9 @@ Martin AI is the repository for all the code to improve Martin-Gebühren-Info an
 - Ausführung von Skripts in Windows erlauben: set-executionpolicy remotesigned
 </br></br>
 
-<mark>(Optional) Shift + Control + P --> Click 'Python: Select Interpreter' --> select .venv</mark>
+<mark>Info: Bei .venv Problemen folgenden Schritt durchführen:</mark>
+- Shift + Control + P --> Click 'Python: Select Interpreter' --> select .venv
+</br></br>
 
 ### Requirements
 - .env.example duplizieren und in .env umbenennen. Für die Werte jemanden fragen ¯\\_(ツ)\_/¯
