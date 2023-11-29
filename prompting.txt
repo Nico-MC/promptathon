@@ -1,0 +1,9 @@
+top_p gibt die Kohärenz an. Ist top_p z.B. 0.1, ergibt die Ausgabe: ['Visusäquivalenz', 'Altersbedingung', 'Erkrankungsbedingung']
+Ist top_p dagegen 1, ist die Ausgabe: ['Visusäquivalenz', 'Amblyopie', 'Medientrübung', 'Mitarbeit', 'Akzeptanz', 'Bewertung', 'GOÄ', 'BÄK', 'Deutsches Ärzteblatt']
+
+Das liegt daran, da eine hohe Kohärenz (also nahe 1) genau das angegebene Format erfüllt, siehe folgendes:
+{"role": "assistant", "content": """
+    wort1,wort2,wort3
+"""}
+Ist die Kohärenz niedrig, ist die KI nicht so streng und sieht das Format mehr als Beispielauflistung,
+wo auch mehrere Worte zugelassen werden.

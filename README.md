@@ -5,9 +5,10 @@ Martin AI is the repository for all the code to improve Martin-Gebühren-Info an
 ## Classification Promptathon
 
 ### Aktuelle TODOs
+- ausgabe kategorien in ein array schreiben
 - Alle Kommentare einer goä ziffer anhand der Präfixe kategorisieren
 
-### Requirements:
+### Troubleshooting:
 - Follow these instructions: https://medium.com/@dipan.saha/managing-git-repositories-with-vscode-setting-up-a-virtual-environment-62980b9e8106#:~:text=Open%20a%20powershell%20terminal%20within,virtual%20environment%20to%20your%20workspace.
 
 <mark>CAUTION ⚠️: Bei Kodierungsfehler folgende Schritte machen:</mark>
@@ -18,8 +19,12 @@ Martin AI is the repository for all the code to improve Martin-Gebühren-Info an
 
 <mark>CAUTION ⚠️: Bei Skriptfehler in Windows folgenden Schritt durchführen (Ausführung von Skripts in Windows erlauben):</mark>
 - JSON in Notepad++ öffnen
+</br></br>
 
-### TL;DR
+<mark>(Optional) Shift + Control + P --> Click 'Python: Select Interpreter' --> select .venv</mark>
+
+### Requirements
+- .env.example duplizieren und in .env umbenennen. Für die Werte jemanden fragen ¯\\_(ツ)\_/¯
 ```
 python -m venv .venv
 .venv\Scripts\activate.ps1
@@ -27,7 +32,11 @@ python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-<mark>(Optional) Shift + Control + P --> Click 'Python: Select Interpreter' --> select .venv</mark>
+### How to start:
+- (optional but recommended) <span style="color: green;">(.venv)</span> sollte in der Konsole grün hervorgehoben sein, damit man weiß, dass man in der virtuellen Umgebung ist. Normalerweise reicht es in vscode eine neue Konsole zu starten, dann geht es automatisch.
+- Programm einfach mit ```python index.py``` ausführen.
+
+
 
 
 ### Chat Completions Parameter
