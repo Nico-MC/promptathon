@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os
-from src.helpers.json_loader import load_json, sort_json
+from src.helpers.json_loader import load_json, sort_json, write_json
 from src.templates.openai_prompter import OpenAIPrompter
 from src.helpers.console_colors import ConsoleColors
 
@@ -10,17 +10,19 @@ load_dotenv()
 # load json file
 json_file = os.getenv('JSON_FILE')
 encoding = os.getenv('ENCODING')
-comments = sort_json(load_json(json_file, encoding))
+json_data = sort_json(load_json(json_file, encoding))
 
 
 # connect with open ai api
 prompter = OpenAIPrompter()
 
-comment = comments[3032]['kommentare'][0]
+goae_id = "3031"
+comment_id = 0
+comment = json_data[goae_id]['kommentare'][comment_id]
 title = comment['title']
 text = comment['text']
 comment = "Titel: " + title + "\n" + "Text: " + text
 
-result = prompter.create_chat(comment, 200, 1)
+categories = prompter.create_chat(comment, None, None, 0.1)
 
-
+write_json(goae_id, comment_id, categories)
