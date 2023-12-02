@@ -6,15 +6,8 @@ def sort_json(json_data: str) -> dict[str, object]:
     write_json(json_dict, 'ziffern_sorted.json')
     return json_dict
 
-def write_categories_in_json(goae_id: str, comment_id: int, categories: list):
-    json_data = read_json("ziffern_sorted_with_categories.json")
-
-    try:
-        json_data[goae_id]["kommentare"][comment_id]["categories"] = categories
-    except IndexError:
-        print("null reference in json_data.")
-
-    write_json(json_data, 'ziffern_sorted_with_categories.json')
+def write_categories_in_json(json_file: str, categories: list):
+    write_json(categories, json_file)
 
 def write_json(obj: any, file: str, indent: int = 4, ensure_ascii: bool = False):
     try:

@@ -27,7 +27,7 @@ class OpenAIPrompter:
             print(f"An error occurred on sending create_completion: {e}")
             return None
         
-    def create_chat(self,
+    def get_categories(self,
                     prompt: str,
                     max_tokens: int = None,
                     temperature: float = None,
