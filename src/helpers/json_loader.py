@@ -1,15 +1,43 @@
 import json
 from src.helpers.console_colors import ConsoleColors
-from collections import defaultdict
 
-def load_json(json_file: str, encoding: str):
-    comments = ""
+def sort_json(json_data: str) -> dict[str, object]:
+    json_dict = {str(item["id"]): item for item in json_data}
+    write_json(json_dict, 'ziffern_sorted.json')
+    return json_dict
+
+def write_categories_in_json(goae_id: str, comment_id: int, categories: list):
+    with open('ziffern_sorted.json', 'r') as file:
+        json_data = json.load(file)
+
+    try:
+        json_data[goae_id]["kommentare"][comment_id]["categories"] = categories
+    except IndexError:
+        print("null reference in json_data.")
+
+    write_json(json_data, 'ziffern_sorted_with_categories.json')
+
+
+def write_json(obj: any, file: str, indent: int = 4, ensure_ascii: bool = False):
+    try:
+        with open(file, 'w', encoding='utf-8') as f:
+            json.dump(obj, f, indent=indent, ensure_ascii=ensure_ascii)
+        print(f"File '{file}' was written successfully.\n")
+    except json.JSONDecodeError as e:
+        print(f"Error while serializing the object to JSON: {e}")
+    except IOError as e:
+        print(f"IO error occurred: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+def read_json(json_file: str, encoding: str='utf-8') -> json:
+    json_data = ""
     try:
         print(f"{ConsoleColors.OKCYAN}Loading JSON file {json_file} ...{ConsoleColors.ENDC}")
         with open(json_file, 'r', encoding=encoding) as file:
-            comments = json.load(file)
+            json_data = json.load(file)
         print(f"{ConsoleColors.OKGREEN}Loading JSON file {json_file} finished.{ConsoleColors.ENDC}\n")
-        return comments
+        return json_data
 
     except FileNotFoundError:
         print(f"{ConsoleColors.FAIL}The file {json_file} was not found.{ConsoleColors.ENDC}")
@@ -17,19 +45,3 @@ def load_json(json_file: str, encoding: str):
         print(f"{ConsoleColors.FAIL}The file {json_file} could not be parsed as JSON. Make sure it is a valid JSON file.{ConsoleColors.ENDC}")
     except UnicodeDecodeError:
         print(f"{ConsoleColors.FAIL}The file {json_file} could not be read with the encoding {encoding}.{ConsoleColors.ENDC}")
-
-
-def sort_json(comments: str, json_file: str):
-    sql_key = list(comments.keys())[0]
-    data = comments[sql_key]
-
-    grouped_data = defaultdict(list)
-    for entry in data:
-        grouped_data[entry["ziffer_nr"]].append(entry)
-
-    output_file_path = 'sorted_'+json_file
-    with open(output_file_path, 'w', encoding='utf-8') as file:
-        json.dump(grouped_data, file, ensure_ascii=False, indent=4)
-
-    print(f"{ConsoleColors.OKGREEN}Json file '{output_file_path}' was saved in root directory.{ConsoleColors.ENDC}\n")
-    return grouped_data
