@@ -2,4 +2,4 @@
 .env
 __pycache__
 
-ziffern_sorted.json
+ziffern_*.json
