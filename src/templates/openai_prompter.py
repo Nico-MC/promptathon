@@ -49,7 +49,7 @@ class OpenAIPrompter:
                 print(f"{ConsoleColors.FAIL}_client is none. Please check AzureOpenAI initialization.{ConsoleColors.ENDC}\n")
                 return None
             
-            print(f"{ConsoleColors.OKCYAN}Send following prompt:\n{prompt}{ConsoleColors.ENDC}")
+            # print(f"{ConsoleColors.OKCYAN}Send following prompt:\n{prompt}{ConsoleColors.ENDC}")
             response = self._client.chat.completions.create(
                 model=model,
                 messages=[

@@ -7,8 +7,7 @@ def sort_json(json_data: str) -> dict[str, object]:
     return json_dict
 
 def write_categories_in_json(goae_id: str, comment_id: int, categories: list):
-    with open('ziffern_sorted.json', 'r') as file:
-        json_data = json.load(file)
+    json_data = read_json("ziffern_sorted_with_categories.json")
 
     try:
         json_data[goae_id]["kommentare"][comment_id]["categories"] = categories
@@ -16,7 +15,6 @@ def write_categories_in_json(goae_id: str, comment_id: int, categories: list):
         print("null reference in json_data.")
 
     write_json(json_data, 'ziffern_sorted_with_categories.json')
-
 
 def write_json(obj: any, file: str, indent: int = 4, ensure_ascii: bool = False):
     try:
@@ -31,6 +29,7 @@ def write_json(obj: any, file: str, indent: int = 4, ensure_ascii: bool = False)
         print(f"An unexpected error occurred: {e}")
 
 def read_json(json_file: str, encoding: str='utf-8') -> json:
+    print(json_file)
     json_data = ""
     try:
         print(f"{ConsoleColors.OKCYAN}Loading JSON file {json_file} ...{ConsoleColors.ENDC}")
