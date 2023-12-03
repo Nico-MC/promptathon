@@ -1,159 +1,218 @@
 {
-    "1": {
-        "3284": [
-            "Kommentar",
-            "Nummerierung",
-            "Anordnung"
+    "3031": {
+        "1449": [
+            "Gebührenordnung",
+            "Fraktionierte stereotaktische Präzisionsbestrahlung",
+            "Indikationen"
         ],
-        "3283": [
+        "1450": [
+            "Strahlentherapie",
+            "IMRT/IGRT/Tomotherapie",
+            "Abrechnungsempfehlung"
+        ],
+        "1448": [
+            "Bestrahlung",
+            "Gebührenposition",
+            "Kriterien"
+        ]
+    },
+    "5": {
+        "5349": [
             "Abrechnung",
-            "Visite",
-            "medizinische Notwendigkeit"
+            "Histologie",
+            "Vorbereitung"
         ],
-        "3282": [
-            "Besonderheiten",
-            "Nummern",
-            "Kommentar"
+        "5359": [
+            "Keine passenden Stichworte vorhanden",
+            "da der Text sehr kurz und spezifisch ist und keine weiteren Informationen enthält"
         ],
-        "3275": [
-            "Leistungserbringung",
+        "5348": [
+            "Pathologie",
             "Abrechnung",
-            "Visite"
+            "Augenhöhle"
         ],
-        "3276": [
-            "Abrechnung",
-            "Chefarzt",
-            "medizinische Notwendigkeit"
-        ],
-        "3268": [
-            "Visite",
-            "OP-Tag",
-            "Rechnung"
-        ],
-        "3281": [
-            "Abrechnung",
-            "Beratung",
-            "Delegierbare Leistung"
-        ],
-        "3280": [
-            "Kommentar",
-            "Nummerierung",
-            "Einschränkung"
-        ],
-        "3254": [
-            "ärztliche Beratung",
-            "Leistungen",
-            "Gebührenordnung"
-        ],
-        "3279": [
-            "GOÄ",
-            "postoperative Information",
-            "Angehörige"
-        ],
-        "3278": [
-            "Es tut mir leid",
-            "aber anhand des gegebenen Textes kann ich keine passenden Stichworte finden",
-            "da der Text keine Informationen über die Abrechnung der Hautkrebsfrüherkennungsuntersuchung enthält. Es wird lediglich auf Kommentare zu den Nummern 750 und 3 verwiesen. Bitte gib mir mehr Kontext oder Informationen",
-            "damit ich dir besser helfen kann"
-        ],
-        "3274": [
-            "Nicht ausreichend Informationen vorhanden",
-            "um passende Stichworte zu generieren. Der Text bezieht sich auf eine medizinische Abrechnungsfrage und enthält keine spezifischen Informationen zu einem Thema oder Ereignis"
-        ],
-        "3277": [
-            "Gebührenpositionen",
-            "GOÄ",
-            "Gesprächsleistungen"
-        ],
-        "3255": [
-            "Beratungsleistung",
-            "Leistungslegende",
-            "Arzt-Patienten-Kontakt"
-        ],
-        "3256": [
-            "Behandlungsfall",
-            "Definition",
-            "BAK"
-        ],
-        "3258": [
-            "Abgelehnt",
-            "das sind keine passenden Stichworte. Bitte lies den Text aufmerksam durch und gib passende Stichworte an"
-        ],
-        "3273": [
-            "Berechnung",
-            "Anamnese",
-            "Legenden"
-        ],
-        "3260": [
-            "Nebeneinanderberechnung",
-            "Chefärztebrief",
-            "falsche Auffassung"
-        ],
-        "3261": [
-            "Leistungen",
-            "Nrn. 1 und 5",
-            "C bis O"
-        ],
-        "3263": [
-            "Abrechnung",
-            "Diagnosen",
-            "Behandlungsfälle"
-        ],
-        "3266": [
-            "Abrechnungseinschränkung",
-            "stationäre Behandlung",
-            "Beratungsleistung"
-        ],
-        "3259": [
-            "Nr. 1",
-            "Leistungen C-O",
-            "Behandlungsfall"
-        ],
-        "3265": [
-            "Abrechnung",
-            "ärztliche Leistungen",
-            "stationäre Behandlung"
-        ],
-        "3270": [
-            "Es tut mir leid",
-            "aber der Text ist zu kurz und enthält keine ausreichenden Informationen",
-            "um passende Stichworte zu generieren. Bitte geben Sie mir mehr Kontext oder Informationen",
-            "damit ich Ihnen helfen kann"
-        ],
-        "3272": [
-            "Es tut mir leid",
-            "aber aufgrund der Kürze des Textes und des Fehlens von Informationen kann ich keine passenden Stichworte liefern. Bitte geben Sie mir mehr Kontext oder Informationen",
-            "damit ich Ihnen besser helfen kann"
-        ],
-        "3262": [
-            "Abrechnungsvorschriften",
-            "Nr. 1",
-            "Behandlungsfall"
-        ],
-        "3257": [
-            "Abrechnung",
-            "Beratung",
-            "Untersuchung"
-        ],
-        "3264": [
-            "Abrechnung",
-            "stationäre Behandlung",
-            "Nummern"
-        ],
-        "3267": [
-            "Abrechnung",
-            "Visite",
-            "Entlassung"
-        ],
-        "3269": [
-            "Radiologie",
-            "Aufklärung",
+        "5330": [
+            "postoperative Kontrolle",
+            "Operation",
             "Abrechnung"
         ],
-        "3271": [
-            "Aufklärungspflicht",
-            "Risiken",
-            "Gebührenordnung"
+        "5332": [
+            "Keine passenden Stichworte vorhanden",
+            "da der Text keine relevanten Informationen enthält"
+        ],
+        "5334": [
+            "Medizinische Untersuchung",
+            "Fadenentfernung",
+            "Visite"
+        ],
+        "5342": [
+            "Visite",
+            "OP-Tag",
+            "Rechnungsprüfung"
+        ],
+        "5358": [
+            "Koordinationsprüfungen",
+            "Neurologische Untersuchung",
+            "Bewertungskriterien"
+        ],
+        "5329": [
+            "Kontrolle",
+            "Narkosen",
+            "Honorare"
+        ],
+        "5357": [
+            "keine Stichworte vorhanden"
+        ],
+        "5352": [
+            "Präoperative Erfassung",
+            "Berechnung",
+            "Zielleistung"
+        ],
+        "5356": [
+            "Es gibt keine passenden Stichworte",
+            "da der Text keinerlei Informationen enthält und sich nur auf einen Kommentar zu einer anderen Nummer bezieht"
+        ],
+        "5355": [
+            "Befunderhebung",
+            "operative Behandlung",
+            "diagnostische Leistung"
+        ],
+        "5354": [
+            "Abrechnung",
+            "GOÄ-Nummer",
+            "OP-Gebiet"
+        ],
+        "5353": [
+            "OP-Abschlussuntersuchung",
+            "Abrechnung",
+            "Funktionskontrolle"
+        ],
+        "5351": [
+            "Abrechnung",
+            "stationäre Behandlung",
+            "Nrn. 5 und 7"
+        ],
+        "5336": [
+            "GOÄ-Bestimmung",
+            "Nebeneinanderberechnung",
+            "Chefärzte-Brief"
+        ],
+        "5337": [
+            "Abrechnungsmöglichkeit",
+            "Nrn. 1 und 5",
+            "Behandlungsfalls",
+            "Leistungen",
+            "Abschnitte C bis O",
+            "Faktorerhöhung",
+            "§ 5 der GOÄ",
+            "einzelne Leistung",
+            "einzelne Gebühr",
+            "Leistungskonglomerat"
+        ],
+        "5350": [
+            "Es gibt keine aussagekräftigen Stichworte",
+            "die aus diesem kurzen Text extrahiert werden können. Der Text bezieht sich auf einen Kommentar zu einer Nummer 1 und/oder 5 sowie auf Dauerdiagnosen",
+            "aber es gibt keine weiteren Informationen",
+            "um spezifischere Stichworte zu identifizieren"
+        ],
+        "5347": [
+            "Makroskopische Beurteilung",
+            "Abrechnung",
+            "Pathologe/Histologe",
+            "Nr. 5",
+            "Organresektate",
+            "Kommentar nach Brück",
+            "Großes Resektat",
+            "Makroskopische Untersuchung",
+            "Präparation",
+            "Beschreibung",
+            "Operationspräparat",
+            "Magenentfernung",
+            "Hemikolektomie",
+            "Ablatio mammae",
+            "Kleines Resektat",
+            "Prostata",
+            "Appendix",
+            "Gallenblase",
+            "Uterus",
+            "Ovarien",
+            "Herauspräparation",
+            "Histologische Untersuchungen",
+            "Unübersichtliche Verhältnisse"
+        ],
+        "5328": [
+            "Anästhesie",
+            "Narkose",
+            "Nachuntersuchung"
+        ],
+        "5340": [
+            "Keine passenden Stichworte vorhanden",
+            "da der Text keine relevanten Informationen enthält"
+        ],
+        "5346": [
+            "Da der Text sehr kurz und knapp ist und keine weiteren Informationen enthält",
+            "ist es schwierig",
+            "aussagekräftige Stichworte zu generieren. Hier sind dennoch einige Möglichkeiten:\n\nKommentar",
+            "Nummer 5",
+            "Nummer 7",
+            "stationär",
+            "Ultraschallleistungen"
+        ],
+        "5345": [
+            "Aufklärung",
+            "Symptombezogene Untersuchung",
+            "Technische Untersuchungen"
+        ],
+        "5339": [
+            "Abrechnungsfähigkeit",
+            "GOÄ",
+            "stationäre Behandlung"
+        ],
+        "5344": [
+            "Abrechnung",
+            "GOÄ",
+            "stationäre Behandlung"
+        ],
+        "5343": [
+            "Abrechnung",
+            "Ärzte",
+            "Bundesärztekammer"
+        ],
+        "5327": [
+            "Narkose",
+            "Anästhesist",
+            "Nachuntersuchung"
+        ],
+        "5331": [
+            "Abrechnung",
+            "Symptombezogene Untersuchung",
+            "Visite"
+        ],
+        "5333": [
+            "Abrechnung",
+            "Krankenhausleistungen",
+            "Visite"
+        ],
+        "5335": [
+            "Abrechnung",
+            "Leistungen",
+            "Behandlungsfälle"
+        ],
+        "5338": [
+            "Abrechnung",
+            "GOÄ",
+            "Sachkenntnis"
+        ],
+        "5341": [
+            "Herzkatheteruntersuchung",
+            "Abrechnung",
+            "Nr. 5",
+            "stationäre Behandlung",
+            "Symptome",
+            "Zustand des Patienten",
+            "Verschlechterung",
+            "Uhrzeit",
+            "unvorhersehbare Untersuchung"
         ]
     }
 }

@@ -6,10 +6,10 @@ def sort_json(json_data: str) -> dict[str, object]:
     write_json(json_dict, 'ziffern_sorted.json')
     return json_dict
 
-def write_categories_in_json(json_file: str, categories: list):
+def write_categories_in_json(json_file: str, categories: list[str]) -> None:
     write_json(categories, json_file)
 
-def write_json(obj: any, file: str, indent: int = 4, ensure_ascii: bool = False):
+def write_json(obj: any, file: str, indent: int = 4, ensure_ascii: bool = False) -> None:
     try:
         with open(file, 'w', encoding='utf-8') as f:
             json.dump(obj, f, indent=indent, ensure_ascii=ensure_ascii)
@@ -22,8 +22,7 @@ def write_json(obj: any, file: str, indent: int = 4, ensure_ascii: bool = False)
         print(f"An unexpected error occurred: {e}")
 
 def read_json(json_file: str, encoding: str='utf-8') -> json:
-    print(json_file)
-    json_data = ""
+    json_data = {}
     try:
         print(f"{ConsoleColors.OKCYAN}Loading JSON file {json_file} ...{ConsoleColors.ENDC}")
         with open(json_file, 'r', encoding=encoding) as file:
@@ -33,6 +32,7 @@ def read_json(json_file: str, encoding: str='utf-8') -> json:
 
     except FileNotFoundError:
         print(f"{ConsoleColors.FAIL}The file {json_file} was not found.{ConsoleColors.ENDC}")
+        return json_data
     except json.JSONDecodeError:
         print(f"{ConsoleColors.FAIL}The file {json_file} could not be parsed as JSON. Make sure it is a valid JSON file.{ConsoleColors.ENDC}")
     except UnicodeDecodeError:

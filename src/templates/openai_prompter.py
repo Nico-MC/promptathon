@@ -55,9 +55,9 @@ class OpenAIPrompter:
                 messages=[
                     # system: Dies definiert eine Systemnachricht, die Anweisungen oder Informationen für das Modell enthält, wie es antworten soll.
                     {"role": "system", "content": """
-                     Lese Titel und Text und gebe ausschließlich 3 passende Stichworte aus. Es ist wichtig, dass die Stichworte individuell sind
+                     Lese Titel und Text und gebe ausschließlich passende Stichworte aus. Es ist wichtig, dass die Stichworte individuell sind
                      und sich nicht ähneln. Man soll den Text anhand der Stichworte wiederfinden können.
-                     Ignoriere Quellenverweise, falls diese vorkommen.
+                     Ignoriere Quellenverweise, falls diese vorkommen. Wichtig, gebe die Stichworte so aus: Kategorie1,Kategorie2,Kategorie3
                     """},
                     # user: Nachricht des Benutzers
                     {"role": "user", "content": prompt},
