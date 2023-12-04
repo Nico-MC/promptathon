@@ -36,7 +36,7 @@ def write_categories(goae_ids: list[int]) -> None:
                 # comment = "Titel: " + title + "\n" + "Text: " + text
                 comment = title + "\n" + text
                 # categories = prompter.create_chat(comment, top_p=0.1)
-                categories = prompter.create_completion(comment, temperature=0.5, top_p=0.6, max_tokens=60, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
+                categories = prompter.create_completion(comment, temperature=0.2, top_p=0.3, max_tokens=60, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
                 generations += 1
                 if(categories == None):
                     abandoned_generations += 1
