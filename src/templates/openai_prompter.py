@@ -1,3 +1,4 @@
+import json
 import os
 import ast
 import re
@@ -42,7 +43,7 @@ class OpenAIPrompter:
             
             prompt = re.sub(r'<[^>]+>', '', prompt)
             prompt = prompt + """\n\nBitte identifiziere und liste die Schlüsselkategorien dieses Textes auf, basierend auf seinem Inhalt.\n [\""""
-            print(f"{ConsoleColors.OKCYAN}Send following prompt:\n{prompt}{ConsoleColors.ENDC}")
+            # print(f"{ConsoleColors.OKCYAN}Send following prompt:\n{prompt}{ConsoleColors.ENDC}")
             response = self._client.completions.create(
                 model=model,
                 prompt=prompt,
@@ -65,8 +66,8 @@ class OpenAIPrompter:
                 # timeout=timeout # Ein Zeitlimit für die API-Anfrage.
             )
             result = '["' + response.choices[0].text.strip() + '"]'
-            print(result + "\n")
-            result = ast.literal_eval(result)
+            result_list = json.loads(result)
+            # result = ast.literal_eval(result)
             # result = [item.strip().rstrip('.') for item in result.split(',')]
             print(f"{ConsoleColors.OKGREEN}{result}{ConsoleColors.ENDC}\n")
             return result

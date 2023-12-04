@@ -25,6 +25,8 @@ def write_categories(goae_ids: list[int]) -> None:
     for goae_id in goae_ids:
         goae_id = str(goae_id)
         comments = json_data[goae_id]['kommentare']
+        generations = 0
+        abandoned_generations = 0
         for index, comment in enumerate(comments):
             if(index < 4):
                 id = str(comment['id'])
@@ -34,7 +36,10 @@ def write_categories(goae_ids: list[int]) -> None:
                 # comment = "Titel: " + title + "\n" + "Text: " + text
                 comment = title + "\n" + text
                 # categories = prompter.create_chat(comment, top_p=0.1)
-                categories = prompter.create_completion(comment, temperature=0.5, top_p=0.7, max_tokens=60, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
+                categories = prompter.create_completion(comment, temperature=0.5, top_p=0.6, max_tokens=60, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
+                generations += 1
+                if(categories == None):
+                    abandoned_generations += 1
                 if goae_id not in categories_of_goae:
                     categories_of_goae[goae_id] = {}
                 # categories_of_goae[goae_id][id] = categories
@@ -44,6 +49,7 @@ def write_categories(goae_ids: list[int]) -> None:
                     # "text": text,
                     "categories": categories,
                 }
+        print(f"{(generations - abandoned_generations)} / {generations} generated successfully.")
     write_categories_in_json(json_file, categories_of_goae);
 
 write_categories([5]);

@@ -1,57 +1,16 @@
 {
     "5": {
         "5349": {
-            "categories": [
-                "Abrechnung",
-                "Histologie",
-                "Leistungen",
-                "PKV",
-                "Preparation",
-                "Schlüsselkategorien",
-                "Text",
-                "Verband"
-            ]
+            "categories": "[\"Nr. 5\", \"Histologie\", \"vorberitende Maßnahmen\", \"Gebühren\", \"histologische Leistung\", \"PKV-Verband\", \"Kommentierung\", \"praxisrelevante Analognummern\"]"
         },
         "5359": {
-            "categories": [
-                "Kategorien",
-                "Einschränkungen",
-                "Regeln",
-                "Anforderungen",
-                "Vorgaben",
-                "Bedingungen",
-                "Eigenschaften",
-                "Zusammenhänge",
-                "Empfehlungen",
-                "Ratschläge",
-                "Tipps"
-            ]
+            "categories": "[\"Wohnung\", \"Anforderungen\", \"Wohnungssuche\", \"Mietwohnung\", \"Wohnungsangebot\", \"Wohnungsbesichtigung\", \"Wohnungsbewerbung\", \"Wohnungssuche-Tipps\", \"Wohn\"]"
         },
         "5348": {
-            "categories": [
-                "Grund für die Anfrage",
-                "Fragestellung",
-                "Hintergrundinformationen",
-                "Lösungsvorschlag",
-                "Begründung",
-                "Zusammenfassung"
-            ]
+            "categories": "[\"Abrechnung\", \"Pathologie\", \"Augenhöhle\", \"Brück'scher Kommentar\", \"Inhalt\", \"großes Resektat\", \"Nr. 5\", \"Beurteilung\", \"Pathologe\", \"Aufzählung\", \"Best\"]"
         },
         "5330": {
-            "categories": [
-                "Leistungen",
-                "Abrechnung",
-                "Operation",
-                "Krankenkassen",
-                "Patienten",
-                "Symptome",
-                "Untersuchung",
-                "Postoperative Kontrolle",
-                "Kosten",
-                "Gesundheitswesen",
-                "Richtlinien",
-                ""
-            ]
+            "categories": "[\"Grundlage\", \"Verfahren\", \"Regelungen\", \"Erläuterungen\", \"Empfehlungen\", \"Beispiele\"]"
         },
         "5332": {
             "categories": [
