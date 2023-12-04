@@ -53,8 +53,8 @@ class OpenAIPrompter:
                               #je näher an 1 desto mehr Kreativität, je näher an 0 desto konsistenter
                 # n=n, # Anzahl der Komplettierungen
                 # stream=stream, # Wenn True, werden die Antworten als kontinuierlicher Stream zurückgegeben, anstatt auf die vollständige Antwort zu warten.
-                # seed=seed, # If specified, our system will make a best effort to sample deterministically, such that repeated requests with the same seed and parameters
-                #             # should return the same result. Determinism is not guaranteed, and you should refer to the system_fingerprint response parameter to monitor changes in the backend.
+                seed=seed, # If specified, our system will make a best effort to sample deterministically, such that repeated requests with the same seed and parameters
+                            # should return the same result. Determinism is not guaranteed, and you should refer to the system_fingerprint response parameter to monitor changes in the backend.
                 stop=stop, # Hier können Sie Zeichenketten (Strings) definieren, bei denen die Komplettierung stoppen soll.
                             # Dies ist nützlich, um Antworten auf eine bestimmte Länge zu begrenzen oder um zu verhindern,
                             # dass das Modell über einen bestimmten Punkt hinaus generiert."""
@@ -62,17 +62,18 @@ class OpenAIPrompter:
                 frequency_penalty=frequency_penalty, # reduziert die Wahrscheinlichkeit, bereits erwähnte Themen oder Begriffe zu wiederholen, was zu vielfältigeren Antworten führen kann.
                 # logit_bias=logit_bias, # Erlaubt die Anpassung der Wahrscheinlichkeiten bestimmter Tokens beim Generieren von Antworten.
                 #                         # Kann verwendet werden, um bestimmte Wörter oder Phrasen zu fördern oder zu vermeiden.
-                # user=user, # Ein optionaler Parameter, der es ermöglicht, die Komplettierungen auf der Grundlage einer spezifischen Benutzer-ID zu personalisieren.
+                user=user, # Ein optionaler Parameter, der es ermöglicht, die Komplettierungen auf der Grundlage einer spezifischen Benutzer-ID zu personalisieren.
                 # timeout=timeout # Ein Zeitlimit für die API-Anfrage.
             )
+            print(response.choices[0].text.strip())
             result = '["' + response.choices[0].text.strip() + '"]'
-            result_list = json.loads(result)
-            # result = ast.literal_eval(result)
+            # result = json.loads(result)
+            result = ast.literal_eval(result)
             # result = [item.strip().rstrip('.') for item in result.split(',')]
-            print(f"{ConsoleColors.OKGREEN}{result}{ConsoleColors.ENDC}\n")
+            print(f"{result}\n")
             return result
         except Exception as e:
-            print(f"An error occurred on sending create_completion: {e}")
+            print(f"{ConsoleColors.FAIL}An error occurred on sending create_completion: {e}{ConsoleColors.ENDC}\n")
             return None
         
     def create_chat(self,

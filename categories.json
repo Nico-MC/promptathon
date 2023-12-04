@@ -1,270 +1,465 @@
 {
     "5": {
         "5349": {
-            "categories": "[\"Nr. 5\", \"Histologie\", \"Gebühren\", \"Analognummern\", \"PKV-Verband\", \"Kommentierung\", \"praxisrelevanter\", \"vorbereitende Maßnahmen\", \"Präparat\", \"Le\"]"
+            "index": 0,
+            "categories": [
+                "Gebührenordnung",
+                "Analognummern",
+                "Histologie",
+                "Abrechnung",
+                "Präparat",
+                "PKV-Verband",
+                "Kommentierung",
+                "Maßnahmen",
+                "Leistung",
+                "Vorbereitung",
+                "Ab"
+            ]
         },
         "5359": {
-            "categories": "[\"Schlüsselkategorien:\",\"- Regeln\",\"- Anweisungen\",\"- Anforderungen\",\"- Einschränkungen\",\"- Bedingungen\",\"- Vorgaben\",\"- Verbote\",\"- Empfehlungen\",\"- Hinweise\",\"- Tipps\",\"- Tricks\"]"
+            "index": 1,
+            "categories": [
+                "Kategorien",
+                "Regeln",
+                "Einschränkungen",
+                "Anforderungen",
+                "Bedingungen",
+                "Vorgaben",
+                "Eigenschaften",
+                "Beschränkungen",
+                "Anweisungen",
+                "Voraussetzungen",
+                "Eins"
+            ]
         },
         "5348": {
-            "categories": "[\"Abrechnung\", \"Pathologe\", \"Brück'scher Kommentar\", \"Inhalt einer Augenhöhle\", \"großes Resektat\", \"Nr. 5\", \"Aufzählung\", \"Bestandteile\"]"
+            "index": 2,
+            "categories": [
+                "Abrechnung",
+                "Pathologe",
+                "Brück'scher Kommentar",
+                "Inhalt einer Augenhöhle",
+                "großes Resektat",
+                "Nr. 5",
+                "Aufzählung",
+                "Bestandteile"
+            ]
         },
         "5330": {
-            "categories": "[\"Abrechnung\", \"Operation\", \"Patienten\", \"Untersuchung\", \"Leistung\", \"Kontrolle\", \"Symptome\", \"Postoperative Kontrolle\", \"Direkte Kontrolle\", \"Gesonderte Abrechnung\", \"Grunds\"]"
+            "index": 3,
+            "categories": [
+                "Abrechnung",
+                "Behandlung",
+                "Krankenhaus",
+                "Leistung",
+                "Operation",
+                "Patient",
+                "Symptom",
+                "Untersuchung"
+            ]
         },
         "5332": {
+            "index": 4,
             "categories": [
-                "Regeln",
-                "Verhaltensregeln",
-                "Verkehrsregeln",
-                "Verkehrszeichen",
-                "Verkehrsschilder"
+                "Schlüsselkategorien:",
+                "- Verkehrsregeln",
+                "- Verkehrszeichen",
+                "- Verkehrsampeln",
+                "- Verkehrsschilder",
+                "- Straßenverkehr",
+                "- Verkehrsteilnehmer",
+                "- Verkehrssicherheit",
+                "- Verke"
             ]
         },
         "5334": {
+            "index": 5,
             "categories": [
-                "medizinische Notwendigkeit",
                 "Fadenentfernung",
                 "Visite",
+                "Leistungsbestandteil",
                 "symptombezogene Untersuchung",
-                "Leistungsbestandteil"
+                "medizinische Notwendigkeit",
+                "Ziffer 5"
             ]
         },
         "5342": {
+            "index": 6,
             "categories": [
-                "Visite",
-                "Patient",
                 "OP-Tag",
+                "Visite",
+                "Patienten",
                 "Klinikablauf",
-                "Umwandlung"
+                "Umwandlung",
+                "Rechnung"
             ]
         },
         "5358": {
+            "index": 7,
             "categories": [
                 "Nr. 5",
                 "Symptombezogene Untersuchung",
+                "80 Punkte",
                 "Nr. 1412",
                 "Experimentelle Prüfung des statischen Gleichgewichts",
-                "neurologischen Untersuchung"
+                "Drehversuch",
+                "kalorische Prüfung",
+                "Lagenyst"
             ]
         },
         "5329": {
+            "index": 8,
             "categories": [
                 "Narkose",
                 "Kontrolle",
+                "Sorgfalt",
+                "Behandlung",
                 "Leistungen",
                 "Honorare",
-                "Aufwachraum"
+                "Monitoringleistungen",
+                "Aufwachraum",
+                "Berechenbarkeit"
             ]
         },
         "5357": {
+            "index": 9,
             "categories": [
-                "Kategorie",
-                "Nr. 448",
-                "Nr. 449",
-                "Nr. 5",
-                "Nr. 1"
+                "Kategorien: ",
+                "Kategorie 1: ",
+                "Kategorie 2: ",
+                "Kategorie 3: ",
+                "Kategorie 4: ",
+                "Kategorie 5: ",
+                "Kategorie 6: ",
+                "Kategorie 7: ",
+                "Kategorie 8:"
             ]
         },
         "5352": {
+            "index": 10,
             "categories": [
+                "Narkoseuntersuchung",
+                "LG-Urteil",
                 "präoperative Erfassung",
                 "Befunde",
                 "Zielleistung",
                 "Zusammenhang",
-                "LG-Urteil"
+                "München II",
+                "S3626/08"
             ]
         },
         "5356": {
+            "index": 11,
             "categories": [
-                "Untersuchung",
-                "Brustdrüsen",
                 "Mammographie",
-                "Röntgen",
-                "Krebs"
+                "Brustkrebs",
+                "Untersuchung",
+                "Frauen",
+                "Risiko",
+                "Screening",
+                "Mammogramm",
+                "Brustdrüsen",
+                "Krebs",
+                "Erkennung",
+                "Früherkenn"
             ]
         },
         "5355": {
-            "categories": null
+            "index": 12,
+            "categories": [
+                "Nr. 5",
+                "Befunderhebung",
+                "operative Behandlung",
+                "diagnostische Leistung",
+                "Arzt",
+                "Befundsituation",
+                "symptombezogene Untersuchung",
+                "Operationsbestandteil",
+                "innere Zusammenhang",
+                "ges"
+            ]
         },
         "5354": {
+            "index": 13,
             "categories": [
-                "Abrechnung",
                 "GOÄ",
-                "OP-Gebiet",
+                "Abrechnung",
+                "Nr. 5",
                 "operative Leistung",
-                "Nr. 5"
+                "OP-Gebiets",
+                "Intraoperativ",
+                "Zuschlag",
+                "Zuschlagsnummer",
+                "Zuschlagsposition",
+                "Zuschlagsleistung",
+                "Zuschlags"
             ]
         },
         "5353": {
+            "index": 14,
             "categories": [
                 "OP-abschließende Untersuchung",
-                "Operation",
+                "OP-Bereich",
                 "Funktionskontrolle",
-                "Durchführung",
-                "Leistung"
+                "Operation",
+                "Leistung",
+                "Abrechnungsfähigkeit",
+                "Bestandteil"
             ]
         },
         "5351": {
+            "index": 15,
             "categories": [
-                "stationärer Behandlung",
-                "Nrn. 5 oder 7",
+                "Abrechnung",
+                "Krankenhaus",
+                "Krankenkasse",
+                "Leistung",
+                "Patient",
+                "Rechnung",
                 "Sachbearbeiter",
-                "Hinweis",
-                "Rechnungsersteller"
+                "Visite",
+                "Ziffer"
             ]
         },
         "5336": {
+            "index": 16,
             "categories": [
-                "GOÄ-Bestimmung",
+                "GOÄ",
                 "Chefärzte-Brief",
-                "Nrn. 1 und/oder 5",
+                "Nrn. 1/5",
+                "Leistungen",
+                "Abschnitte C bis O",
+                "Behandlungsfall",
                 "Nebeneinanderberechnung",
-                "Alternative"
+                "Alternative",
+                "Verordnungsgeber",
+                ""
             ]
         },
         "5337": {
+            "index": 17,
             "categories": [
-                "Abrechnungsmöglichkeit",
+                "GOÄ",
+                "Abrechnung",
                 "Leistungen",
                 "Faktor",
                 "Behandlungsfalls",
-                "GOÄ"
+                "Alternativen",
+                "Begründung",
+                "Zulässigkeit",
+                "Gebühr",
+                "Leistungskonglomerat"
             ]
         },
         "5350": {
+            "index": 18,
             "categories": [
                 "Krankheit",
-                "Symptome",
                 "Diagnose",
+                "Patient",
+                "Arzt",
                 "Behandlung",
-                "Medikamente"
+                "Symptome",
+                "Medikamente",
+                "Kosten",
+                "Versicherung",
+                "Gesundheitssystem",
+                "Krankenhaus",
+                "Termin",
+                "K"
             ]
         },
         "5347": {
-            "categories": [
-                "Resektat",
-                "makroskopische Beurteilung",
-                "Nr. 5",
-                "Pathologen/Histologen",
-                "Präparation"
-            ]
+            "index": 19,
+            "categories": null
         },
         "5328": {
+            "index": 20,
             "categories": [
-                "Anästhesie",
+                "Narkosenachuntersuchung",
+                "Anästhesisten",
+                "Entscheidend",
+                "Schluss",
+                "Zustand",
+                "Patienten",
+                "Bild",
                 "Narkose",
-                "Untersuchung",
-                "Leistung",
-                "Abrechnung"
+                "Bestandteil",
+                "Abrechnungsfähig",
+                ""
             ]
         },
         "5340": {
+            "index": 21,
             "categories": [
-                "Krankheit",
-                "Patient",
-                "Behandlung",
+                "Patienten",
                 "Krankenhaus",
-                "Arzt"
+                "Entlassung",
+                "Aufnahme",
+                "Behandlung",
+                "Krankheit",
+                "Krankenakte",
+                "Krankenversicherung",
+                "Krankenpfleger",
+                "Arzt",
+                "Diagnose",
+                ""
             ]
         },
         "5346": {
+            "index": 22,
             "categories": [
-                "Ultraschall",
-                "Leistungen",
                 "stationär",
-                "ambulant",
-                "Patienten"
+                "Ultraschallleistungen",
+                "Krankenhaus",
+                "Patienten",
+                "Abteilungen",
+                "Krankenkassen",
+                "Ärzte",
+                "Kosten",
+                "Behandlung",
+                "Krankheit",
+                "Gesundheit",
+                "Unt"
             ]
         },
         "5345": {
+            "index": 23,
             "categories": [
                 "technische Untersuchungen",
+                "Beratung",
                 "Aufklärung",
-                "Patienten",
                 "symptombezogenen Untersuchung",
-                "Röntgenuntersuchung"
+                "Röntgenuntersuchung",
+                "sonographische Untersuchung",
+                "Belastungs-EKG",
+                "Auskultation",
+                "Ab"
             ]
         },
         "5339": {
+            "index": 24,
             "categories": [
-                "Abrechnung",
                 "GOÄ",
-                "Visite",
+                "Abrechnung",
                 "stationäre Behandlung",
-                "Untersuchung"
+                "Visite",
+                "Narkose",
+                "Ultraschalluntersuchung",
+                "operative Leistung",
+                "Untersuchung",
+                "Informationsinhalte",
+                "symptombezogene Unters"
             ]
         },
         "5344": {
+            "index": 25,
             "categories": [
+                "GOÄ",
+                "Abrechnung",
+                "stationäre Behandlung",
                 "Abschlussuntersuchung",
                 "Abschlussberatung",
-                "GOÄ",
-                "stationäre Behandlung",
-                "Uhrzeit"
+                "Uhrzeit",
+                "Zustand",
+                "Entlassungstag",
+                "Begründung",
+                "Nummern",
+                "Vers"
             ]
         },
         "5343": {
+            "index": 26,
             "categories": [
-                "Bundesärztekammer",
-                "Deutsches Ärzteblatt",
                 "Nr. 5",
+                "Gebührenordnung",
+                "Leistungen",
+                "Abrechnung",
                 "Mehrfachberechnung",
-                "Arzt-Patienten-Kontakt"
+                "Arzt-Patienten-Kontakt",
+                "Untersuchung",
+                "Erkrankungen",
+                "Organsysteme"
             ]
         },
         "5327": {
+            "index": 27,
             "categories": [
                 "Narkose",
+                "Abrechnung",
                 "Anästhesist",
                 "Leistung",
+                "Patient",
                 "Intubationsnarkose",
-                "Untersuchung"
+                "Narkosenachuntersuchung",
+                "Untersuchung",
+                "Zustand",
+                "postoperativ",
+                "Nr"
             ]
         },
         "5331": {
+            "index": 28,
             "categories": [
                 "Abrechnung",
+                "Gebührenordnung",
                 "Honorar",
+                "Krankenkasse",
                 "Leistungen",
-                "Ziffern",
-                "Visite"
+                "Medizin",
+                "Patienten",
+                "Rechnung",
+                "Symptome",
+                "Untersuchung",
+                "Visite",
+                "Zahl"
             ]
         },
         "5333": {
-            "categories": [
-                "Nr. 5",
-                "Visite",
-                "Uhrzeit",
-                "Allgemeine Bestimmungen",
-                "stationäre Behandlung"
-            ]
+            "index": 29,
+            "categories": null
         },
         "5335": {
+            "index": 30,
             "categories": [
-                "Nr. 5",
-                "Behandlungsfalles",
-                "Monat",
-                "Ansätze",
-                "Allgemeinen Bestimmungen"
+                "Gebührenordnung",
+                "Abrechnung",
+                "Zahnärzte",
+                "Leistungen",
+                "Kapitel",
+                "Behandlungsfälle",
+                "Zeitraum",
+                "Erkrankungen",
+                "Rechnung"
             ]
         },
         "5338": {
+            "index": 31,
             "categories": [
-                "Abrechnung",
+                "Nr. 5",
+                "Allgemeine Bestimmung B 2",
                 "GOÄ",
                 "Leistungen",
-                "Nr. 5",
-                "Behandlungsfall"
+                "Abschnitten C bis O",
+                "Behandlungsfall",
+                "Monat",
+                "Abrechnung",
+                "Regelung",
+                "Ansatz",
+                ""
             ]
         },
         "5341": {
+            "index": 32,
             "categories": [
-                "Herzkatheteruntersuchung",
+                "Kodierung",
                 "Abrechnung",
-                "Nr. 5",
+                "Herzkatheteruntersuchung",
                 "stationäre Behandlung",
-                "symptombezogene Untersuchung"
+                "symptombezogene Untersuchung",
+                "Patientenstatus",
+                "Krankenhausabrechnung",
+                "Krankenhausfinanzierung"
             ]
         }
     }

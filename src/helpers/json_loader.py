@@ -13,13 +13,13 @@ def write_json(obj: any, file: str, indent: int = 4, ensure_ascii: bool = False)
     try:
         with open(file, 'w', encoding='utf-8') as f:
             json.dump(obj, f, indent=indent, ensure_ascii=ensure_ascii)
-        print(f"File '{file}' was written successfully.\n")
+        print(f"{ConsoleColors.OKGREEN}File '{file}' was written successfully.{ConsoleColors.ENDC}\n")
     except json.JSONDecodeError as e:
-        print(f"Error while serializing the object to JSON: {e}")
+        print(f"{ConsoleColors.FAIL}Error while serializing the object to JSON: {e}{ConsoleColors.ENDC}")
     except IOError as e:
-        print(f"IO error occurred: {e}")
+        print(f"{ConsoleColors.FAIL}IO error occurred: {e}{ConsoleColors.ENDC}")
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+        print(f"{ConsoleColors.FAIL}An unexpected error occurred: {e}{ConsoleColors.ENDC}")
 
 def read_json(json_file: str, encoding: str='utf-8') -> json:
     json_data = {}
