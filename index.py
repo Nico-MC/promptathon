@@ -28,7 +28,7 @@ def write_categories(goae_ids: list[int]) -> None:
         generations = 0
         abandoned_generations = 0
         for index, comment in enumerate(comments):
-            if(index == 29):
+            # if(index == 10 or index == 12 or index == 26):
                 id = str(comment['id'])
                 prefix = comment['prefix']
                 title = comment['title']
@@ -36,7 +36,7 @@ def write_categories(goae_ids: list[int]) -> None:
                 # comment = "Titel: " + title + "\n" + "Text: " + text
                 comment = title + "\n" + text
                 # categories = prompter.create_chat(comment, top_p=0.1)
-                categories = prompter.create_completion(comment, temperature=0.2, top_p=0.3, max_tokens=60, frequency_penalty=0, presence_penalty=0, stop=["\"]"], user="123", seed=1)
+                categories = prompter.create_completion(comment, temperature=0.2, top_p=0.1, max_tokens=60, frequency_penalty=1, presence_penalty=0, stop=["\"]"], user="1234", seed=2)
                 generations += 1
                 if(categories == None):
                     abandoned_generations += 1
@@ -46,8 +46,8 @@ def write_categories(goae_ids: list[int]) -> None:
                 categories_of_goae[goae_id][id] = {
                     "index": index,
                     # "prefix": prefix,
-                    # "title": title,
-                    # "text": text,
+                    "title": title,
+                    "text": text,
                     "categories": categories,
                 }
         color = ConsoleColors.OKGREEN if abandoned_generations == 0 else ConsoleColors.WARNING

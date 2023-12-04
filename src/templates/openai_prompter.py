@@ -42,8 +42,8 @@ class OpenAIPrompter:
                 return None
             
             prompt = re.sub(r'<[^>]+>', '', prompt)
-            prompt = prompt + """\n\nBitte identifiziere und liste die Schlüsselkategorien dieses Textes auf, basierend auf seinem Inhalt.\n [\""""
-            # print(f"{ConsoleColors.OKCYAN}Send following prompt:\n{prompt}{ConsoleColors.ENDC}")
+            prompt = prompt + """\n\nBitte identifiziere und liste die Schlüsselkategorien dieses Textes auf, basierend auf seinem Inhalt.\nDie Schlüsselkategorien lauten: [\""""
+            print(f"{ConsoleColors.OKCYAN}Send following prompt:\n{prompt}{ConsoleColors.ENDC}")
             response = self._client.completions.create(
                 model=model,
                 prompt=prompt,
