@@ -1,6 +1,5 @@
 import json
 import os
-import ast
 import re
 
 from openai import AzureOpenAI
@@ -41,9 +40,6 @@ class OpenAIPrompter:
                 print(f"{ConsoleColors.FAIL}_client is none. Please check AzureOpenAI initialization.{ConsoleColors.ENDC}\n")
                 return None
             
-            prompt = re.sub(r'<[^>]+>', '', prompt)
-            prompt = prompt + """\n\nBitte identifiziere und liste die Schlüsselkategorien dieses Textes auf, basierend auf seinem Inhalt.\nDie Schlüsselkategorien lauten: [\""""
-            print(f"{ConsoleColors.OKCYAN}Send following prompt:\n{prompt}{ConsoleColors.ENDC}")
             response = self._client.completions.create(
                 model=model,
                 prompt=prompt,
@@ -65,13 +61,7 @@ class OpenAIPrompter:
                 user=user, # Ein optionaler Parameter, der es ermöglicht, die Komplettierungen auf der Grundlage einer spezifischen Benutzer-ID zu personalisieren.
                 # timeout=timeout # Ein Zeitlimit für die API-Anfrage.
             )
-            print(response.choices[0].text.strip())
-            result = '["' + response.choices[0].text.strip() + '"]'
-            # result = json.loads(result)
-            result = ast.literal_eval(result)
-            # result = [item.strip().rstrip('.') for item in result.split(',')]
-            print(f"{result}\n")
-            return result
+            return response.choices[0].text
         except Exception as e:
             print(f"{ConsoleColors.FAIL}An error occurred on sending create_completion: {e}{ConsoleColors.ENDC}\n")
             return None
