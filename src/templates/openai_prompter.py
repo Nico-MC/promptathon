@@ -20,6 +20,7 @@ class OpenAIPrompter:
         
     def create_completion(self,
                     prompt: str,
+                    best_of: int,
                     max_tokens: int = None,
                     temperature: float = None,
                     top_p: float = None,
@@ -30,7 +31,7 @@ class OpenAIPrompter:
                     presence_penalty: float = 0,
                     frequency_penalty: float = 0,
                     response_format: str = None, # Must be one of `text` or `json_object`
-                    logit_bias: dict[str, int] = {}, # mein_dict = { "schlüssel1": 10, "schlüssel2": 20, "schlüssel3": 30 }
+                    logit_bias: dict[str, int] = {}, # -100 (a ban) to 100 (exclusive selection of the token)
                     user: str = "",
                     timeout: float = None,
                     model="TestDeployment"
@@ -43,6 +44,7 @@ class OpenAIPrompter:
             response = self._client.completions.create(
                 model=model,
                 prompt=prompt,
+                # best_of=best_of,
                 temperature=temperature, # Beeinflusst die Kreativität der Antworten. Ein höherer Wert führt zu kreativeren, aber möglicherweise weniger präzisen Antworten
                 max_tokens=max_tokens, # Legt die maximale Anzahl von Tokens (Wörtern und Zeichen) fest, die in der Antwort generiert werden.
                 top_p=top_p, # Steuert die Diversität der Antwort durch Begrenzung der Token-Auswahl auf einen bestimmten Prozentsatz der wahrscheinlichsten Tokens.

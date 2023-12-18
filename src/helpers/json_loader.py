@@ -1,4 +1,5 @@
 import json
+import tiktoken
 from src.helpers.console_colors import ConsoleColors
 
 def sort_json(json_data: str) -> dict[str, object]:
@@ -46,3 +47,8 @@ def read_json(json_file: str, encoding: str='utf-8') -> json:
         print(f"{ConsoleColors.FAIL}The file {json_file} could not be parsed as JSON. Make sure it is a valid JSON file.{ConsoleColors.ENDC}")
     except UnicodeDecodeError:
         print(f"{ConsoleColors.FAIL}The file {json_file} could not be read with the encoding {encoding}.{ConsoleColors.ENDC}")
+
+
+def getTokenId(word: str, model="gpt-3.5-turbo-0301") -> list:
+    enc = tiktoken.encoding_for_model(model)
+    return enc.encode(word)
