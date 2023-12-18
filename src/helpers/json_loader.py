@@ -8,6 +8,12 @@ def sort_json(json_data: str) -> dict[str, object]:
 
 def write_categories_in_json(json_file: str, categories: list[str]) -> None:
     write_json(categories, json_file)
+    
+def write_training_data_in_json(json_file: str, training_data: list) -> None:
+    with open(json_file, "w", encoding='utf-8') as file:
+        for obj in training_data:
+            json_string = json.dumps(obj, ensure_ascii=False)
+            file.write(json_string + '\n')
 
 def write_json(obj: any, file: str, indent: int = 4, ensure_ascii: bool = False) -> None:
     try:

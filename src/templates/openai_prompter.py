@@ -56,7 +56,7 @@ class OpenAIPrompter:
                             # dass das Modell über einen bestimmten Punkt hinaus generiert."""
                 presence_penalty=presence_penalty, # erhöht die Wahrscheinlichkeit, dass neue und unterschiedliche Themen in den Antworten erscheinen.
                 frequency_penalty=frequency_penalty, # reduziert die Wahrscheinlichkeit, bereits erwähnte Themen oder Begriffe zu wiederholen, was zu vielfältigeren Antworten führen kann.
-                # logit_bias=logit_bias, # Erlaubt die Anpassung der Wahrscheinlichkeiten bestimmter Tokens beim Generieren von Antworten.
+                logit_bias=logit_bias, # Erlaubt die Anpassung der Wahrscheinlichkeiten bestimmter Tokens beim Generieren von Antworten.
                 #                         # Kann verwendet werden, um bestimmte Wörter oder Phrasen zu fördern oder zu vermeiden.
                 user=user, # Ein optionaler Parameter, der es ermöglicht, die Komplettierungen auf der Grundlage einer spezifischen Benutzer-ID zu personalisieren.
                 # timeout=timeout # Ein Zeitlimit für die API-Anfrage.
@@ -133,3 +133,32 @@ class OpenAIPrompter:
         except Exception as e:
             print(f"An error occurred on sending create_chat: {e}")
             return None
+        
+
+    def getModel(self, model: str = "babbage.ft-afb3377a0ed84bb79e6f2f761f71f7f9"):
+        return self._client.models.retrieve(model)
+
+    # ----- FINETUNING -----
+    def create_finetune(self):
+        return self._client.files.create(
+            file=open("finetuning.jsonl", "rb"),
+            purpose="fine-tune"
+        )
+    
+    def start_finetune(self):
+        return self._client.fine_tunes.create(
+            training_file="file-45102d77807843ad8cd2e37ce24a1642", 
+            model="babbage.ft-afb3377a0ed84bb79e6f2f761f71f7f9"
+        )
+    
+    def status_finetune(self):
+        return self._client.fine_tunes.retrieve("ft-a83629bcf28f4d97bd7e87d08baaf357")
+    
+    def list_finetune(self):
+        return self._client.fine_tunes.list()
+    
+    def cancel_finetune(self, id: str):
+        return self._client.fine_tunes._delete(id)
+    
+    def list_finetune(self, id: str):
+        return self._client.fine_tunes.list_events(fine_tune_id=str)
