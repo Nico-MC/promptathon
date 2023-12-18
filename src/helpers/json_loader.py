@@ -51,4 +51,4 @@ def read_json(json_file: str, encoding: str='utf-8') -> json:
 
 def getTokenId(word: str, model="gpt-3.5-turbo-0301") -> list:
     enc = tiktoken.encoding_for_model(model)
-    return enc.encode(word)
+    return enc.encode(word)[0]

@@ -6,8 +6,8 @@
             "text": "<p>siehe Kommentar zu Nr. 28</p><p></p>",
             "categories": [
                 "Diagnostik",
-                "Therapeutika",
-                "Medizinische Geräte und Instrumente"
+                "Therapie",
+                "Prävention"
             ]
         },
         "3283": {
@@ -27,9 +27,9 @@
             "title": "Nr. 1 und 5 nicht neben Nrn. 45 bzw. 46 wenn keine Besonderheiten vorliegen, ÄK",
             "text": "<p>siehe Kommentar zu Nr. 45</p><p></p>",
             "categories": [
-                "Diagnostik",
-                "Therapeutika",
-                "Anatomie"
+                "Ärztekammer",
+                "Nummerierung",
+                "Besonderheiten"
             ]
         },
         "3275": {
@@ -40,7 +40,8 @@
                 "Visite",
                 "Leistung",
                 "Untersuchungsleistung",
-                "gynäkologische Untersuchung"
+                "Abrechnungsfähig",
+                "Gynäkologische Untersuchung"
             ]
         },
         "3276": {
@@ -49,7 +50,7 @@
             "text": "<p>Die Argumentation, dass es einem Chefarzt selbst überlassen bleibe, \"wie oft er seine Patienten am Bett aufsuche\" steht im Widerspruch zu den Allgemeinen Bestimmungen der GOÄ - § 1 (2). Dort ist formuliert: \"Vergütungen darf der Arzt nur für Leistungen berechnen, die nach den Regeln der ärztlichen Kunst für eine medizinisch notwendige ärztliche Versorgung erforderlich sind. Leistungen, die über das Maß einer medizinisch notwendigen ärztlichen Versorgung hinausgehen, darf er nur berechnen, wenn sie auf Verlangen des Zahlungspflichtigen erbracht worden sind\". </p><p>Entscheidend für die Abrechnung einer Leistung gegenüber der Krankenkasse ist also unter anderem auch die medizinische Notwendigkeit. Liegt eine solche nicht vor, ist die Krankenkasse nicht zahlungspflichtig.</p><p></p>",
             "categories": [
                 "Chefarzt",
-                "Allgemeine Bestimmungen der GOAE",
+                "Allgemeine Bestimmungen der GOÄ",
                 "medizinisch notwendige ärztliche Versorgung",
                 "Abrechnung einer Leistung gegenüber der Krankenkasse",
                 "Zahlungspflichtigkeit"
@@ -81,8 +82,7 @@
             "text": "<p>siehe Kommentar zur Nr. 448 </p><p></p>",
             "categories": [
                 "Diagnostik",
-                "Therapeutika",
-                "Chirurgie"
+                "Therapie"
             ]
         },
         "3254": {
@@ -120,9 +120,10 @@
             "title": "Nr. 1 nicht postnarkotisch im Aufwachraum",
             "text": "<p>Das in direktem Zusammenhang mit einer Narkose / Operation im Aufwachraum mit dem Patienten geführte kurze Gespräch ist keine Beratung im Sinne der Definition Nr. 1, weil der Patient zu diesem Zeitpunkt für Beratungsinhalte überhaupt noch nicht aufnahmefähig ist. Die Frage nach der Befindlichkeit des aus der Narkose aufwachenden Patienten ist den abschließenden Tätigkeiten zuzuordnen und daher nicht eigenständig abrechnungsfähig.</p><p></p>",
             "categories": [
-                "Narkose",
+                "Anästhesie",
+                "Aufwachraum",
                 "Operation",
-                "Aufwachraum"
+                "Patientenbefindlichkeit"
             ]
         },
         "3277": {
@@ -132,7 +133,7 @@
             "categories": [
                 "Neurologie",
                 "Psychiatrie",
-                "Psychotheraphie"
+                "Psychotherapie"
             ]
         },
         "3255": {
@@ -142,9 +143,9 @@
             "categories": [
                 "Beratung",
                 "Patientenberatung",
-                "Fernsprecher-Beratung",
+                "Fernsprecher",
                 "Blutdruckmessung",
-                "Befundauswertungen"
+                "Befunde"
             ]
         },
         "3256": {
@@ -163,8 +164,8 @@
             "categories": [
                 "Behandlung",
                 "Sonderleistungen",
-                "Abschnitte C bis O",
-                "Leistungen nach den Nrn. 1 und/oder Nr. 5berechnungsfähig"
+                "Leistungen",
+                "Berechnungsfähigkeiten"
             ]
         },
         "3273": {
@@ -185,8 +186,8 @@
             "categories": [
                 "Abrechnung",
                 "Leistungen",
-                "Nebeneinanderberechnung",
-                "Abschnitt C bis O",
+                "Medizinische Dokumentation",
+                "Diagnosekodierung",
                 "Kommentar"
             ]
         },
@@ -208,7 +209,7 @@
                 "Erkrankungen",
                 "Behandlungsfälle",
                 "Abrechnungstechnik",
-                "Nebeneinanderberechnung"
+                "Leistungen"
             ]
         },
         "3266": {
@@ -239,11 +240,11 @@
             "title": "Nrn. 1, 3 bis 8, 15 nicht bei stationäre Behandlung, ausführlich",
             "text": "<p>Bei der Erstellung einer ärztlichen Liquidation sind die Bestimmungen der GOÄ zu beachten (§ 1, Abs. 1 GOÄ). Hierbei sind eben nicht nur die Bestimmungen im Zusammenhang mit der möglichen Abrechnung der Nrn. 1, 3-8 und 15 bei stationärer Behandlung zu beachten (Angabe der Uhrzeit), sondern zwingend ist die Beachtung des § 1 Abs. 2 der GOÄ. Dieser lautet wörtlich: \"Vergütungen darf der Arzt nur für Leistungen berechnen, die nach den Regeln der ärztlichen Kunst für eine medizinisch notwendige ärztliche Versorgung erforderlich sind. Leistungen, die über das Maß einer medizinisch notwendigen ärztlichen Versorgung hinausgehen, darf er nur berechnen, wenn sie auf Verlangen des Zahlungspflichtigen erbracht worden sind.\" Ohne jegliche Interpretationsmöglichkeit ist hier formuliert, dass Leistungen medizinisch notwendig sein müssen, damit sie abgerechnet werden können. Im Zusammenhang mit der Durchführung der o.a. Leistungen nach den Nrn. 1, 3-8 und 15 bei stationärer Behandlung bedeutet dies, dass die Durchführung dieser Leistungen außerhalb der Visitenzeiten notwendig war. Notwendig im medizinischen Sprachgebrauch und in Anwendung der GOÄ bedeutet, dass ein medizinischer Grund dafür vorliegen muss, die Leistungen außerhalb der Visite zu erbringen. Es reicht eben hier nicht die alleinige Angabe der Uhrzeit aus. Es sei darauf hingewiesen, dass bis hier keine Interpretation irgendwelcher schwammigen Formulierungen erfolgt, sondern dass sich diese Formulierungen in der beschriebenen Weise wörtlich in der GOÄ finden. Zur Abrundung des Problems sei zunächst eine Stellungnahme der Landesärztekammer Rheinland-Pfalz bezüglich des Leistungsinhalts einer Visite wiedergegeben: Die Landesärztekammer Rheinland-Pfalz hat in einer Stellungnahme vom 23.02.2000 Az.: 823.2-155/99 den Leistungsinhalt der Visite umschrieben: \"Die Visite ist die regelmäßige tägliche Beratung und ggf. Untersuchung am Bett des in stationärer Behandlung befindlichen Kranken. Ziel der Visite ist es, dass sich der Arzt über den Zustand des Kranken im Rahmen der kontinuierlichen Krankenhausbehandlung aufgrund von Befragung, Untersuchung, Bewertung von Untersuchungsbefunden, Einblick in die Krankenakte sowie Mitteilungen des ärztlichen und pflegerischen Dienstes umfassend orientiert und die erforderlichen Anordnungen trifft\" (Ende des Zitats). Weiterhin hat die LÄK in der gleichen Stellungnahme folgendes erklärt: \"....Nur Tatsachen, die ausnahmsweise eine Beratung und Untersuchung notwendig machen, ermöglichen den Ansatz von Beratungs- und Untersuchungsleistungen außerhalb der Visite.\" (im konkreten Fall der LÄK ging es um die Nrn. 1 u. 7). Aus den angeführten Zitaten aus der GOÄ und aus diesen Stellungnahmen wird ersichtlich, dass ohne Begründung für die Unaufschiebbarkeit der Durchführung dieser Leistungen eine Abrechnung nicht möglich ist.</p><p></p>",
             "categories": [
+                "Abrechnung",
                 "ärztliche Kunst",
                 "medizinisch notwendig",
                 "Visite",
-                "Untersuchungsbefunde",
-                "Beratungsleistungen"
+                "Leistungsinhalt"
             ]
         },
         "3270": {
@@ -261,8 +262,8 @@
             "text": "<p>siehe Kommentar zu Nr. 4</p><p></p>",
             "categories": [
                 "Diagnostik",
-                "Therapeutika",
-                "Medizinprodukte"
+                "Therapie",
+                "Medizinische Geräte"
             ]
         },
         "3262": {

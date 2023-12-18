@@ -21,8 +21,9 @@ logit_bias = {}
 logit_bias_data = read_json("logit_bias.json")
 for key, value in logit_bias_data.items():
     tokenIds = getTokenId(key)
-    for tokenId in tokenIds:
-        logit_bias[tokenId] = value
+    logit_bias[tokenIds] = value
+    # for tokenId in tokenIds:
+    #     logit_bias[tokenId] = value
 
 # connect with open ai api
 prompter = OpenAIPrompter()
