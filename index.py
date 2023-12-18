@@ -61,14 +61,13 @@ def write_categories(goae_ids: list[int]) -> None:
                 comment = re.sub(r'<[^>]+>', '', comment)
                 # comment = title + "\n" + text
                 # categories = prompter.create_chat(comment, top_p=0.1)
-                prompt = "Der folgende Kommentar besteht aus einem Titel und einem Text. Bitte extrahiere aus diesem Kommentar maximal 5 medizinische Begriffe. Falls die Begriffe nicht medizinisch sind, gebe die Liste einfach leer aus.\nKommentar: '"
+                prompt = "Bitte extrahiere aus diesem Text maximal 5 medizinische Kategorien. Die Kategorien MÜSSEN mit Medizin zu tun haben!\nText: '"
                 prompt += comment
                 prompt += "'. -> [\""
                 # prompt += """\n\nBitte identifiziere und liste die Schlüsselkategorien dieses Textes auf, basierend auf seinem Inhalt.\nDie Schlüsselkategorien lauten: [\""""
                 # if(training != None):
                 #     training_data.append(finetuner.create_training_data(prompt, training))
-                categories = ""
-                categories = prompter.create_completion(prompt, best_of=10, temperature=0.5, top_p=0.2, max_tokens=256, frequency_penalty=1, presence_penalty=1, stop=["\"]"], user="12345", seed=3)
+                categories = prompter.create_completion(prompt, logit_bias=logit_bias, best_of=10, temperature=0.5, top_p=0.2, max_tokens=256, frequency_penalty=1, presence_penalty=1, stop=["\"]"], user="12345", seed=3)
                 categories = get_categories_out_of_str(categories)
                 # if(training == None or unchecked_training != None):
                 #     categories = prompter.create_completion(prompt,temperature=1, top_p=0.2, max_tokens=256, frequency_penalty=1, presence_penalty=1, stop=["\"]"], user="1234", seed=2)
