@@ -2,17 +2,17 @@ import json
 import os
 import re
 
-from openai import AzureOpenAI
+from openai import OpenAI
 from src.helpers.console_colors import ConsoleColors
 
 class OpenAIPrompter:
     def __init__(self):
         try:
             print(f"{ConsoleColors.OKCYAN}Configuring OpenAI ...{ConsoleColors.ENDC}")
-            self._client = AzureOpenAI(
-                api_key=os.getenv("AZURE_OPENAI_KEY"),  
-                api_version=os.getenv("AZURE_OPENAI_VERSION"),
-                azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+            self._client = OpenAI(
+                # api_key=os.getenv("AZURE_OPENAI_KEY"),  
+                # api_version=os.getenv("AZURE_OPENAI_VERSION"),
+                # azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
             )
             print(f"{ConsoleColors.OKGREEN}Configuring OpenAI finished.{ConsoleColors.ENDC}\n")
         except Exception as e:
@@ -40,10 +40,14 @@ class OpenAIPrompter:
             if self._client is None:
                 print(f"{ConsoleColors.FAIL}_client is none. Please check AzureOpenAI initialization.{ConsoleColors.ENDC}\n")
                 return None
-            
-            response = self._client.completions.create(
+            print(prompt)
+            response = self._client.chat.completions.create(
                 model=model,
-                prompt=prompt,
+                # prompt=prompt,
+                messages=[
+                    {"role": "system", "content": "Bitte filtere aus folgendem Kommentar medizinische Kategorien. Wenn du keine medizinische Kategorien finden kannst, gebe eine leere Liste aus. Die Kategorien MÜSSEN mit Medizin zu tun haben!\n"},
+                    {"role": "user", "content": prompt}
+                ],
                 # best_of=best_of,
                 temperature=temperature, # Beeinflusst die Kreativität der Antworten. Ein höherer Wert führt zu kreativeren, aber möglicherweise weniger präzisen Antworten
                 max_tokens=max_tokens, # Legt die maximale Anzahl von Tokens (Wörtern und Zeichen) fest, die in der Antwort generiert werden.
@@ -63,7 +67,7 @@ class OpenAIPrompter:
                 user=user, # Ein optionaler Parameter, der es ermöglicht, die Komplettierungen auf der Grundlage einer spezifischen Benutzer-ID zu personalisieren.
                 # timeout=timeout # Ein Zeitlimit für die API-Anfrage.
             )
-            return response.choices[0].text
+            return response.choices[0].message.content
         except Exception as e:
             print(f"{ConsoleColors.FAIL}An error occurred on sending create_completion: {e}{ConsoleColors.ENDC}\n")
             return None

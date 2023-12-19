@@ -30,9 +30,11 @@ prompter = OpenAIPrompter()
 finetuner = OpenAIFinetuner()
 
 def get_categories_out_of_str(str: str):
+    print(str)
+    exit()
     if(str == None or str == ""):
          return []
-    result = '["' + str + '"]'
+    # result = '["' + str + '"]'
     # result = json.loads(result)
     result = ast.literal_eval(result)
     # result = [item.strip().rstrip('.') for item in result.split(',')]
@@ -50,26 +52,29 @@ def write_categories(goae_ids: list[int]) -> None:
         abandoned_generations = 0
         max_generations = len(comments)
         for index, comment in enumerate(comments):
-            # if(index == 0): 
+            if(index == 1): 
             # if(index == 10 or index == 12 or index == 26):
                 id = str(comment['id'])
                 prefix = comment['prefix']
-                title = comment['title']
-                text = comment['text']
+                title = "header: " + comment['title'] + ", "
+                text = "body: " + comment['text'] + " }"
                 training = comment.get('training')
                 unchecked_training = comment.get('unchecked_training')
-                comment = "Titel: " + title + "\n" + "Text: " + text
+                comment = title + text
+                # comment = "Titel: " + title + "\n" + "Text: " + text
                 comment = re.sub(r'<[^>]+>', '', comment)
                 # comment = title + "\n" + text
                 # categories = prompter.create_chat(comment, top_p=0.1)
-                prompt = "Bitte extrahiere aus diesem Text maximal 5 medizinische Kategorien. Die Kategorien MÜSSEN mit Medizin zu tun haben!\nText: '"
+                # prompt = "Bitte filtere aus folgendem Kommentar medizinische Kategorien. Wenn du keine medizinische Kategorien finden kannst, gebe eine leere Liste aus. Die Kategorien MÜSSEN mit Medizin zu tun haben!\nKommentar: { "
+                prompt = "Kommentar: { "
                 prompt += comment
-                prompt += "'. -> [\""
+                prompt += " -> [\""
                 # prompt += """\n\nBitte identifiziere und liste die Schlüsselkategorien dieses Textes auf, basierend auf seinem Inhalt.\nDie Schlüsselkategorien lauten: [\""""
                 # if(training != None):
                 #     training_data.append(finetuner.create_training_data(prompt, training))
-                categories = prompter.create_completion(prompt, logit_bias=logit_bias, best_of=10, temperature=0.5, top_p=0.2, max_tokens=256, frequency_penalty=1, presence_penalty=1, stop=["\"]"], user="12345", seed=3)
+                categories = prompter.create_completion(prompt, model="gpt-4-1106-preview",logit_bias=logit_bias, best_of=1, temperature=0.5, top_p=0.3, max_tokens=256, frequency_penalty=1, presence_penalty=1, stop=["\"]"], user="12345", seed=3)
                 categories = get_categories_out_of_str(categories)
+                json_data[goae_id]['kommentare'][index]['training'] = categories
                 # if(training == None or unchecked_training != None):
                 #     categories = prompter.create_completion(prompt,temperature=1, top_p=0.2, max_tokens=256, frequency_penalty=1, presence_penalty=1, stop=["\"]"], user="1234", seed=2)
                 #     categories = get_categories_out_of_str(categories)
@@ -97,9 +102,9 @@ def write_categories(goae_ids: list[int]) -> None:
                 }
         color = ConsoleColors.OKGREEN if abandoned_generations == 0 else ConsoleColors.WARNING
         print(f"{color}{(generations - abandoned_generations)} / {generations} generated successfully.{ConsoleColors.ENDC}")
-    write_categories_in_json(json_file, categories_of_goae)
+    # write_categories_in_json(json_file, categories_of_goae)
     # write_training_data_in_json("finetuning.jsonl", training_data)
-    # write_training_property_in_json('ziffern_sorted.json',json_data)
+    write_training_property_in_json('ziffern_sorted.json',json_data)
 
 write_categories([1])
 

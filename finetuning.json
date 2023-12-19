@@ -1,0 +1,39 @@
+{
+    "Kommentare": [
+        {
+            "header": "Nr. 5 nicht für vorbereitende Maßnahmen bei Histologie",
+            "body": "Die Nr. 5 kann für vorbereitende Maßnahmen am Präparat nicht abgerechnet werden, weil diese Maßnahmen mit den Gebühren für die jeweilige histologische Leistung abgegolten sind.\n(PKV-Verband vom 23.02.2017 \"Kommentierung praxisrelevanter Analognummern\")",
+            "categories": [
+                "Histologie",
+                "Vorbereitende Maßnahmen (am Präparat)"
+            ]
+        },
+        {
+            "header": "Nr. 5 nicht neben Nr. 28",
+            "body": "siehe Kommentar zu Nr. 28",
+            "categories": []
+        },
+        {
+            "header": "Inhalt einer Augenhöhle ist \"großes Resektat\"",
+            "body": "Gemäß Brück'scher Kommentierung kann für die makroskopische Beurteilung eines großen Resektats durch den Pathologen die Nr. 5 analog abgerechnet werden. Obwohl in der Aufzählung im Brück'schen Kommentar der Inhalt einer Augenhöhle nicht als \"großes Resektat\" erscheint, sollte die analoge Abrechnung der Nr. 5 akzeptiert werden, weil hier subtil eine Vielzahl einzelner Bestandteile zu beschreiben ist.",
+            "categories": [
+                "Resektat",
+                "makroskopische Beurteilung"
+            ]
+        },
+        {
+            "header": "Nr. 5 nicht für direkte postoperative Kontrolle",
+            "body": "Nach einer Operation hat grundsätzlich eine (symptombezogene) Untersuchung des Patienten zu erfolgen. Bei einer solchen Untersuchung handelt es sich allerdings nicht um eine eigenständige Leistung, die zusätzlich zur Operation durchgeführt wird, sondern vielmehr um einen Teil der Operation selbst. Eine gesonderte Abrechnung ist daher nicht gerechtfertigt.",
+            "categories": [
+                "postoperativ Kontrolle"
+            ]
+        },
+        {
+            "header": "Nr. 5 nicht anstelle Visite bei Entfernung von Fäden",
+            "body": "Es ergibt sich keinerlei zwingende medizinische Notwendigkeit, getrennt von der Visite, deren Leistungsbestandteil eine symptombezogene Untersuchung nach der Ziffer 5 ist, im Rahmen der Fadenentfernung nochmals eine symptombezogene Untersuchung durchzuführen.",
+            "categories": [
+                "Entfernung von Fäden"
+            ]
+        }
+    ]
+}
