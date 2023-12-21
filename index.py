@@ -151,18 +151,16 @@ def write_categories(goae_ids: list[int]) -> None:
                     "text": text,
                     "categories": categories,
                 }
-        prompt += "Die 2 Wörter sind: [\""
-        categories = prompter.create_completion(prompt,temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
-        print(categories)
+        # prompt += "Die 2 Wörter sind: [\""
+        # categories = prompter.create_completion(prompt,temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
+        # print(categories)
         color = ConsoleColors.OKGREEN if abandoned_generations == 0 else ConsoleColors.WARNING
-        print(f"{color}{(generations - abandoned_generations)} / {generations} generated successfully.{ConsoleColors.ENDC}")
+        # print(f"{color}{(generations - abandoned_generations)} / {generations} generated successfully.{ConsoleColors.ENDC}")
         comments_after_prefix[goae_id] = group_comments_after_prefix(comments)
     # write_categories_in_json(json_file, categories_of_goae)
     # write_training_data_in_json("finetuning.jsonl", training_data)
     # write_training_property_in_json('ziffern_sorted.json',json_data)
     write_json(comments_after_prefix, "group_comments_after_prefix.json")
-
-# write_categories([1])
 
 
 
@@ -188,40 +186,42 @@ def openai_assistant(prompt: str):
     return categories
 
 
-def write_categories_for_prefix(json_data: dict, goae_id: str = None):
-    if(goae_id == None):
-        return
-    data = json_data[goae_id]
-    y = 0
-    for prefix, comments in data.items():
-        prompt = ""
-        prompt = "Bitte gib mir 2 Kategorien, die für alle der folgenden Kommentare passend sind und ärztliche Fachbegriffe sind.\n\n"
-        comments = comments['kommentare']
-        i = 1
-        for comment in comments:
-            title = "\"header\": " + "\"" + comment['title'] + "\", "
-            text = "\"body\": " + "\"" + comment['text'] + "\" }"
-            comment_str = title + text
-            comment_str = re.sub(r'<[^>]+>', '', comment_str)
-            prompt += "\"Kommentar " + str(i) + "\": { "
-            prompt += comment_str
-            prompt += "\n\n"
-            i += 1
-        y += 1
-        prompt += "Die 2 am besten passenden Kategorien sind: [\""
-        print(f"{ConsoleColors.OKCYAN}----- PROMPT {y} -----{ConsoleColors.ENDC}")
-        print(prompt)
-        categories = prompter.create_completion(prompt,model="gpt-3.5-turbo",logit_bias=logit_bias, best_of=1, temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"], user="1234567", seed=5)
-        # categories = openai_assistant(prompt)
-        categories = get_categories_out_of_str(categories)
-        print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
-        json_data[goae_id][prefix]["kategorien"] = categories
+def write_categories_for_prefix(json_data: dict, goae_ids: list = None):
+    for goae_id in goae_ids:
+        if(goae_id == None):
+            return
+        data = json_data[goae_id]
+        y = 0
+        for prefix, comments in data.items():
+            prompt = ""
+            prompt = "Bitte gib mir 2 1-Wort Kategorien, die für alle der folgenden Kommentare passend sind und ärztliche Fachbegriffe sind.\n\n"
+            comments = comments['kommentare']
+            i = 1
+            for comment in comments:
+                title = "\"header\": " + "\"" + comment['title'] + "\", "
+                text = "\"body\": " + "\"" + comment['text'] + "\" }"
+                comment_str = title + text
+                comment_str = re.sub(r'<[^>]+>', '', comment_str)
+                prompt += "\"Kommentar " + str(i) + "\": { "
+                prompt += comment_str
+                prompt += "\n\n"
+                i += 1
+            y += 1
+            prompt += "Die 2 am besten passenden Kategorien sind: [\""
+            print(f"{ConsoleColors.OKCYAN}----- PROMPT {y} -----{ConsoleColors.ENDC}")
+            print(prompt)
+            categories = prompter.create_completion(prompt,model="gpt-3.5-turbo",logit_bias=logit_bias, best_of=1, temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"], user="1234567", seed=5)
+            # categories = openai_assistant(prompt)
+            categories = get_categories_out_of_str(categories)
+            print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
+            json_data[goae_id][prefix]["kategorien"] = categories
     return json_data
 
+goae_ids = ["2", "6"]
+write_categories(goae_ids)
 json_data = read_json("group_comments_after_prefix.json")
-json_data = write_categories_for_prefix(json_data, "1")
+json_data = write_categories_for_prefix(json_data, goae_ids)
 write_json(json_data, "group_comments_after_prefix.json")
-
 
 
 # result = prompter.status_finetune()
