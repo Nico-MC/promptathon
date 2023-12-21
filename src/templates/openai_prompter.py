@@ -3,21 +3,20 @@ import os
 import re
 import time
 
-from openai import AzureOpenAI
-# from openai import OpenAI
+# from openai import AzureOpenAI
+from openai import OpenAI
 from src.helpers.console_colors import ConsoleColors
 
 class OpenAIPrompter:
     def __init__(self):
         try:
             print(f"{ConsoleColors.OKCYAN}Configuring OpenAI ...{ConsoleColors.ENDC}")
-            self._client = AzureOpenAI(
-                api_key=os.getenv("AZURE_OPENAI_KEY"),  
-                api_version=os.getenv("AZURE_OPENAI_VERSION"),
-                azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-            )
-            # self._client = OpenAI(
+            # self._client = AzureOpenAI(
+            #     api_key=os.getenv("AZURE_OPENAI_KEY"),  
+            #     api_version=os.getenv("AZURE_OPENAI_VERSION"),
+            #     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
             # )
+            self._client = OpenAI()
             print(f"{ConsoleColors.OKGREEN}Configuring OpenAI finished.{ConsoleColors.ENDC}\n")
         except Exception as e:
             print(f"There was a problem connecting to OpenAI API. Please consider checking .env.\nError message: {e}")
@@ -38,13 +37,12 @@ class OpenAIPrompter:
                     logit_bias: dict[str, int] = {}, # -100 (a ban) to 100 (exclusive selection of the token)
                     user: str = "",
                     timeout: float = None,
-                    model="TestDeployment"
+                    model:str="TestDeployment"
                     ) -> str:
         try:
             if self._client is None:
                 print(f"{ConsoleColors.FAIL}_client is none. Please check AzureOpenAI initialization.{ConsoleColors.ENDC}\n")
                 return None
-            print(prompt)
             response = self._client.chat.completions.create(
                 model=model,
                 # prompt=prompt,
