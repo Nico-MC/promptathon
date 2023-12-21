@@ -1,26 +1,30 @@
 import json
 import os
 import re
+import time
 
-from openai import OpenAI
+from openai import AzureOpenAI
+# from openai import OpenAI
 from src.helpers.console_colors import ConsoleColors
 
 class OpenAIPrompter:
     def __init__(self):
         try:
             print(f"{ConsoleColors.OKCYAN}Configuring OpenAI ...{ConsoleColors.ENDC}")
-            self._client = OpenAI(
-                # api_key=os.getenv("AZURE_OPENAI_KEY"),  
-                # api_version=os.getenv("AZURE_OPENAI_VERSION"),
-                # azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+            self._client = AzureOpenAI(
+                api_key=os.getenv("AZURE_OPENAI_KEY"),  
+                api_version=os.getenv("AZURE_OPENAI_VERSION"),
+                azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
             )
+            # self._client = OpenAI(
+            # )
             print(f"{ConsoleColors.OKGREEN}Configuring OpenAI finished.{ConsoleColors.ENDC}\n")
         except Exception as e:
             print(f"There was a problem connecting to OpenAI API. Please consider checking .env.\nError message: {e}")
         
     def create_completion(self,
                     prompt: str,
-                    best_of: int,
+                    best_of: int = None,
                     max_tokens: int = None,
                     temperature: float = None,
                     top_p: float = None,
@@ -141,8 +145,130 @@ class OpenAIPrompter:
             return None
         
 
+
+    def create_gpt4_chat(self,
+                prompt: str,
+                max_tokens: int = None,
+                temperature: float = None,
+                top_p: float = None,
+                n: int = None,
+                stream: bool = None,
+                seed: int = None,
+                stop: list[str] = None, # ["Ende", "Schluss", "Fazit"]
+                presence_penalty: float = 0,
+                frequency_penalty: float = 0,
+                response_format: str = None, # Must be one of `text` or `json_object`
+                logit_bias: dict[str, int] = {}, # mein_dict = { "schlüssel1": 10, "schlüssel2": 20, "schlüssel3": 30 }
+                best_of: int = None,
+                user: str = "",
+                timeout: float = None,
+                model="TestDeployment"
+                ) -> str:
+        try:
+            if self._client is None:
+                print(f"{ConsoleColors.FAIL}_client is none. Please check AzureOpenAI initialization.{ConsoleColors.ENDC}\n")
+                return None
+            
+            # print(f"{ConsoleColors.OKCYAN}Send following prompt:\n{prompt}{ConsoleColors.ENDC}")
+            response = self._client.chat.completions.create(
+            model="gpt-4-1106-preview",
+            messages=[
+                {
+                "role": "system",
+                # "content": "Bitte filtere aus folgendem Kommentar maximal 3 medizinische Praktiken. Wenn du keine Praktiken finden kannst, gebe eine leere Liste aus. Die Kategorien MÜSSEN mit Medizin zu tun haben!"
+                "content": "Bitte filtere aus folgendem Kommentar maximal 3 medizinische Behandlungsmethoden. Wenn du keine Behandlungsmethoden finden kannst, gebe eine leere Liste aus. Die Kategorien MÜSSEN mit Medizin zu tun haben und sollen auf den Punkt gebracht sein, damit man direkt weiß, um welche medizinische Maßnahme es geht!"
+                },
+                {
+                "role": "user",
+                "content": prompt
+                }
+            ],
+            temperature=1,
+            max_tokens=256,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0,
+            seed=seed,user=user
+            )
+            result = response.choices[0].message.content
+            # result = [item.strip().rstrip('.') for item in result.split(',')]
+            # print(f"{ConsoleColors.OKGREEN}{result}{ConsoleColors.ENDC}\n")
+            return result
+        except Exception as e:
+            print(f"An error occurred on sending create_chat: {e}")
+            return None
+        
+
+
+
+
+
+
+
+
+
+
+    def create_assistant_thread_message(self, thread_id: str, prompt: str):
+        try:
+            message = self._client.beta.threads.messages.create(
+                thread_id=thread_id,
+                role="user",
+                content=prompt
+            )
+        except Exception as e:
+            print(f"An error occurred on sending create_assistant_thread_message: {e}")
+            return None
+        return message
+    
+    def run_assistant_thread(self, assistant_id: str, thread_id: str):
+        try:
+            run = self._client.beta.threads.runs.create(
+                thread_id=thread_id,
+                assistant_id=assistant_id,
+                # instructions="Please address the user as Jane Doe. The user has a premium account."
+            )
+        except Exception as e:
+            print(f"An error occurred on sending run_assistant: {e}")
+            return None
+        return run
+    
+    def retrieve_assistant_thread_message(self, thread_id: str, message_id: str):
+        try:
+            # messages = self._client.beta.threads.messages.retrieve(
+            #     message_id=message_id,
+            #     thread_id=thread_id
+            # )
+            messages = self._client.beta.threads.messages.list(thread_id, limit=1)
+        except Exception as e:
+            print(f"An error occurred on sending display_assistant: {e}")
+            return None
+        return messages.data[0].content[0].text.value
+    
+    def retrieve_assistant_thread_status(self, thread_id: str, run_id: str):
+        try:
+            run = self._client.beta.threads.runs.retrieve(
+                thread_id=thread_id,
+                run_id=run_id
+            )
+        except Exception as e:
+            print(f"An error occurred on sending display_assistant: {e}")
+            return None
+        return run.status
+        
+
     def getModel(self, model: str = "babbage.ft-afb3377a0ed84bb79e6f2f761f71f7f9"):
         return self._client.models.retrieve(model)
+
+
+
+
+
+
+
+
+
+
+
 
     # ----- FINETUNING -----
     def create_finetune(self):
