@@ -18,7 +18,7 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": []
         },
         "n": {
             "kommentare": [
@@ -38,7 +38,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Textvorschlag",
+                "Einspruch"
+            ]
         },
         "m": {
             "kommentare": [
@@ -58,7 +61,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Ärztekammer",
+                "Besonderheiten"
+            ]
         },
         "g": {
             "kommentare": [
@@ -108,7 +114,11 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Aufwachraum",
+                "postoperativ",
+                "postnarkotisch"
+            ]
         },
         "c": {
             "kommentare": [
@@ -186,7 +196,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Visite",
+                "stationär"
+            ]
         },
         "l": {
             "kommentare": [
@@ -206,7 +219,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Mitarbeitergespräch",
+                "Beratung durch Mitarbeiter"
+            ]
         },
         "k": {
             "kommentare": [
@@ -226,7 +242,7 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": []
         },
         "a": {
             "kommentare": [
@@ -261,7 +277,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "ärztliche Leistungen",
+                "Beratung"
+            ]
         },
         "j": {
             "kommentare": [
@@ -281,7 +300,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "postoperative Information",
+                "Angehörigenaufklärung"
+            ]
         },
         "i": {
             "kommentare": [
@@ -301,7 +323,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Hautkrebsfrüherkennung",
+                "ärztliche Abrechnung"
+            ]
         },
         "h": {
             "kommentare": [
@@ -321,7 +346,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Neurologie",
+                "Psychiatrie"
+            ]
         },
         "b": {
             "kommentare": [
@@ -445,7 +473,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Behandlungsfall",
+                "Diagnosen"
+            ]
         },
         "f": {
             "kommentare": [
@@ -480,7 +511,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Anamnese",
+                "Beratung"
+            ]
         },
         "d": {
             "kommentare": [
@@ -514,7 +548,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "technische Untersuchungen",
+                "radiologische Untersuchungen"
+            ]
         },
         "e": {
             "kommentare": [
@@ -533,7 +570,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Aufklärungsgespräch",
+                "Risiken"
+            ]
         }
     }
 }

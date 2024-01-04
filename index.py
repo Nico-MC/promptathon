@@ -217,11 +217,11 @@ def write_categories_for_prefix(json_data: dict, goae_ids: list = None):
             json_data[goae_id][prefix]["kategorien"] = categories
     return json_data
 
-goae_ids = ["2", "6"]
-write_categories(goae_ids)
+goae_ids = ["1"]
+# write_categories(goae_ids)
 json_data = read_json("group_comments_after_prefix.json")
 json_data = write_categories_for_prefix(json_data, goae_ids)
-write_json(json_data, "group_comments_after_prefix.json")
+write_categories_in_json("group_comments_after_prefix.json", json_data)
 
 
 # result = prompter.status_finetune()

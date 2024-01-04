@@ -1,3 +1,4 @@
+import os
 import json
 import tiktoken
 from src.helpers.console_colors import ConsoleColors
@@ -7,8 +8,20 @@ def sort_json(json_data: str) -> dict[str, object]:
     write_json(json_dict, 'ziffern_sorted.json')
     return json_dict
 
-def write_categories_in_json(json_file: str, categories: list[str]) -> None:
-    write_json(categories, json_file)
+def write_categories_in_json(json_file: str, categories: list[str], directory="prompt_output") -> None:
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+    base_filepath = os.path.join(directory, json_file)
+    file_number = 1
+
+    # Ändern Sie den Dateinamen, wenn die Datei bereits existiert
+    filepath = base_filepath
+    while os.path.isfile(filepath):
+        filepath = f"{base_filepath.rsplit('.', 1)[0]}_{file_number}.json"
+        file_number += 1
+
+    write_json(categories, filepath)
 
 def write_training_property_in_json(json_file: str, data: str) -> None:
     write_json(data, json_file)
