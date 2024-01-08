@@ -15,8 +15,13 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": ""
                 }
+            ],
+            "kategorien": "",
+            "prefered_categories": [
+                ""
             ]
         },
         "n": {
@@ -34,9 +39,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Beratungsleistungen\", \"Untersuchungsleistungen\", \"Visite"
                 }
-            ]
+            ],
+            "kategorien": ""
         },
         "m": {
             "kommentare": [
@@ -53,12 +60,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Ärztekammer\", \"Besonderheiten\", \"Fachbegriffe"
                 }
             ],
-            "prefered_categories": [
-                "joshua ist einfach kein guter Promptengineer."
-            ]
+            "kategorien": ""
         },
         "g": {
             "kommentare": [
@@ -75,7 +81,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Aufwachraum\", \"Visite\", \"gynäkologische Untersuchung"
                 },
                 {
                     "id": 3276,
@@ -90,7 +97,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "postoperativ\", \"medizinische Notwendigkeit\", \"ärztliche Versorgung"
                 },
                 {
                     "id": 3274,
@@ -105,9 +113,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Aufwachraum\", \"Operation\", \"Patientenbefindlichkeit"
                 }
-            ]
+            ],
+            "kategorien": ""
         },
         "c": {
             "kommentare": [
@@ -124,7 +134,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "OP-Tag\", \"Visite\", \"Rechnungsstellung"
                 },
                 {
                     "id": 3266,
@@ -139,7 +150,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "stationäre Behandlung\", \"Beratungsleistung\", \"Visite"
                 },
                 {
                     "id": 3265,
@@ -154,7 +166,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "ärztliche Liquidation\", \"ärztliche Kunst\", \"medizinisch notwendige ärztliche Versorgung"
                 },
                 {
                     "id": 3264,
@@ -168,7 +181,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "stationäre Behandlung\", \"Visite\", \"gynäkologische Untersuchung"
                 },
                 {
                     "id": 3267,
@@ -182,9 +196,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "stationäre Behandlung\", \"Entlassungstag\", \"medizinisch notwendiger Grund"
                 }
-            ]
+            ],
+            "kategorien": ""
         },
         "l": {
             "kommentare": [
@@ -201,9 +217,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Beratung\", \"delegierbare Leistung\", \"ärztliche Anordnungen"
                 }
-            ]
+            ],
+            "kategorien": ""
         },
         "k": {
             "kommentare": [
@@ -220,9 +238,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": ""
                 }
-            ]
+            ],
+            "kategorien": ""
         },
         "a": {
             "kommentare": [
@@ -239,7 +259,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "ärztliche Leistungen\", \"Anamnese\", \"diagnostische und/oder therapeutische Maßnahmen"
                 },
                 {
                     "id": 3255,
@@ -254,9 +275,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Beratungsleistung\", \"Patientenberatung\", \"Fernsprecher"
                 }
-            ]
+            ],
+            "kategorien": ""
         },
         "j": {
             "kommentare": [
@@ -273,9 +296,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "postoperative Information\", \"Angehörigen\", \"Operation"
                 }
-            ]
+            ],
+            "kategorien": ""
         },
         "i": {
             "kommentare": [
@@ -292,9 +317,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Hautkrebs\", \"Früherkennung\", \"Untersuchung"
                 }
-            ]
+            ],
+            "kategorien": ""
         },
         "h": {
             "kommentare": [
@@ -311,9 +338,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Neurologie\", \"Psychiatrie\", \"Psychotherapie"
                 }
-            ]
+            ],
+            "kategorien": ""
         },
         "b": {
             "kommentare": [
@@ -330,7 +359,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Behandlungsfall\", \"BAK\", \"Erkrankung"
                 },
                 {
                     "id": 3258,
@@ -345,7 +375,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Behandlungsfall\", \"Sonderleistungen\", \"Berechnungsfähig"
                 },
                 {
                     "id": 3260,
@@ -360,7 +391,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Chefärztebrief\", \"Auffassung\", \"Ausführliche Darstellung"
                 },
                 {
                     "id": 3261,
@@ -375,7 +407,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "C bis O\", \"Faktor\", \"Darstellung"
                 },
                 {
                     "id": 3263,
@@ -390,7 +423,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Dauerdiagnosen\", \"passagere Erkrankungen\", \"Behandlungsfälle"
                 },
                 {
                     "id": 3259,
@@ -405,7 +439,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Behandlungsfall\", \"Inanspruchnahme\", \"Gemäß Allgemeiner Bestimmungen"
                 },
                 {
                     "id": 3262,
@@ -420,7 +455,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Behandlungsfall\", \"Rechnungsersteller\", \"abschnitten C bis O"
                 },
                 {
                     "id": 3257,
@@ -434,9 +470,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Beratung\", \"Untersuchung\", \"Behandlungsfall"
                 }
-            ]
+            ],
+            "kategorien": ""
         },
         "f": {
             "kommentare": [
@@ -453,7 +491,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Anamnese\", \"Beratung\", \"Fremdanamnese"
                 },
                 {
                     "id": 3272,
@@ -468,9 +507,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": ""
                 }
-            ]
+            ],
+            "kategorien": ""
         },
         "d": {
             "kommentare": [
@@ -487,7 +528,8 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "technische Untersuchungen\", \"ärztliche Fachbegriffe\", \"medizinische Diagnose"
                 },
                 {
                     "id": 3269,
@@ -501,9 +543,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "radiologie\", \"untersuchungsleistungen\", \"aufklärung"
                 }
-            ]
+            ],
+            "kategorien": ""
         },
         "e": {
             "kommentare": [
@@ -519,9 +563,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": "Aufklärungsgespräch\", \"Untersuchungs- oder Behandlungsleistungen\", \"Strahlenbelastung"
                 }
-            ]
+            ],
+            "kategorien": ""
         }
     }
 }

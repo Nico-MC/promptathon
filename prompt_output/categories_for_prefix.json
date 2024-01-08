@@ -17,6 +17,13 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "prefered_categories": [
+                "joshua ist einfach kein guter Promptengineer."
+            ],
+            "kategorien": [
+                "Nummer",
+                "Kommentar"
             ]
         },
         "n": {
@@ -36,6 +43,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "Abrechnung",
+                "Visite"
             ]
         },
         "m": {
@@ -56,8 +67,9 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "prefered_categories": [
-                "joshua ist einfach kein guter Promptengineer."
+            "kategorien": [
+                "Abrechnung",
+                "Diagnose"
             ]
         },
         "g": {
@@ -107,6 +119,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "Visite",
+                "Abrechnung"
             ]
         },
         "c": {
@@ -184,6 +200,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "Visite",
+                "Abrechnung"
             ]
         },
         "l": {
@@ -203,6 +223,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "Abrechnung",
+                "Delegierbarkeit"
             ]
         },
         "k": {
@@ -222,6 +246,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "Nummerierung",
+                "Verweis"
             ]
         },
         "a": {
@@ -256,6 +284,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "ärztliche Leistungen",
+                "Gebührenordnung"
             ]
         },
         "j": {
@@ -275,6 +307,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "Abrechnung",
+                "Beratung"
             ]
         },
         "i": {
@@ -294,6 +330,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "Abrechnung",
+                "Hautkrebsfrüherkennung"
             ]
         },
         "h": {
@@ -313,6 +353,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "Gesprächsleistungen",
+                "GOÄ (Gebührenordnung für Ärzte)"
             ]
         },
         "b": {
@@ -436,6 +480,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "Abrechnung",
+                "Behandlungsfall"
             ]
         },
         "f": {
@@ -470,6 +518,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "Abrechnung",
+                "Gebührenordnung"
             ]
         },
         "d": {
@@ -503,6 +555,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "Aufklärung",
+                "Untersuchungen"
             ]
         },
         "e": {
@@ -521,6 +577,10 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo"
                 }
+            ],
+            "kategorien": [
+                "Risikoaufklärung",
+                "Gebührenordnung"
             ]
         }
     }

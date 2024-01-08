@@ -43,13 +43,13 @@ class OpenAIPrompter:
             if self._client is None:
                 print(f"{ConsoleColors.FAIL}_client is none. Please check AzureOpenAI initialization.{ConsoleColors.ENDC}\n")
                 return None
-            response = self._client.chat.completions.create(
+            response = self._client.completions.create(
                 model=model,
-                # prompt=prompt,
-                messages=[
-                    {"role": "system", "content": "Bitte filtere aus folgendem Kommentar medizinische Kategorien. Wenn du keine medizinische Kategorien finden kannst, gebe eine leere Liste aus. Die Kategorien MÜSSEN mit Medizin zu tun haben!\n"},
-                    {"role": "user", "content": prompt}
-                ],
+                prompt=prompt,
+                # messages=[
+                #     {"role": "system", "content": "Bitte filtere aus folgendem Kommentar medizinische Kategorien. Wenn du keine medizinische Kategorien finden kannst, gebe eine leere Liste aus. Die Kategorien MÜSSEN mit Medizin zu tun haben!\n"},
+                #     {"role": "user", "content": prompt}
+                # ],
                 # best_of=best_of,
                 temperature=temperature, # Beeinflusst die Kreativität der Antworten. Ein höherer Wert führt zu kreativeren, aber möglicherweise weniger präzisen Antworten
                 max_tokens=max_tokens, # Legt die maximale Anzahl von Tokens (Wörtern und Zeichen) fest, die in der Antwort generiert werden.
@@ -69,7 +69,7 @@ class OpenAIPrompter:
                 user=user, # Ein optionaler Parameter, der es ermöglicht, die Komplettierungen auf der Grundlage einer spezifischen Benutzer-ID zu personalisieren.
                 # timeout=timeout # Ein Zeitlimit für die API-Anfrage.
             )
-            return response.choices[0].message.content
+            return response.choices[0].text
         except Exception as e:
             print(f"{ConsoleColors.FAIL}An error occurred on sending create_completion: {e}{ConsoleColors.ENDC}\n")
             return None

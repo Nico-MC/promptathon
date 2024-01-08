@@ -44,7 +44,7 @@ def get_categories_out_of_str(str: str):
         result = ast.literal_eval(str)
         # result = json.loads(str)
     except Exception as e:
-        print(str)
+        print(f"{ConsoleColors.FAIL}{str}{ConsoleColors.FAIL}")
         print(f"An error occurred on sending get_categories_out_of_str: {e}")
         return []
     # result = [item.strip().rstrip('.') for item in result.split(',')]
@@ -60,7 +60,7 @@ def group_comments_after_prefix(comments):
     grouped_comments_by_letter_dict = dict(grouped_comments_by_letter)
     return grouped_comments_by_letter_dict
 
-def wirte_comments_after_prefix(goae_ids: list[int]) -> None:
+def write_comments_after_prefix(goae_ids: list[int]) -> None:
     comments_after_prefix = {}
     for goae_id in goae_ids:
         goae_id = str(goae_id)
@@ -74,16 +74,63 @@ def wirte_comments_after_prefix(goae_ids: list[int]) -> None:
 
 
 ##### ----- PROMPTING ----- #####
-pre_prompt = "Bitte gib mir 2 1-Wort Kategorien, die für alle der folgenden Kommentare passend sind und ärztliche Fachbegriffe sind.\n\n"
-post_prompt = "Die 2 am besten passenden Kategorien sind: [\""
+def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get categories for each comment
+    pre_prompt = "Bitte gib mir 3 1-Wort Kategorien, die für den folgenden Kommentar passend sind und ärztliche Fachbegriffe sind.\n\n"
+    post_prompt = "Die 3 am besten passenden Kategorien sind: [\""
     
-def get_categories_for_prefix(json_data: dict, goae_ids: list = None):
+    pre_prefix_prompt = "Falls das Array leer ist, lautet das Ergebnis null. Falls nicht, wird das Wort rausgenommen, das auf ärztliche Behandlung zutrifft. Das Array ist "
+    post_prefix_prompt = " und damit ist das Ergebnis:"
+    
     for goae_id in goae_ids:
         if(goae_id == None):
             return
-        data = json_data[goae_id]
-        y = 0
-        for prefix, comments in data.items():
+        j = 0
+        for prefix, comments in json_data[goae_id].items():
+            comments = comments['kommentare']
+            all_categories_in_prefix = []
+            i = 1
+            for index, comment in enumerate(comments):
+                prompt = pre_prompt
+                title = "\"header\": " + "\"" + comment['title'] + "\", "
+                text = "\"body\": " + "\"" + comment['text'] + "\" }"
+                comment_str = title + text
+                comment_str = re.sub(r'<[^>]+>', '', comment_str)
+                prompt += "\"Kommentar " + str(i) + "\": { "
+                prompt += comment_str
+                prompt += "\n\n"
+                prompt += post_prompt
+                print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | KOMMENTAR {index + 1} | PROMPT {i} -----{ConsoleColors.ENDC}")
+                print(prompt)
+                categories = prompter.create_completion(prompt,model="gpt-3.5-turbo-instruct-0914", temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
+                categories = get_categories_out_of_str(categories)
+                for category in categories:
+                    all_categories_in_prefix.append(category)
+                print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
+                json_data[goae_id][prefix]["kommentare"][index]["kategorien"] = categories
+                i += 1
+            j += 1
+            prefix_prompt = pre_prefix_prompt
+            prefix_prompt += str(all_categories_in_prefix)
+            prefix_prompt += post_prefix_prompt
+            print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | PROMPT {j} -----{ConsoleColors.ENDC}")
+            print(prefix_prompt)
+            prefix_categories = prompter.create_completion(prefix_prompt,model="gpt-3.5-turbo-instruct-0914", temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\n"])
+            prefix_categories = re.sub(r'[^\w\s]', '', prefix_categories)
+            prefix_categories = prefix_categories.lstrip()
+            # prefix_categories = get_categories_out_of_str(prefix_categories)
+            print(f"{ConsoleColors.OKGREEN}{prefix_categories}{ConsoleColors.ENDC}\n\n")
+            json_data[goae_id][prefix]["kategorie"] = prefix_categories
+    return json_data
+
+def get_categories_for_prefix(json_data: dict, goae_ids: list = None): # get categories for each prefix
+    pre_prompt = "Bitte gib mir 2 1-Wort Kategorien, die für alle der folgenden Kommentare passend sind und ärztliche Fachbegriffe sind.\n\n"
+    post_prompt = "Die 2 am besten passenden Kategorien sind: [\""
+
+    for goae_id in goae_ids:
+        if(goae_id == None):
+            return
+        j = 0
+        for prefix, comments in json_data[goae_id].items():
             prompt = pre_prompt
             comments = comments['kommentare']
             i = 1
@@ -96,18 +143,19 @@ def get_categories_for_prefix(json_data: dict, goae_ids: list = None):
                 prompt += comment_str
                 prompt += "\n\n"
                 i += 1
-            y += 1
+            j += 1
             prompt += post_prompt
-            print(f"{ConsoleColors.OKCYAN}----- PROMPT {y} -----{ConsoleColors.ENDC}")
+            print(f"{ConsoleColors.OKCYAN}----- PROMPT {j} -----{ConsoleColors.ENDC}")
             print(prompt)
-            categories = prompter.create_completion(prompt,model="gpt-3.5-turbo",logit_bias=logit_bias, best_of=1, temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
+            categories = prompter.create_completion(prompt,model="gpt-3.5-turbo-instruct", temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
             categories = get_categories_out_of_str(categories)
             print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
             json_data[goae_id][prefix]["kategorien"] = categories
     return json_data
 
 goae_ids = ["1"]
-wirte_comments_after_prefix(goae_ids)
 json_data = read_json("group_comments_after_prefix.json")
-json_data = get_categories_for_prefix(json_data, goae_ids)
-write_categories_in_json("group_comments_after_prefix.json", json_data)
+# json_data = get_categories_for_prefix(json_data, goae_ids)
+# write_categories_in_json("categories_for_prefix.json", json_data)
+json_data = get_categories_for_comment(json_data, goae_ids)
+write_categories_in_json("categories_for_comment.json", json_data)
