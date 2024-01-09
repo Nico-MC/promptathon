@@ -78,7 +78,7 @@ def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get ca
     pre_prompt = "Bitte gib mir 3 1-Wort Kategorien, die für den folgenden Kommentar passend sind und ärztliche Fachbegriffe sind.\n\n"
     post_prompt = "Die 3 am besten passenden Kategorien sind: [\""
     
-    pre_prefix_prompt = "Falls das Array leer ist, lautet das Ergebnis null. Falls nicht, wird das Wort rausgenommen, das auf ärztliche Behandlung zutrifft. Das Array ist "
+    pre_prefix_prompt = "Falls das Array leer ist, lautet das Ergebnis null. Falls nicht, wird das Wort rausgenommen, das inhaltlich mit den anderen Worten am besten übereinstimmt. Am besten sind Worte mit medizinischem Hintergrund. Wörter mit medizinischen Behandlungsmethoden haben immer Vorang. Das Array ist "
     post_prefix_prompt = " und damit ist das Ergebnis:"
     
     for goae_id in goae_ids:
