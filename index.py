@@ -101,7 +101,7 @@ def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get ca
                 prompt += post_prompt
                 print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | KOMMENTAR {index + 1} | PROMPT {i} -----{ConsoleColors.ENDC}")
                 print(prompt)
-                categories = prompter.create_completion(prompt,model="gpt-3.5-turbo-instruct-0914", temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
+                categories = prompter.create_completion(prompt,model="gpt-3.5-turbo-instruct", temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
                 categories = get_categories_out_of_str(categories)
                 for category in categories:
                     all_categories_in_prefix.append(category)
@@ -114,7 +114,7 @@ def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get ca
             prefix_prompt += post_prefix_prompt
             print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | PROMPT {j} -----{ConsoleColors.ENDC}")
             print(prefix_prompt)
-            prefix_categories = prompter.create_completion(prefix_prompt,model="gpt-3.5-turbo-instruct-0914", temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\n"])
+            prefix_categories = prompter.create_completion(prefix_prompt,model="gpt-3.5-turbo-instruct", temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\n"])
             prefix_categories = re.sub(r'[^\w\s]', '', prefix_categories)
             prefix_categories = prefix_categories.lstrip()
             # prefix_categories = get_categories_out_of_str(prefix_categories)
