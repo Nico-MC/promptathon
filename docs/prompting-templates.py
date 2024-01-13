@@ -1,5 +1,5 @@
 # Diese Datei dient nur zur Ablage unserer Prompts
-# Sie können in der ./src/templates/openai_prompter.py getestet werden
+# Sie können in der ./src/prompting/openai_prompter.py getestet werden
 
 self._client.chat.completions.create(
     model=model,

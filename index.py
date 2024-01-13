@@ -2,8 +2,8 @@ import json
 from dotenv import load_dotenv
 import os
 from src.helpers.json_loader import *
-from src.templates.openai_prompter import OpenAIPrompter
-from src.templates.openai_finetuner import OpenAIFinetuner
+from src.prompting.openai_prompter import OpenAIPrompter
+from src.prompting.openai_finetuner import OpenAIFinetuner
 from src.helpers.console_colors import ConsoleColors
 import ast
 import re
@@ -61,12 +61,15 @@ def group_comments_after_prefix(comments):
     return grouped_comments_by_letter_dict
 
 def write_comments_after_prefix(goae_ids: list[int]) -> None:
-    comments_after_prefix = {}
+    json_file = "group_comments_after_prefix.json"
+    comments_after_prefix = read_json(json_file)
     for goae_id in goae_ids:
         goae_id = str(goae_id)
+        if goae_id in comments_after_prefix:
+            continue
         comments = json_data[goae_id]['kommentare']
         comments_after_prefix[goae_id] = group_comments_after_prefix(comments)
-    write_json(comments_after_prefix, "group_comments_after_prefix.json")
+    write_json(comments_after_prefix, json_file)
 
 
 
@@ -78,8 +81,10 @@ def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get ca
     pre_prompt = "Bitte gib mir 3 1-Wort Kategorien, die für den folgenden Kommentar passend sind und ärztliche Fachbegriffe sind.\n\n"
     post_prompt = "Die 3 am besten passenden Kategorien sind: [\""
     
-    pre_prefix_prompt = "Falls das Array leer ist, lautet das Ergebnis null. Falls nicht, wird das Wort rausgenommen, das inhaltlich mit den anderen Worten am besten übereinstimmt. Am besten sind Worte mit medizinischem Hintergrund. Wörter mit medizinischen Behandlungsmethoden haben immer Vorang. Das Array ist "
-    post_prefix_prompt = " und damit ist das Ergebnis:"
+    all_comments_in_prefix = ""
+
+    pre_prefix_prompt = "Für die folgenden Kommentare werden nun Stichworte gesucht..."
+    post_prefix_prompt = "Falls das Array leer ist, lautet das Ergebnis null. Falls nicht, wird das Wort aus dem Array gefiltert, das inhaltlich mit den obigen aufgezählten Kommentaren am besten übereinstimmt. Am besten sind Worte mit medizinischem Hintergrund. Wörter mit medizinischen Behandlungsmethoden haben immer Vorang. Das Stichwort ist:"
     
     for goae_id in goae_ids:
         if(goae_id == None):
@@ -88,6 +93,7 @@ def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get ca
         for prefix, comments in json_data[goae_id].items():
             comments = comments['kommentare']
             all_categories_in_prefix = []
+            all_comments_in_prefix_temp = ""
             i = 1
             for index, comment in enumerate(comments):
                 prompt = pre_prompt
@@ -95,9 +101,11 @@ def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get ca
                 text = "\"body\": " + "\"" + comment['text'] + "\" }"
                 comment_str = title + text
                 comment_str = re.sub(r'<[^>]+>', '', comment_str)
-                prompt += "\"Kommentar " + str(i) + "\": { "
-                prompt += comment_str
-                prompt += "\n\n"
+                obj = "\"Kommentar " + str(i) + "\": { "
+                obj += comment_str
+                obj += "\n\n"
+                all_comments_in_prefix_temp += obj
+                prompt += obj
                 prompt += post_prompt
                 print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | KOMMENTAR {index + 1} | PROMPT {i} -----{ConsoleColors.ENDC}")
                 print(prompt)
@@ -110,7 +118,10 @@ def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get ca
                 i += 1
             j += 1
             prefix_prompt = pre_prefix_prompt
-            prefix_prompt += str(all_categories_in_prefix)
+            prefix_prompt += "\n\n"
+            prefix_prompt += all_comments_in_prefix_temp
+            prefix_prompt += "Die gefundenen Stichworte wurden in ein Array gepackt und sind: "
+            prefix_prompt += str(all_categories_in_prefix) + ". "
             prefix_prompt += post_prefix_prompt
             print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | PROMPT {j} -----{ConsoleColors.ENDC}")
             print(prefix_prompt)
@@ -118,7 +129,7 @@ def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get ca
             prefix_categories = re.sub(r'[^\w\s]', '', prefix_categories)
             prefix_categories = prefix_categories.lstrip()
             # prefix_categories = get_categories_out_of_str(prefix_categories)
-            print(f"{ConsoleColors.OKGREEN}{prefix_categories}{ConsoleColors.ENDC}\n\n")
+            print(f"{ConsoleColors.OKGREEN}>{prefix_categories}<{ConsoleColors.ENDC}\n\n")
             json_data[goae_id][prefix]["kategorie"] = prefix_categories
     return json_data
 
@@ -153,9 +164,10 @@ def get_categories_for_prefix(json_data: dict, goae_ids: list = None): # get cat
             json_data[goae_id][prefix]["kategorien"] = categories
     return json_data
 
-goae_ids = ["1"]
-json_data = read_json("group_comments_after_prefix.json")
+goae_ids = ["1", "2"]
+# write_comments_after_prefix(goae_ids)
+# json_data = read_json("group_comments_after_prefix.json")
 # json_data = get_categories_for_prefix(json_data, goae_ids)
 # write_categories_in_json("categories_for_prefix.json", json_data)
-json_data = get_categories_for_comment(json_data, goae_ids)
-write_categories_in_json("categories_for_comment.json", json_data)
+# json_data = get_categories_for_comment(json_data, goae_ids)
+# write_categories_in_json("categories_for_comment.json", json_data)

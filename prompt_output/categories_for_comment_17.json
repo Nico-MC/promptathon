@@ -15,9 +15,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Nummerierung",
+                        "Verweis",
+                        "Kommentar"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": ""
         },
         "n": {
             "kommentare": [
@@ -34,9 +40,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Visite",
+                        "medizinische Notwendigkeit"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": "Zur Abrechnung der Nrn 1 3 5 und 7 wurde bereits dargelegt dass eine Berechnung von Beratungs und Untersuchungsleistungen neben Visiten nicht grundsätzlich ausgeschlossen ist Voraussetzung ist jedoch hier wie bei allen anderen ärztlichen Leistungen die medizinische Notwendigkeit der Leistungserbringung In der Gebühr der Nr 45"
         },
         "m": {
             "kommentare": [
@@ -53,12 +65,18 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Klassifikation",
+                        "Nummerierung",
+                        "Besonderheiten"
+                    ]
                 }
             ],
             "prefered_categories": [
                 "joshua ist einfach kein guter Promptengineer."
-            ]
+            ],
+            "kategorie": ""
         },
         "g": {
             "kommentare": [
@@ -75,7 +93,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Visite",
+                        "Gynäkologie"
+                    ]
                 },
                 {
                     "id": 3276,
@@ -90,7 +113,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "GOÄ",
+                        "Chefarzt",
+                        "medizinische Notwendigkeit"
+                    ]
                 },
                 {
                     "id": 3274,
@@ -105,9 +133,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Anästhesie",
+                        "Aufwachraum",
+                        "Narkose"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": "Nr 1 nicht postnarkotisch im Aufwachraum"
         },
         "c": {
             "kommentare": [
@@ -124,7 +158,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Visite",
+                        "Klinikablauf",
+                        "Rechnungsstellung"
+                    ]
                 },
                 {
                     "id": 3266,
@@ -139,7 +178,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnungseinschränkung",
+                        "Beratungsleistung",
+                        "Visite"
+                    ]
                 },
                 {
                     "id": 3265,
@@ -154,7 +198,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "GOÄ",
+                        "ärztliche Liquidation",
+                        "medizinisch notwendig"
+                    ]
                 },
                 {
                     "id": 3264,
@@ -168,7 +217,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Visite",
+                        "stationär"
+                    ]
                 },
                 {
                     "id": 3267,
@@ -182,9 +236,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Visite",
+                        "Entlassung"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": "Visite"
         },
         "l": {
             "kommentare": [
@@ -201,9 +261,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Beratung",
+                        "Delegierbarkeit"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": "Kommentar 1"
         },
         "k": {
             "kommentare": [
@@ -220,9 +286,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Medikation",
+                        "Diagnose",
+                        "Behandlung"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": "Diagnose"
         },
         "a": {
             "kommentare": [
@@ -239,7 +311,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "ärztliche Leistungen",
+                        "Gebührenordnung",
+                        "Beratung"
+                    ]
                 },
                 {
                     "id": 3255,
@@ -254,9 +331,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Beratung",
+                        "Leistungslegende",
+                        "Fernsprecher"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": "Beratung"
         },
         "j": {
             "kommentare": [
@@ -273,9 +356,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Patientenversorgung",
+                        "Beratung"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": "Kommentar 1"
         },
         "i": {
             "kommentare": [
@@ -292,9 +381,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Hautkrebsfrüherkennungsuntersuchung",
+                        "ärztliche Fachbegriffe"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": "Abrechnung der Hautkrebsfrüherkennungsuntersuchung"
         },
         "h": {
             "kommentare": [
@@ -311,9 +406,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "GOÄ",
+                        "Gesprächsleistungen",
+                        "Analogbewertung"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": "Kommentar 1"
         },
         "b": {
             "kommentare": [
@@ -330,7 +431,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Behandlungsfall",
+                        "BAK",
+                        "Bundesärztekammer"
+                    ]
                 },
                 {
                     "id": 3258,
@@ -345,7 +451,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Behandlung",
+                        "Kombination"
+                    ]
                 },
                 {
                     "id": 3260,
@@ -360,7 +471,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Fehler",
+                        "Korrektur"
+                    ]
                 },
                 {
                     "id": 3261,
@@ -375,7 +491,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Faktor",
+                        "Leistungen",
+                        "Darstellung"
+                    ]
                 },
                 {
                     "id": 3263,
@@ -390,7 +511,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Diagnosen",
+                        "Behandlungsfälle"
+                    ]
                 },
                 {
                     "id": 3259,
@@ -405,7 +531,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Fachbegriffe",
+                        "GOÄ (Gebührenordnung für Ärzte)"
+                    ]
                 },
                 {
                     "id": 3262,
@@ -420,7 +551,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "GOÄ",
+                        "Behandlungsfall"
+                    ]
                 },
                 {
                     "id": 3257,
@@ -434,9 +570,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Beratung",
+                        "Untersuchung"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": "Kommentar 1"
         },
         "f": {
             "kommentare": [
@@ -453,7 +595,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Gebührenordnung",
+                        "Nebeneinanderberechenbarkeit"
+                    ]
                 },
                 {
                     "id": 3272,
@@ -468,9 +615,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Verweis",
+                        "Zusammenhang",
+                        "Ergänzung"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": "Kommentar 1"
         },
         "d": {
             "kommentare": [
@@ -487,7 +640,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Diagnose",
+                        "Untersuchung",
+                        "Fachbegriffe"
+                    ]
                 },
                 {
                     "id": 3269,
@@ -501,9 +659,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Radiologie",
+                        "Aufklärung"
+                    ]
                 }
-            ]
+            ],
+            "kategorie": ""
         },
         "e": {
             "kommentare": [
@@ -519,183 +683,15 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
-                }
-            ]
-        }
-    },
-    "2": {
-        "h": {
-            "kommentare": [
-                {
-                    "id": 1930,
-                    "zifferNr": "2",
-                    "prefix": "h)",
-                    "title": "Nr. 2 nicht für Scannen von Befundmitteilungen",
-                    "createdOn": "2021-05-24T21:01:23.435",
-                    "updatedOn": "2022-11-30T09:30:59.808984",
-                    "publishedOn": "2015-06-02T01:00:00+02:00",
-                    "validated": true,
-                    "text": "<p>Das Scannen auswärtiger Befundmitteilungen und Arztbriefe kann nicht mit der Nr. 2 (Ausstellung von Wiederholungsrezepten und/oder Überweisungen und/oder Übermittlung von Befunden oder ärztlichen Anordnungen - auch mittels Fernsprecher - durch die Arzthelferin und/oder Messung von Körperzuständen (z.B. Blutdruck, Temperatur) ohne Beratung, bei einer Inanspruchnahme des Arztes) berechnet werden.</p><p>Selbst wenn man das Einscannen als \"Übermittlung\" begreifen würde - was schon fragewürdig ist - ist damit nur das Übermitteln an Patienten gemeint.</p><p>Das Scannen von Befunden durch das Praxispersonal ist eine interne Praxisführung und die dafür entstehenden Kosten sind als Praxiskosten nicht dem Patienten berechenbar.</p><p>(Abrechnung aktuell, Heft 04/2015, Seite 8)</p><p></p><p></p><p></p>",
-                    "createdBy": "martin-gebuehreninfo",
-                    "updatedBy": "martin-gebuehreninfo",
-                    "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Risiko",
+                        "Aufklärung",
+                        "Honorar"
+                    ]
                 }
             ],
-            "kategorien": ""
-        },
-        "d": {
-            "kommentare": [
-                {
-                    "id": 1926,
-                    "zifferNr": "2",
-                    "prefix": "d2)",
-                    "title": "Nr. 2 auch ohne eigentliche Beratungsleistung",
-                    "createdOn": "2021-05-24T21:01:23.427",
-                    "updatedOn": "2022-11-30T09:30:59.808984",
-                    "publishedOn": "2012-12-30T00:00:00+01:00",
-                    "validated": true,
-                    "text": "<p>Die Nr. 2 für ein Wiederholungsrezept verlangt nicht zwingend auch eine Beratung, so dass die Nr. 2 auch ohne Beratungsleistung abgerechnet werden kann (Deutsches Ärzteblatt, Heft 49, 07.12.2012)</p><p></p>",
-                    "createdBy": "martin-gebuehreninfo",
-                    "updatedBy": "martin-gebuehreninfo",
-                    "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
-                },
-                {
-                    "id": 1925,
-                    "zifferNr": "2",
-                    "prefix": "d1)",
-                    "title": "Definition der \"Inanspruchnahme des Arztes\"",
-                    "createdOn": "2021-05-24T21:01:23.425",
-                    "updatedOn": "2022-11-30T09:30:59.808984",
-                    "publishedOn": "1999-09-17T01:00:00+02:00",
-                    "validated": true,
-                    "text": "<p>Die Bundesärztekammer hat im im Deutschen Ärzteblatt, Heft 36 vom 10.09.1999 veröffentlicht:</p><p>Die \"Inanspruchnahme des Arztes\" in der Legende der Nr. 2 ist zu verstehen als \"Inanspruchnahme der Praxis\", da die Helferin auf Anweisung des Arztes tätig wird. Die Nr. 2 GOÄ ist deshalb nur als alleinige Leistung berechenbar. (Ende des Zitats)</p><p></p>",
-                    "createdBy": "martin-gebuehreninfo",
-                    "updatedBy": "martin-gebuehreninfo",
-                    "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
-                }
-            ],
-            "kategorien": ""
-        },
-        "g": {
-            "kommentare": [
-                {
-                    "id": 1929,
-                    "zifferNr": "2",
-                    "prefix": "g)",
-                    "title": "Nr. 2 nicht zuschlagsfähig",
-                    "createdOn": "2021-05-24T21:01:23.433",
-                    "updatedOn": "2022-11-30T09:30:59.808984",
-                    "publishedOn": "2012-07-29T01:00:00+02:00",
-                    "validated": true,
-                    "text": "<p>Holt ein Patient außerhalb der Sprechstunde lediglich ein Wiederholungsrezept ab, so ist für die Nr. 2 kein \"Unzeitzuschlag\" berechnungsfähig. Die Zuschläge A bis D sind nur zu den Nrn. 1, 3, 4 und 5 bis 8 berechnungsfähig.</p><p>(Abrechnung aktuell, Ausgabe 2/2012, Seite 15)</p><p></p>",
-                    "createdBy": "martin-gebuehreninfo",
-                    "updatedBy": "martin-gebuehreninfo",
-                    "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
-                }
-            ],
-            "kategorien": ""
-        },
-        "f": {
-            "kommentare": [
-                {
-                    "id": 1928,
-                    "zifferNr": "2",
-                    "prefix": "f)",
-                    "title": "Nr. 2 nicht neben anderen Leistungen",
-                    "createdOn": "2021-05-24T21:01:23.431",
-                    "updatedOn": "2021-05-24T21:01:36.257",
-                    "publishedOn": "2001-12-31T00:00:00+01:00",
-                    "validated": true,
-                    "text": "<p>Die Anmerkung nach der Nr. 2 lautet: \"Die Leistung nach Nummer 2 darf anlässlich einer Inanspruchnahme des Arztes nicht zusammen mit anderen Gebühren berechnet werden.\" (Ende des Zitats). Hieraus ergibt sich, dass die Nummer 2 immer dann gestrichen werden muss, wenn bei gleichem Arzt-Patienten-Kontakt noch andere Leistungen abgerechnet wurden.</p><p></p>",
-                    "createdBy": "martin-gebuehreninfo",
-                    "updatedBy": "martin-gebuehreninfo",
-                    "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
-                }
-            ],
-            "kategorien": ""
-        },
-        "e": {
-            "kommentare": [
-                {
-                    "id": 1927,
-                    "zifferNr": "2",
-                    "prefix": "e)",
-                    "title": "Nr. 2 und stationäre Behandlung, Bundesärztekammer",
-                    "createdOn": "2021-05-24T21:01:23.429",
-                    "updatedOn": "2022-11-30T09:30:59.808984",
-                    "publishedOn": "1999-09-17T01:00:00+02:00",
-                    "validated": true,
-                    "text": "<p>Die Bundesärztekammer hat im im Deutschen Ärzteblatt, Heft 36 vom 10.09.1999 veröffentlicht:</p><p>Die Leistung nach Nr. 2 GOÄ ist im Rahmen der wahlärztlichen Behandlung im stationären Bereich in der Regel nicht berechenbar. Dadurch, dass die Legende der Nr. 2 auf eine \"Inanspruchnahme des Arztes\" abgestellt ist und die Nr. 2 anlässlich einer Inanspruchname des Arztes nicht zusammen mit anderen Gebühren berechnet werden darf (Anmerkung zur Nr. 2 GOÄ), sieht der Gebührenausschuss der Bundesärztekammer die Messung von Körperzuständen als persönlich zu erbringende Leistung des Wahlarztes oder dessen ständigen ärztlichen Vertreters und hält eine Delegation dieser Leistung im Krankenhaus für ausgeschlossen. (Ende des Zitats).</p><p></p>",
-                    "createdBy": "martin-gebuehreninfo",
-                    "updatedBy": "martin-gebuehreninfo",
-                    "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
-                }
-            ],
-            "kategorien": ""
-        },
-        "a": {
-            "kommentare": [
-                {
-                    "id": 1922,
-                    "zifferNr": "2",
-                    "prefix": "a)",
-                    "title": "Nr. 2 neben anderen Leistungen",
-                    "createdOn": "2021-05-24T21:01:23.42",
-                    "updatedOn": "2021-05-24T21:01:36.256",
-                    "validated": true,
-                    "text": "<p>Auf der Rechnung ist neben einer Beratung die Nr. 2 für eine kurze Information abgerechnet worden. Neben der Nr. 2 können andere Leistungen gemäß der Anmerkung nach der Nr. 2 in der GOÄ nicht abgerechnet werden. Die Nr. 2 ist daher zu streichen. </p><p></p>",
-                    "createdBy": "martin-gebuehreninfo",
-                    "updatedBy": "martin-gebuehreninfo",
-                    "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
-                }
-            ],
-            "kategorien": ""
-        },
-        "b": {
-            "kommentare": [
-                {
-                    "id": 1923,
-                    "zifferNr": "2",
-                    "prefix": "b)",
-                    "title": "Nr. 2 und stationäre Behandlung",
-                    "createdOn": "2021-05-24T21:01:23.422",
-                    "updatedOn": "2022-11-30T09:30:59.808984",
-                    "validated": true,
-                    "text": "<p>Die Leistung nach Nr. 2 ist, wie aus dem Begriff in der Leistungslegende (Wiederholungsrezept, Überweisung, Übermittlung mittels Fernsprecher, Arzthelferin) hervorgeht, auf das Leistungsgeschehen in der ambulanten Versorgung zugeschnitten. Ohne einen solche Bezug ist lediglich die vierte der in der Leistungslegende aufgezählten Leistungen, nämlich die Messung von Körperzuständen ohne Beratung. Diese Verrichtung wäre unter den Vorgaben von § 4 Abs. 2 und 2a grundsätzlich auch im Rahmen einer stationären Behandlung berechnungsfähig. Dabei ist allerdings zu beachten, dass die Leistung nach Nr. 2 anlässlich einer Inanspruchnahme des Arztes nicht zusammen mit anderen Gebühren berechnet werden darf (z.B. Visitengebühren). Bei der Einschränkung der Nr. 2 im Rahmen stationärer Behandlung ergibt sich dadurch, dass die Nr. 2 gemäß § 4 Abs. 2 GOÄ am Aufnahme- und Entlassungstag nur durch den Arzt selbst oder dessen ständigem ärztlichen Vertreter persönlich erbracht werden darf. Für die übrigen Tage der stationären Behandlung kann die Leistung nach Nr. 2 auch durch andere nachgeordnete Ärzte (nicht dagegen durch das Pflegepersonal) erbracht werden (Originalzitat aus Brück`schem Kommentar zur GOÄ). Es ist also zu klären, ob hier der Leistungsinhalt der Nr. 2 (beispielsweise Messung von Blutdruck oder Temperatur) durch das Pflegepersonal oder jeweils wirklich durch einen Arzt selbst erfolgte. Dies kann in Kenntnis der üblichen Vorgehensweisen im Krankenhaus nicht nachvollzogen werden, so dass empfohlen wird, alle Ansätze der Nr. 2 hier zu streichen. Eine Nachvergütung kann nur dann vorgenommen werden, wenn seitens des Rechnungserstellers ausdrücklich erklärt wird, dass sämtliche Leistungsansätze der Nr. 2 durch einen Arzt erbracht wurden, und dass diese Leistungserbringung nicht im Zusammenhang mit der Erbringung anderer Leistungen (z.B. Visiten) erfolgte.</p><p></p>",
-                    "createdBy": "martin-gebuehreninfo",
-                    "updatedBy": "martin-gebuehreninfo",
-                    "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
-                }
-            ],
-            "kategorien": ""
-        },
-        "c": {
-            "kommentare": [
-                {
-                    "id": 1924,
-                    "zifferNr": "2",
-                    "prefix": "c)",
-                    "title": "abrechnungsfähig nur bei Inanspruchnahme des Arztes",
-                    "createdOn": "2021-05-24T21:01:23.424",
-                    "updatedOn": "2021-05-24T21:01:36.257",
-                    "validated": true,
-                    "text": "<p>Der Legendentext der Nr. 2 stellt ausdrücklich auf die Inanspruchnahme des Arztes ab (...bei einer Inanspruchnahme des Arztes). Die Vorstellung, dass diese Leistungslegende auch ohne Inanspruchnahme des Arztes abgerechnet werden könnte, liefe darauf hinaus, dass sämtliche Leistungen des Pflegepersonals (gleich welcher Art!) als ärztliche Leistung durch den liquidationsberechtigten Arzt zusätzlich abgerechnet werden könnten. Es erhebt sich dabei die berechtigte Frage, wofür der Patient dann noch einen Pflegesatz bezahlt. Bei anderer Auffassung wird die Lektüre des in der Rechtsprechung anerkannten Kommentars nach Brück zur GOÄ empfohlen.</p><p></p>",
-                    "createdBy": "martin-gebuehreninfo",
-                    "updatedBy": "martin-gebuehreninfo",
-                    "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
-                }
-            ],
-            "kategorien": ""
+            "kategorie": "Kommentar 1"
         }
     }
 }

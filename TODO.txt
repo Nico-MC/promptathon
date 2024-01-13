@@ -4,3 +4,9 @@ Aktuell wird die finale Prefix-Kategorie mit 2 Promptvorgängen bestimmt:
 
 Der 2. Prompt ist schon recht gut (siehe index.py Zeile 82), aber der 1. Prompt könnte noch verbessert werden, da
 noch Kategorien für ein Kommentar bestimmt werden, die unpassend sind.
+
+
+Einfaches Frontend bauen, als quasi Experimentierumgebung
+
+
+Mehrere Prompts
