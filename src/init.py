@@ -10,27 +10,36 @@ import re
 import time
 from collections import defaultdict
 
-
-# load environment variables (.env)
 load_dotenv()
-
-# load json file
 json_file = os.getenv('JSON_FILE')
 encoding = os.getenv('ENCODING')
-# json_data = sort_json(read_json(json_file, encoding))
+
 json_data = read_json(json_file, encoding)
 
-logit_bias = {}
-logit_bias_data = read_json("logit_bias.json")
-for key, value in logit_bias_data.items():
-    tokenIds = getTokenId(key)
-    logit_bias[tokenIds] = value
+prompter = OpenAIPrompter()
+finetuner = OpenAIFinetuner()
+
+
+# load environment variables (.env)
+# load_dotenv()
+
+# load json file
+# json_file = os.getenv('JSON_FILE')
+# encoding = os.getenv('ENCODING')
+# json_data = sort_json(read_json(json_file, encoding))
+# json_data = read_json(json_file, encoding)
+
+# logit_bias = {}
+# logit_bias_data = read_json("logit_bias.json")
+# for key, value in logit_bias_data.items():
+#     tokenIds = getTokenId(key)
+#     logit_bias[tokenIds] = value
     # for tokenId in tokenIds:
     #     logit_bias[tokenId] = value
 
 # connect with open ai api
-prompter = OpenAIPrompter()
-finetuner = OpenAIFinetuner()
+# prompter = OpenAIPrompter()
+# finetuner = OpenAIFinetuner()
 
 
 
@@ -90,6 +99,7 @@ def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get ca
         if(goae_id == None):
             return
         j = 0
+        print(goae_id)
         for prefix, comments in json_data[goae_id].items():
             comments = comments['kommentare']
             all_categories_in_prefix = []
@@ -107,7 +117,7 @@ def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get ca
                 all_comments_in_prefix_temp += obj
                 prompt += obj
                 prompt += post_prompt
-                print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | KOMMENTAR {index + 1} | PROMPT {i} -----{ConsoleColors.ENDC}")
+                print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | KOMMENTAR {index + 1} | PROMPT {i} -----{ConsoleColors.ENDC}")
                 print(prompt)
                 categories = prompter.create_completion(prompt,model="gpt-3.5-turbo-instruct", temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
                 categories = get_categories_out_of_str(categories)
@@ -138,6 +148,8 @@ def get_categories_for_prefix(json_data: dict, goae_ids: list = None): # get cat
     post_prompt = "Die 2 am besten passenden Kategorien sind: [\""
 
     for goae_id in goae_ids:
+        goae_id = str(goae_id)
+        print(goae_id)
         if(goae_id == None):
             return
         j = 0
@@ -164,7 +176,7 @@ def get_categories_for_prefix(json_data: dict, goae_ids: list = None): # get cat
             json_data[goae_id][prefix]["kategorien"] = categories
     return json_data
 
-goae_ids = ["1", "2"]
+# goae_ids = ["1", "2"]
 # write_comments_after_prefix(goae_ids)
 # json_data = read_json("group_comments_after_prefix.json")
 # json_data = get_categories_for_prefix(json_data, goae_ids)

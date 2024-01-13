@@ -717,7 +717,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Nummer",
+                "Verweis"
+            ]
         },
         "f": {
             "kommentare": [
@@ -752,7 +755,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Abrechnung",
+                "Gebührenordnung"
+            ]
         },
         "l": {
             "kommentare": [
@@ -772,7 +778,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Abrechnung",
+                "Delegierbarkeit"
+            ]
         },
         "d": {
             "kommentare": [
@@ -792,7 +801,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Abrechnung",
+                "Psychiatrie"
+            ]
         },
         "k": {
             "kommentare": [
@@ -812,7 +824,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Nummerierung",
+                "Verweis"
+            ]
         },
         "j": {
             "kommentare": [
@@ -832,7 +847,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Abrechnung",
+                "Hautkrebsfrüherkennung"
+            ]
         },
         "i": {
             "kommentare": [
@@ -852,7 +870,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "unberechenbar",
+                "analog"
+            ]
         },
         "a": {
             "kommentare": [
@@ -886,7 +907,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Abrechnungsfaktor",
+                "GOÄ-Nr. 3"
+            ]
         },
         "b": {
             "kommentare": [
@@ -921,7 +945,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "Abrechnungsfähigkeit",
+                "OP-Aufklärung"
+            ]
         },
         "h": {
             "kommentare": [
@@ -941,7 +968,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "postoperative Besprechung",
+                "stationäre Behandlung"
+            ]
         },
         "c": {
             "kommentare": [
@@ -976,7 +1006,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "GOÄ",
+                "stationäre Behandlung"
+            ]
         },
         "g": {
             "kommentare": [
@@ -1011,7 +1044,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "stationär",
+                "krankheitsbedingt"
+            ]
         },
         "e": {
             "kommentare": [
@@ -1030,7 +1066,10 @@
                     "author": "martin-gebuehreninfo"
                 }
             ],
-            "kategorien": ""
+            "kategorien": [
+                "ärztliche Leistungen",
+                "Abrechnung"
+            ]
         }
     }
 }
