@@ -10,8 +10,6 @@ def get_categories_for_goae_number():
     data = request.get_json()
     print(data)
     numbers = data['numbers']
-    if len(numbers) < 1:
-        return
     prompt_count = data['promptCount']
     prompts = data['prompts']
     if prompt_count == "1":

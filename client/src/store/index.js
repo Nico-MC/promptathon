@@ -6,6 +6,7 @@ export default createStore({
     prompts: ["", "", ""],
     numbers: [],
     apiData: null,
+    isLoading: false,
   },
   mutations: {
     setPromptCount(state, count) {
@@ -23,10 +24,15 @@ export default createStore({
     setApiData(state, newData) {
       state.apiData = newData;
     },
+    setLoading(state, isLoading) {
+      state.isLoading = isLoading;
+    },
   },
   actions: {
     async fetchApiData({ commit, state }) {
       try {
+        commit("setLoading", true);
+        commit("setApiData", null);
         const dataToSend = { ...state };
         delete dataToSend.apiData;
 
@@ -46,7 +52,9 @@ export default createStore({
         }
         const data = await response.json();
         commit("setApiData", data);
+        commit("setLoading", false);
       } catch (error) {
+        commit("setLoading", false);
         console.error("Fehler:", error);
       }
     },

@@ -10,11 +10,10 @@
     </button>
     <div class="api-output">
       <div v-if="apiData">
-        <!-- Ihre Komponente, die die API-Daten verwendet -->
         <ApiOutput :data="apiData" />
       </div>
-      <div v-else>
-        <p>Daten werden geladen...</p>
+      <div v-else-if="isLoading">
+        <p>Kategorien werden erstellt...</p>
       </div>
     </div>
   </div>
@@ -34,12 +33,12 @@ export default {
     ApiOutput,
   },
   computed: {
-    ...mapState(["apiData"]),
+    ...mapState(["apiData", "isLoading"]),
   },
   methods: {
     ...mapActions(["fetchApiData"]),
     async submitToFlask() {
-      await this.fetchApiData(); // Aufrufen der Vuex Action
+      await this.fetchApiData();
     },
   },
 };

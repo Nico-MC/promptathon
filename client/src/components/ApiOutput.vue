@@ -42,10 +42,16 @@
                 <li
                   v-for="comment in value.kommentare"
                   :key="comment.id"
-                  class="mb-1"
+                  class="mb-4"
                 >
-                  <p class="font-semibold">{{ comment.title }}</p>
-                  <p class="text-gray-600">{{ comment.text }}</p>
+                  <p class="text-sm font-semibold">Titel:</p>
+                  <p class="text-gray-600">
+                    {{ removeHtmlTags(comment.title) }}
+                  </p>
+                  <p class="text-sm font-semibold">Text:</p>
+                  <p class="text-gray-600">
+                    {{ removeHtmlTags(comment.text) }}
+                  </p>
                 </li>
               </ul>
             </div>
@@ -61,7 +67,7 @@ export default {
   data() {
     return {
       openPanels: [],
-      openPrefixes: {}, // Hält den Zustand der geöffneten Prefixe
+      openPrefixes: {},
     };
   },
   computed: {
@@ -88,6 +94,9 @@ export default {
       } else {
         this.openPrefixes[goaeNumber].push(prefix);
       }
+    },
+    removeHtmlTags(str) {
+      return str.replace(/<[^>]*>/g, ""); // Entfernt alle HTML-Tags
     },
   },
 };
