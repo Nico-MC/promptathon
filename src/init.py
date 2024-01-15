@@ -175,6 +175,43 @@ def get_categories_for_prefix(json_data: dict, goae_ids: list = None): # get cat
             print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
             json_data[goae_id][prefix]["kategorien"] = categories
     return json_data
+    
+    
+def create_categories(json_data: dict, goae_ids: list[str], prompts: list[str]): # function for the frontend prompt button
+    # --- iterate over goae numbers --- #
+    for goae_id in goae_ids:
+        goae_id = str(goae_id)
+        print(goae_id)
+        if(goae_id == None):
+            return
+        j = 0
+        # --- iterate over prefixes --- #
+        for prefix, comments in json_data[goae_id].items():
+            comments = comments['kommentare']
+            prompt_for_prefix = prompts[0]
+            all_comments_in_prefix = ""
+            i = 1
+            # --- iterate over comments --- #
+            for comment in comments:
+                title = "\"header\": " + "\"" + comment['title'] + "\", "
+                text = "\"body\": " + "\"" + comment['text'] + "\" }"
+                comment_str = title + text
+                comment_str = re.sub(r'<[^>]+>', '', comment_str)
+                all_comments_in_prefix += "\"Kommentar " + str(i) + "\": { "
+                all_comments_in_prefix += comment_str
+                if i == len(comments):
+                    continue
+                all_comments_in_prefix += "\n\n"
+                i += 1
+            j += 1
+            prompt_for_prefix = prompt_for_prefix.replace("$comments", all_comments_in_prefix)
+            print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | PROMPT {j} -----{ConsoleColors.ENDC}")
+            print(prompt_for_prefix)
+            categories = prompter.create_completion(prompt=prompt_for_prefix,model="gpt-3.5-turbo-instruct", temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
+            categories = get_categories_out_of_str(categories)
+            print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
+            json_data[goae_id][prefix]["kategorien"] = categories
+    return json_data
 
 # goae_ids = ["1", "2"]
 # write_comments_after_prefix(goae_ids)

@@ -3,7 +3,23 @@ import { createStore } from "vuex";
 export default createStore({
   state: {
     promptCount: "1",
-    prompts: ["", "", ""],
+    prompts: [
+      "Bitte gib mir 2 1-Wort Kategorien, die für alle der folgenden Kommentare passend sind und ärztliche Fachbegriffe sind.\n\n$comments\n\n" +
+        'Die 2 am besten passenden Kategorien sind: ["',
+      "",
+      "",
+    ],
+    promptDescription: [
+      // title over prompt textfield
+      "Prefix-Prompt",
+      "Kommentar-Prompt",
+      "3. Testprompt",
+    ],
+    promptHints: [
+      "Die - in einem Prefix befindlichen Kommentare - werden als ein <strong>gemeinsamer Prompt</strong> abgeschickt.",
+      "Jedes Kommentar, wird in einem <strong>einzelnen</strong>, <strong>seperaten Prompt</strong> abgeschickt.",
+      "",
+    ],
     numbers: [],
     apiData: null,
     isLoading: false,

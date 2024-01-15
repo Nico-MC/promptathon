@@ -52,7 +52,7 @@ export default {
   align-items: center;
   flex-direction: column;
   .prompts {
-    max-width: 500px;
+    max-width: 560px;
     width: 100%;
   }
 }
