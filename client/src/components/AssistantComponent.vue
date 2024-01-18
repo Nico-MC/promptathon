@@ -11,22 +11,26 @@
       @change="updatePromptCount"
       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
     >
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
+      <option
+        v-for="(prompt, index) in prompts2"
+        :key="index"
+        :value="index + 1"
+      >
+        {{ index + 1 }}
+      </option>
     </select>
 
-    <div v-for="n in parseInt(promptCount)" :key="n" class="mt-4">
+    <div v-for="n in parseInt(promptCount2)" :key="n" class="mt-4">
       <label
         :for="'prompt' + n"
         class="block text-sm font-medium text-gray-900"
       >
-        {{ promptDescription[n - 1] }}
+        {{ promptDescription2[n - 1] }}
       </label>
-      <p class="mb-3 text-xs text-gray-500" v-html="promptHints[n - 1]"></p>
+      <p class="mb-3 text-xs text-gray-500" v-html="promptHints2[n - 1]"></p>
       <!-- Vergrößerter Abstand -->
       <textarea
-        :value="prompts[n - 1]"
+        :value="prompts2[n - 1]"
         @input="
           updatePrompt(n - 1, $event.target.value);
           resizeTextArea($event);
@@ -49,12 +53,20 @@ export default {
     };
   },
   computed: {
-    ...mapState(["promptCount", "prompts", "promptDescription", "promptHints"]),
+    ...mapState([
+      "promptCount2",
+      "prompts2",
+      "promptDescription2",
+      "promptHints2",
+    ]),
   },
   methods: {
-    ...mapMutations(["setPromptCount", "setPrompt"]),
+    ...mapMutations(["setPromptCount2", "setPrompt2"]),
     updatePromptCount() {
-      this.setPromptCount(this.localPromptCount);
+      this.setPromptCount2(this.localPromptCount);
+    },
+    updatePrompt(index, value) {
+      this.setPrompt2({ index, value });
     },
     resizeTextArea(event) {
       event.target.style.height = "auto";
@@ -69,21 +81,18 @@ export default {
         });
       });
     },
-    updatePrompt(index, value) {
-      this.setPrompt({ index, value });
-    },
   },
   watch: {
-    promptCount(newValue) {
+    promptCount2(newValue) {
       this.localPromptCount = newValue;
     },
-    prompts() {
+    prompts2() {
       this.resizeAllTextAreas();
     },
   },
   mounted() {
     this.resizeAllTextAreas();
-    this.localPromptCount = this.promptCount;
+    this.localPromptCount = this.promptCount2;
   },
 };
 </script>
