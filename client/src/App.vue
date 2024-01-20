@@ -64,7 +64,10 @@ export default {
   methods: {
     ...mapActions(["fetchApiData"]),
     async submitToFlask() {
-      await this.fetchApiData();
+      let url = this.showAssistant
+        ? "getCategoriesForGoaeNumberFromAssistant"
+        : "getCategoriesForGoaeNumber";
+      await this.fetchApiData(url);
     },
   },
 };

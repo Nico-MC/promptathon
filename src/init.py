@@ -69,7 +69,7 @@ def group_comments_after_prefix(comments):
     grouped_comments_by_letter_dict = dict(grouped_comments_by_letter)
     return grouped_comments_by_letter_dict
 
-def write_comments_after_prefix(goae_ids: list[int]) -> None:
+def write_comments_after_prefix(goae_ids: list[object]) -> None:
     json_file = "group_comments_after_prefix.json"
     comments_after_prefix = read_json(json_file)
     for goae_id in goae_ids:
@@ -79,6 +79,23 @@ def write_comments_after_prefix(goae_ids: list[int]) -> None:
         comments = json_data[goae_id]['kommentare']
         comments_after_prefix[goae_id] = group_comments_after_prefix(comments)
     write_json(comments_after_prefix, json_file)
+
+def load_examples(json_data: str) -> list[any]:
+    examples = []
+    goae_ids = ["1", "2", "3"] # load prefered_categories from this goae_ids
+    for goae_id in goae_ids:
+        for prefix, comments in json_data[goae_id].items():
+            comments = comments['kommentare']
+            for index, comment in enumerate(comments):
+                if "prefered_categories" in comment:
+                    title = "\"title\": " + "\"" + comment['title'] + "\",\n"
+                    text = "\"text\": " + "\"" + comment['text'] + "\"\n"
+                    comment_str = title + text
+                    comment_str = re.sub(r'<[^>]+>', '', comment_str)
+                    examples.append({"role": "user", "content": comment_str})
+                    examples.append({"role": "assistant", "content": str(comment["prefered_categories"])})
+
+    return examples
 
 
 
@@ -99,7 +116,6 @@ def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get ca
         if(goae_id == None):
             return
         j = 0
-        print(goae_id)
         for prefix, comments in json_data[goae_id].items():
             comments = comments['kommentare']
             all_categories_in_prefix = []
@@ -220,3 +236,62 @@ def create_categories(json_data: dict, goae_ids: list[str], prompts: list[str]):
 # write_categories_in_json("categories_for_prefix.json", json_data)
 # json_data = get_categories_for_comment(json_data, goae_ids)
 # write_categories_in_json("categories_for_comment.json", json_data)
+
+
+
+
+
+
+
+
+
+
+def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prompts: list[str]):
+    examples = load_examples(json_data)
+    prompt = [
+        {"role": "system", "content": prompts[0]},
+        *examples
+    ]
+    # --- iterate over goae numbers --- #
+    for goae_id in goae_ids:
+        goae_id = str(goae_id)
+        if(goae_id == None):
+            return
+        j = 0
+        # --- iterate over prefixes --- #
+        for prefix, comments in json_data[goae_id].items():
+            comments = comments['kommentare']
+            # prompt_for_prefix = prompts[0]
+            # all_comments_in_prefix = ""
+            i = 1
+            # --- iterate over comments --- #
+            for index, comment in enumerate(comments):
+                title = "\"title\": " + "\"" + comment['title'] + "\",\n"
+                text = "\"text\": " + "\"" + comment['text'] + "\"\n"
+                comment_str = title + text
+                comment_str = re.sub(r'<[^>]+>', '', comment_str)
+                # all_comments_in_prefix += "\"Kommentar " + str(i) + "\": { "
+                # all_comments_in_prefix += comment_str
+                # if i == len(comments):
+                #     continue
+                # all_comments_in_prefix += "\n\n"
+                i += 1
+
+                # print(prompt)
+                temp_prompt = prompt[:]
+                temp_prompt.append({"role": "user", "content": comment_str})
+                print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | KOMMENTAR {index + 1} -----{ConsoleColors.ENDC}")
+                # print(temp_prompt)
+                categories = prompter.create_chat(temp_prompt,model="gpt-3.5-turbo-1106", temperature=0.9, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=None)
+                # categories = get_categories_out_of_str(categories)
+                print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
+                json_data[goae_id][prefix]["kommentare"][index]["kategorien"] = categories
+            j += 1
+            # prompt_for_prefix = prompt_for_prefix.replace("$comments", all_comments_in_prefix)
+            # print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | PROMPT {j} -----{ConsoleColors.ENDC}")
+            # print(prompt_for_prefix)
+            # categories = prompter.create_completion(prompt=prompt_for_prefix,model="gpt-3.5-turbo-instruct", temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
+            # categories = get_categories_out_of_str(categories)
+            # print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
+            # json_data[goae_id][prefix]["kategorien"] = categories
+    return json_data

@@ -61,23 +61,20 @@ export default createStore({
     },
   },
   actions: {
-    async fetchApiData({ commit, state }) {
+    async fetchApiData({ commit, state }, url) {
       try {
         commit("setLoading", true);
         commit("setApiData", null);
         const dataToSend = { ...state };
         delete dataToSend.apiData;
 
-        const response = await fetch(
-          "http://localhost:5000/getCategoriesForGoaeNumber",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(dataToSend),
-          }
-        );
+        const response = await fetch("http://localhost:5000/" + url, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(dataToSend),
+        });
 
         if (!response.ok) {
           throw new Error("Fehler beim Abrufen der API-Daten");
