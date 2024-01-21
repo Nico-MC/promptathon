@@ -52,6 +52,16 @@
                   <p class="text-gray-600">
                     {{ removeHtmlTags(comment.text) }}
                   </p>
+                  <p class="text-sm font-semibold">Kategorien:</p>
+                  <ul class="list-disc pl-5 mb-4">
+                    <li
+                      v-for="category in comment.categories"
+                      :key="category"
+                      class="text-gray-600"
+                    >
+                      {{ category }}
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>

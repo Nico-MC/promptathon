@@ -82,7 +82,7 @@ def write_comments_after_prefix(goae_ids: list[object]) -> None:
 
 def load_examples(json_data: str) -> list[any]:
     examples = []
-    goae_ids = ["1", "2", "3"] # load prefered_categories from this goae_ids
+    goae_ids = ["1"] # load prefered_categories from this goae_ids
     for goae_id in goae_ids:
         for prefix, comments in json_data[goae_id].items():
             comments = comments['kommentare']
@@ -246,7 +246,7 @@ def create_categories(json_data: dict, goae_ids: list[str], prompts: list[str]):
 
 
 
-def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prompts: list[str]):
+def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prefixes: list[str], prompts: list[str]):
     examples = load_examples(json_data)
     prompt = [
         {"role": "system", "content": prompts[0]},
@@ -261,6 +261,10 @@ def create_categories_from_assistant(json_data: dict, goae_ids: list[str], promp
         # --- iterate over prefixes --- #
         for prefix, comments in json_data[goae_id].items():
             comments = comments['kommentare']
+            if prefixes:
+                if prefix not in prefixes:
+                    print("skip prefix")
+                    continue
             # prompt_for_prefix = prompts[0]
             # all_comments_in_prefix = ""
             i = 1
@@ -285,7 +289,7 @@ def create_categories_from_assistant(json_data: dict, goae_ids: list[str], promp
                 categories = prompter.create_chat(temp_prompt,model="gpt-3.5-turbo-1106", temperature=0.9, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=None)
                 # categories = get_categories_out_of_str(categories)
                 print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
-                json_data[goae_id][prefix]["kommentare"][index]["kategorien"] = categories
+                json_data[goae_id][prefix]["kommentare"][index]["categories"] = ast.literal_eval(categories)
             j += 1
             # prompt_for_prefix = prompt_for_prefix.replace("$comments", all_comments_in_prefix)
             # print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | PROMPT {j} -----{ConsoleColors.ENDC}")

@@ -105,20 +105,20 @@ class OpenAIPrompter:
                 max_tokens=max_tokens, # Legt die maximale Anzahl von Tokens (Wörtern und Zeichen) fest, die in der Antwort generiert werden.
                 top_p=top_p, # Steuert die Diversität der Antwort durch Begrenzung der Token-Auswahl auf einen bestimmten Prozentsatz der wahrscheinlichsten Tokens.
                               #je näher an 1 desto mehr Kreativität, je näher an 0 desto konsistenter
-                n=n, # Anzahl der Komplettierungen
-                stream=stream, # Wenn True, werden die Antworten als kontinuierlicher Stream zurückgegeben, anstatt auf die vollständige Antwort zu warten.
-                seed=seed, # If specified, our system will make a best effort to sample deterministically, such that repeated requests with the same seed and parameters
+                # n=n, # Anzahl der Komplettierungen
+                # stream=stream, # Wenn True, werden die Antworten als kontinuierlicher Stream zurückgegeben, anstatt auf die vollständige Antwort zu warten.
+                # seed=seed, # If specified, our system will make a best effort to sample deterministically, such that repeated requests with the same seed and parameters
                             # should return the same result. Determinism is not guaranteed, and you should refer to the system_fingerprint response parameter to monitor changes in the backend.
                 stop=stop, # Hier können Sie Zeichenketten (Strings) definieren, bei denen die Komplettierung stoppen soll.
                             # Dies ist nützlich, um Antworten auf eine bestimmte Länge zu begrenzen oder um zu verhindern,
                             # dass das Modell über einen bestimmten Punkt hinaus generiert."""
                 presence_penalty=presence_penalty, # erhöht die Wahrscheinlichkeit, dass neue und unterschiedliche Themen in den Antworten erscheinen.
-                response_format=response_format, # Bestimmt das Format der Antwort, zum Beispiel ob sie als Text, JSON, etc. zurückgegeben wird.
+                # response_format=response_format, # Bestimmt das Format der Antwort, zum Beispiel ob sie als Text, JSON, etc. zurückgegeben wird.
                 frequency_penalty=frequency_penalty, # reduziert die Wahrscheinlichkeit, bereits erwähnte Themen oder Begriffe zu wiederholen, was zu vielfältigeren Antworten führen kann.
-                logit_bias=logit_bias, # Erlaubt die Anpassung der Wahrscheinlichkeiten bestimmter Tokens beim Generieren von Antworten.
+                # logit_bias=logit_bias, # Erlaubt die Anpassung der Wahrscheinlichkeiten bestimmter Tokens beim Generieren von Antworten.
                                         # Kann verwendet werden, um bestimmte Wörter oder Phrasen zu fördern oder zu vermeiden.
-                user=user, # Ein optionaler Parameter, der es ermöglicht, die Komplettierungen auf der Grundlage einer spezifischen Benutzer-ID zu personalisieren.
-                timeout=timeout # Ein Zeitlimit für die API-Anfrage.
+                # user=user, # Ein optionaler Parameter, der es ermöglicht, die Komplettierungen auf der Grundlage einer spezifischen Benutzer-ID zu personalisieren.
+                # timeout=timeout # Ein Zeitlimit für die API-Anfrage.
             )
             result = response.choices[0].message.content
             # result = [item.strip().rstrip('.') for item in result.split(',')]

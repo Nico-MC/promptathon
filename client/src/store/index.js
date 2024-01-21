@@ -25,12 +25,13 @@ export default createStore({
     ],
     promptDescription2: [
       // title over prompt textfield
-      "Kommentar-Prompt",
+      "System-Prompt",
     ],
     promptHints2: [
-      "Jedes Kommentar, wird in einem <strong>einzelnen</strong> Prompt abgeschickt. Im JSON <i>group_comments_after_prefix</i> werden alle <strong>prefered_categories</strong> als Beispiele an den Prompt angehängt.",
+      'Jedes Kommentar, wird in einem <strong>einzelnen</strong> Prompt abgeschickt. Im JSON <i>group_comments_after_prefix</i> werden alle <strong>prefered_categories</strong> als Beispiele an den Prompt angehängt.<br><i>Die Antwort muss als Array zurückkommen, z.B. ["kategorie1", "kategorie2"]</i>',
     ],
     numbers: [],
+    prefixes: [],
     apiData: null,
     isLoading: false,
   },
@@ -52,6 +53,12 @@ export default createStore({
     },
     removeNumber(state, index) {
       state.numbers.splice(index, 1);
+    },
+    addPrefix(state, prefix) {
+      state.prefixes.push(prefix);
+    },
+    removePrefix(state, index) {
+      state.prefixes.splice(index, 1);
     },
     setApiData(state, newData) {
       state.apiData = newData;

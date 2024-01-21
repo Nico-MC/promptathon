@@ -1,12 +1,2 @@
-Aktuell wird die finale Prefix-Kategorie mit 2 Promptvorgängen bestimmt:
-1. Kategorien für jedes einzelne Kommentar in einer Prefixgruppe (z.B. a) bestimmen
-2. Diese Kategorien in eine Liste packen und daraus eine finale Kategorie für das Prefix bestimmen
-
-Der 2. Prompt ist schon recht gut (siehe index.py Zeile 82), aber der 1. Prompt könnte noch verbessert werden, da
-noch Kategorien für ein Kommentar bestimmt werden, die unpassend sind.
-
-
-Einfaches Frontend bauen, als quasi Experimentierumgebung
-
-
-Mehrere Prompts
+- Prefix-Prompt über Assistant
+- Prefix Auswahl übers Frontend

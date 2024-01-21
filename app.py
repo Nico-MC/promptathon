@@ -37,14 +37,14 @@ def get_categories_for_goae_number_from_assistant():
     try:
         data = request.get_json()
         numbers = data['numbers']
+        prefixes = data['prefixes']
         prompt_count = data['promptCount2']
         prompts = data['prompts2']
 
-
         write_comments_after_prefix(numbers)
         json_data = read_json("group_comments_after_prefix.json")
-        json_data = create_categories_from_assistant(json_data, numbers, prompts)
-        # write_categories_in_json("categories_for_prefix.json", json_data)
+        json_data = create_categories_from_assistant(json_data, numbers, prefixes, prompts)
+        write_categories_in_json("categories_for_prefix.json", json_data)
         return jsonify(json_data)
     except Exception as e:
         print(f"An error occurred: {e}")
