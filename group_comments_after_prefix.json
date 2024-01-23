@@ -119,7 +119,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "postnarkotisch",
+                        "Aufwachraum"
+                    ]
                 }
             ]
         },
@@ -138,7 +142,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "postoperativ",
+                        "Visite"
+                    ]   
                 },
                 {
                     "id": 3266,
@@ -172,7 +180,10 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "stationär"
+                    ]
                 },
                 {
                     "id": 3264,
@@ -186,7 +197,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "stationär",
+                        "Uhrzeitangabe"
+                    ]
                 },
                 {
                     "id": 3267,
@@ -245,7 +260,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Verweis",
+                        "Nebeneinanderabrechnung"
+                    ]
                 }
             ]
         },
@@ -264,7 +283,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Definition"
+                    ]
+
                 },
                 {
                     "id": 3255,
@@ -279,7 +302,10 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Definition"
+                    ]
                 }
             ]
         },
@@ -367,7 +393,10 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Definition"
+                    ]
                 },
                 {
                     "id": 3258,
@@ -382,7 +411,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Nebeneinanderabrechnung",
+                        "Abschnitte C bis O"
+                    ]
                 },
                 {
                     "id": 3260,
@@ -397,7 +430,13 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Nebeneinanderabrechnung",
+                        "Abschnitte C bis O",
+                        "Verweis"
+                    ]
+                    
                 },
                 {
                     "id": 3261,
@@ -432,7 +471,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Nebeneinanderabrechnung",
+                        "Dauerdiagnosen"
+                    ]
                 },
                 {
                     "id": 3259,
@@ -526,7 +569,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Nebeneinanderabrechnung",
+                        "Verweis"
+                    ]
                 }
             ]
         },
@@ -585,7 +632,10 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Aufklärungsgespräch"
+                    ]
                 }
             ]
         }
@@ -606,7 +656,10 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Scannen von Dokumenten"
+                    ]
                 }
             ],
             "kategorien": ""
@@ -626,7 +679,10 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "ohne Beratung"
+                    ]
                 },
                 {
                     "id": 1925,
@@ -641,7 +697,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Definition"
+                        "Inanspruchnahme des Arztes"
+                    ]
                 }
             ],
             "kategorien": ""
@@ -661,7 +721,10 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Zuschlagsfähigkeit"
+                    ]
                 }
             ],
             "kategorien": ""
@@ -681,7 +744,10 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Nebeneinanderabrechnung"
+                    ]
                 }
             ],
             "kategorien": ""
@@ -701,7 +767,10 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "stationär"
+                    ]
                 }
             ],
             "kategorien": ""
