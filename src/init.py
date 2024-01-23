@@ -74,9 +74,8 @@ def write_comments_after_prefix(goae_ids: list[object]) -> None:
     comments_after_prefix = read_json(json_file)
     for goae_id in goae_ids:
         goae_id = str(goae_id)
-        zifferTitle = json_main_data[goae_id]['zifferText'] # text is here actually title
-        comments_after_prefix[goae_id]['zifferTitle'] = zifferTitle
-        print(comments_after_prefix)
+        # zifferTitle = json_main_data[goae_id]['zifferText'] # text here is actually title
+        # comments_after_prefix[goae_id]['_zifferTitle'] = zifferTitle
         if goae_id in comments_after_prefix:
             continue
         comments = json_main_data[goae_id]['kommentare']
@@ -85,7 +84,7 @@ def write_comments_after_prefix(goae_ids: list[object]) -> None:
 
 def load_examples(json_data: str) -> list[any]:
     examples = []
-    goae_ids = ["1"] # load prefered_categories from this goae_ids
+    goae_ids = ["1", "2", "3"] # load prefered_categories from this goae_ids
     for goae_id in goae_ids:
         for prefix, comments in json_data[goae_id].items():
             comments = comments['kommentare']
@@ -239,15 +238,18 @@ def create_categories(json_data: dict, goae_ids: list[str], prompts: list[str]):
 
 
 
-def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prefixes: list[str], prompts: list[str]):
+def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prefixes: list[str], prompts: list[str], format: bool = False):
     examples = load_examples(json_data)
     prompt = [
         {"role": "system", "content": prompts[0]},
         *examples
     ]
+    formatted_json_data = {}
     # --- iterate over goae numbers --- #
     for goae_id in goae_ids:
         goae_id = str(goae_id)
+        if goae_id not in formatted_json_data:
+            formatted_json_data[goae_id] = {}
         if(goae_id == None):
             return
         j = 0
@@ -256,8 +258,9 @@ def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prefi
             comments = comments['kommentare']
             if prefixes:
                 if prefix not in prefixes:
-                    print("skip prefix")
                     continue
+            if prefix not in formatted_json_data[goae_id]:
+                formatted_json_data[goae_id][prefix] = {"kommentare": []}
             # prompt_for_prefix = prompts[0]
             # all_comments_in_prefix = ""
             i = 1
@@ -279,7 +282,14 @@ def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prefi
                 temp_prompt.append({"role": "user", "content": comment_str})
                 print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | KOMMENTAR {index + 1} -----{ConsoleColors.ENDC}")
                 print(temp_prompt)
-                categories = prompter.create_chat(temp_prompt,model="gpt-3.5-turbo-1106", temperature=0.9, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=None)
+                categories = prompter.create_chat(temp_prompt,model="gpt-3.5-turbo-16k", temperature=0.9, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=None)
+                cmt = {
+                    "zifferNr": comment['zifferNr'],
+                    "title": comment['title'],
+                    "text": comment['text'],
+                    "categories": ast.literal_eval(categories)
+                }
+                formatted_json_data[goae_id][prefix]["kommentare"].append(cmt)
                 # categories = get_categories_out_of_str(categories)
                 print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
                 json_data[goae_id][prefix]["kommentare"][index]["categories"] = ast.literal_eval(categories)
@@ -291,4 +301,7 @@ def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prefi
             # categories = get_categories_out_of_str(categories)
             # print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
             # json_data[goae_id][prefix]["kategorien"] = categories
-    return json_data
+    if format == True:
+        return formatted_json_data
+    else:
+        return json_data
