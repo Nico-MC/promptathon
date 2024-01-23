@@ -285,7 +285,7 @@ def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prefi
                 temp_prompt = prompt[:]
                 temp_prompt.append({"role": "user", "content": comment_str})
                 print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | KOMMENTAR {index + 1} -----{ConsoleColors.ENDC}")
-                # print(temp_prompt)
+                print(temp_prompt)
                 categories = prompter.create_chat(temp_prompt,model="gpt-3.5-turbo-1106", temperature=0.9, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=None)
                 # categories = get_categories_out_of_str(categories)
                 print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
