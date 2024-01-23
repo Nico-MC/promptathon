@@ -1773,5 +1773,266 @@
             ],
             "kategorien": ""
         }
+    },
+    "6": {
+        "f": {
+            "kommentare": [
+                {
+                    "id": 5637,
+                    "zifferNr": "6",
+                    "prefix": "f)",
+                    "title": "Nr. 6 nicht neben Nr. 28",
+                    "createdOn": "2021-05-24T21:01:31.698",
+                    "updatedOn": "2021-05-24T21:01:37.029",
+                    "publishedOn": "2016-12-20T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zu Nr. 28</p><p></p><p></p><p></p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "e": {
+            "kommentare": [
+                {
+                    "id": 5636,
+                    "zifferNr": "6",
+                    "prefix": "e)",
+                    "title": "Leistungsinhalt der Nrn. 6 bzw. 7 nur bei komplettem Organstatus",
+                    "createdOn": "2021-05-24T21:01:31.696",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2012-08-04T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Nrn. 6 oder 7 können nicht berechnet werden, wenn nur ein Teil der in den Anmerkungen zu den Ziffern beschriebenen Untersuchung durchgeführt wurde.</p><p>Grundsätzlich gilt, dass eine Leistung erst dann berechnet werden kann, wenn sie vollständig erbracht wurde. Zudem verlangen die Nrn. 6 und 7 \"vollständige körperliche Untersuchungen\". Das heißt, wenn der jeweils von der Anmerkung verlangte Leistungsumfang nicht erbracht wurde, ist die Ziffer nicht berechenbar. Stattdessen ist eine entsprechende andere Leistung zu berechnen.</p><p>Beispiel:</p><p>Für den Gefäßstatus nach Nr. 6 verlangt die Anmerkung die Palpation und ggf. Auskultation der Arterien an beiden Handgelenken, Ellenbeugen, Achseln, Fußrücken, Sprunggelenken, Kniekehlen etc. Für die Untersuchung der arteriellen Gefäße nur an den unteren Extremitäten ist die Nr. 6 GOÄ deshalb nicht berechenbar. Auch wenn zu der Untersuchung der Bein- und Fußgefäße noch zusätzlich andere Befunde (wie zum Beispiel Ulcera) erhoben werden, macht das die Untersuchung nicht zu einem vollständigen Gefäßstatus.</p><p>Für die \"kleinere\" Untersuchungsleistung ist nur 5 (symptombezogene Untersuchung) berechenbar. Diese kann dann wegen des gegenüber einer durchschnittlichen symptombezogenen Untersuchung erhöhten Aufwands mit einem höheren Faktor (bis 3,5-fach) berechnet werden. Begründung zum Beispiel: \"Ausführliche Untersuchung mehrerer Regionen und Befunde\".</p><p>(Chefärzte Brief, Ausgabe 3/2012, Seite 19)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "d": {
+            "kommentare": [
+                {
+                    "id": 5635,
+                    "zifferNr": "6",
+                    "prefix": "d)",
+                    "title": "Nr. 6 und Nrn. 1415 und 1530",
+                    "createdOn": "2021-05-24T21:01:31.693",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2012-06-09T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Hinweis für Sachbearbeiter:</p><p>Die Nr. 6 umfasst die \"vollständige körperliche Untersuchung\" zum Beispiel des gesamten HNO-Bereichs. Spezielle Untersuchungsverfahren wie zum Beispiel die binokularmikroskopische Untersuchung (Nr. 1415) oder die Untersuchung des Kehlkopfs mit dem Laryngoskop (Nr. 1530) sind nicht Bestandteil der Nr. 6 und können daher neben der Nr. 6 abgerechnet werden. (BÄK im DÄB vom 15.10.2010)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "c": {
+            "kommentare": [
+                {
+                    "id": 5634,
+                    "zifferNr": "6",
+                    "prefix": "c)",
+                    "title": "Nr. 6 nicht für Zungendiagnostik/Pulsdiagnostik",
+                    "createdOn": "2021-05-24T21:01:31.69",
+                    "updatedOn": "2021-05-24T21:01:37.028",
+                    "publishedOn": "2011-09-19T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Eine adäquate Zungen- und Pulsdiagnostik ist keine mit dem analogen Ansatz der Nr. 6 abrechnungsfähige Leistung. Das Betrachten der Zunge und die Beurteilung der Pulsqualitäten ist seit altersher Bestandteil der medizinischen Behandlung. Abrechnungstechnisch sind diese Leistungen Untermengen der Untersuchungsleistungen nach den Nrn. 5, 6, 7 und 8 und keine Hauptmenge. Das Betrachten und Beurteilen der Zunge und des Pulses kann jedoch mit der Nr. 5 (symptombezogene Untersuchung) abgerechnet werden. </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "b": {
+            "kommentare": [
+                {
+                    "id": 5633,
+                    "zifferNr": "6",
+                    "prefix": "b)",
+                    "title": "Nr. 6 nicht neben Nr. 448 bzw. Nr. 449",
+                    "createdOn": "2021-05-24T21:01:31.688",
+                    "updatedOn": "2021-05-24T21:01:37.028",
+                    "publishedOn": "2011-01-26T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zur Nr. 448 </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "id": 5632,
+                    "zifferNr": "6",
+                    "prefix": "a)",
+                    "title": "Nr. 6 und Miktionsprotokoll",
+                    "createdOn": "2021-05-24T21:01:31.686",
+                    "updatedOn": "2021-05-24T21:01:37.028",
+                    "validated": true,
+                    "text": "<p>Ein Miktionsprotokoll (Aufschreiben wann der Patient wieviel Urin lässt) ist keine ärztlich abrechnungsfähige Leistung. Die Nr. 6 ist daher zu streichen. </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
+    },
+    "50": {
+        "g": {
+            "kommentare": [
+                {
+                    "id": 3139,
+                    "zifferNr": "77",
+                    "prefix": "g)",
+                    "title": "Nr. 77 und Behandlungsplan für künstliche Befruchtung",
+                    "createdOn": "2021-05-24T21:01:26.125",
+                    "updatedOn": "2021-05-24T21:01:36.515",
+                    "publishedOn": "2013-08-08T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Wenn die Aufstellung eines \"Behandlungsplanes für künstliche Befruchtung\" nach Anlage 1 der Richtlinien über künstliche Befruchtung des Gemeinsamen Bundesausschusses erfolgt, sollte auch im GOÄ-Bereich eine Abrechnung möglich sein.</p><p>Im EBM ist die Leistung 08510 mit 180 Punkten bewertet. Dies entspricht einem theoretischen Honorar von € 18,00, wobei jedoch darauf hinzuweisen ist, dass der den Ärzten für den EBM versprochene Punktwert von 10 Cent / Punkt auch nicht annähernd bezahlt wird. 2013 sind es um die 5 Cent (abhängig von der jeweiligen Kassenärztlichen Vereinigung). Dies entspricht dann einem tatsächlichen Honorar von ca € 9,--.</p><p>Unter dem Aspekt, dass eigentlich ca. € 18,00 zu bezahlen wären, ist im GOÄ-Bereich die Verwendung einer analogen Nummer, die inklusive des Abrechnungsfaktors nicht teurer ist als ca. € 20,00, vertretbar. Welche Nummer dafür letztlich verwendet wird, ist dabei zunächst von untergeordneter Bedeutung. Da in der Regel jedoch der 2,3-fache Faktor verwendet wird, ist die Nr. 77 vorzuziehen (€ 20,11). Das Honorar der Nr. 78 ist bei 2,3-fachem Faktor zu hoch und das Honorar der Nr. 76 ist zu niedrig.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "f": {
+            "kommentare": [
+                {
+                    "id": 3138,
+                    "zifferNr": "77",
+                    "prefix": "f)",
+                    "title": "Nr. 77 nicht für Planung einer stationären medizinischen Behandlung",
+                    "createdOn": "2021-05-24T21:01:26.123",
+                    "updatedOn": "2021-05-24T21:01:36.515",
+                    "publishedOn": "2009-11-18T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die Durchführung einer stationären Behandlung wird mit den hierfür vorgesehenen Gebührenordnungsnummern (z.B. Visiten, körperlichen und technischen Untersuchungen) abgerechnet. </p><p>Die Nr. 77 hat einen klar definierten Leistungsumfang, der mit der Aufnahme eines Patienten zur stationären Behandlung und den Überlegungen, wie diese Behandlung zu beginnen und durchzuführen ist, nichts zu tun hat. Der Versuch, eine Einleitung einer stationären Behandlung mit der Nr. 77 analog abzurechnen, ist zurückzuweisen.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "e": {
+            "kommentare": [
+                {
+                    "id": 3137,
+                    "zifferNr": "77",
+                    "prefix": "e)",
+                    "title": "Nr. 77 nicht schriftliche Verordnung und Leitung einer Therapie",
+                    "createdOn": "2021-05-24T21:01:26.12",
+                    "updatedOn": "2021-05-24T21:01:36.514",
+                    "publishedOn": "2004-01-13T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die schriftliche Verordnung und Leitung einer Therapie ist nicht gleichzusetzen mit der Planung und Leitung einer Kur. Die Nr. 77 muss daher gestrichen werden.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "d": {
+            "kommentare": [
+                {
+                    "id": 3136,
+                    "zifferNr": "77",
+                    "prefix": "d)",
+                    "title": "Nr. 77 nicht für Planung einer phys.med. Therapie",
+                    "createdOn": "2021-05-24T21:01:26.118",
+                    "updatedOn": "2021-05-24T21:01:36.514",
+                    "publishedOn": "2001-01-23T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die Planung einer physikalisch-medizinischen Therapie ist Bestandteil der Durchführung einer solchen Therapie und somit ist keine zusätzlich abrechnungsfähige Leistung. Solche Planungen sind seit Bestehen der GOÄ bekannt und wurden bei keiner der wiederholten Novellierungen in die GOÄ aufgenommen. Auch die Bundesärztekammer (BÄK) hat zu keinem Zeitpunkt hierfür eine analoge Nummer empfohlen. Die Nr. 77 hat einen völlig anderen Leistungsinhalt und kann aus den o.a. Gründen auch analog hierfür nicht angesetzt werden.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "c": {
+            "kommentare": [
+                {
+                    "id": 3135,
+                    "zifferNr": "77",
+                    "prefix": "c)",
+                    "title": "Nr. 77 nicht für Anordnung zur Weiterbehandlung",
+                    "createdOn": "2021-05-24T21:01:26.115",
+                    "updatedOn": "2021-05-24T21:01:36.514",
+                    "publishedOn": "2000-05-20T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Vorstellung, dass die schriftliche Anordnung einer Weiterbehandlung gleichzusetzen ist mit einer schriftlichen, individuellen Planung und Leitung einer Kur mit diätetischen, balneologischen und/oder klimatherapeutischen Maßnahmen unter Einbeziehung gesundheitserzieherischer Aspekte, kann nicht nachvollzogen werden. Es handelt sich hier allenfalls um einen vorläufigen Entlassungsbericht, der mit der Nr. 72A abgerechnet werden kann. Die Nr. 77 ist daher in die Nr. 72A umzuwandeln.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "id": 3133,
+                    "zifferNr": "77",
+                    "prefix": "a)",
+                    "title": "Nr. 77 A, Anschlussheilbehandlung",
+                    "createdOn": "2021-05-24T21:01:26.111",
+                    "updatedOn": "2021-05-24T21:01:36.513",
+                    "validated": true,
+                    "text": "<p>Es wurde die Nr. 77 A für eine individuelle Planung und Organisation einer Anschlussheilbehandlung abgerechnet. Diese Leistung kann in dieser Form nicht abgerechnet werden, da die Nr. 77 nicht nur die Erstellung eines Behandlungsplans, sondern auch die Leitung während der gesamten Kur beinhaltet. Dies liegt hier eindeutig nicht vor, so dass die Nr. 77 A zu streichen ist.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "b": {
+            "kommentare": [
+                {
+                    "id": 3134,
+                    "zifferNr": "77",
+                    "prefix": "b)",
+                    "title": "Nr. 77, postoperativer Therapieplan",
+                    "createdOn": "2021-05-24T21:01:26.113",
+                    "updatedOn": "2021-05-24T21:01:36.514",
+                    "validated": true,
+                    "text": "<p>Die Nr. 77 ist hier nicht ansatzfähig, weil es sich nicht um eine Kur mit einer entsprechenden Leitung (!) dieser Kur handelt, sondern um einen postoperativen Therapieplan, der Bestandteil der stationären Behandlung insgesamt ist. </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
     }
 }
