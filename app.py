@@ -44,7 +44,7 @@ def get_categories_for_goae_number_from_assistant():
         write_comments_after_prefix(numbers)
         json_data = read_json("group_comments_after_prefix.json")
         json_data = create_categories_from_assistant(json_data, numbers, prefixes, prompts)
-        write_categories_in_json("categories_for_prefix.json", json_data)
+        # write_categories_in_json("categories_for_prefix.json", json_data)
         return jsonify(json_data)
     except Exception as e:
         print(f"An error occurred: {e}")

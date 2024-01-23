@@ -14,7 +14,7 @@ load_dotenv()
 json_file = os.getenv('JSON_FILE')
 encoding = os.getenv('ENCODING')
 
-json_data = read_json(json_file, encoding)
+json_main_data = read_json(json_file, encoding)
 
 prompter = OpenAIPrompter()
 finetuner = OpenAIFinetuner()
@@ -26,8 +26,8 @@ finetuner = OpenAIFinetuner()
 # load json file
 # json_file = os.getenv('JSON_FILE')
 # encoding = os.getenv('ENCODING')
-# json_data = sort_json(read_json(json_file, encoding))
-# json_data = read_json(json_file, encoding)
+# json_main_data = sort_json(read_json(json_file, encoding))
+# json_main_data = read_json(json_file, encoding)
 
 # logit_bias = {}
 # logit_bias_data = read_json("logit_bias.json")
@@ -74,9 +74,12 @@ def write_comments_after_prefix(goae_ids: list[object]) -> None:
     comments_after_prefix = read_json(json_file)
     for goae_id in goae_ids:
         goae_id = str(goae_id)
+        zifferTitle = json_main_data[goae_id]['zifferText'] # text is here actually title
+        comments_after_prefix[goae_id]['zifferTitle'] = zifferTitle
+        print(comments_after_prefix)
         if goae_id in comments_after_prefix:
             continue
-        comments = json_data[goae_id]['kommentare']
+        comments = json_main_data[goae_id]['kommentare']
         comments_after_prefix[goae_id] = group_comments_after_prefix(comments)
     write_json(comments_after_prefix, json_file)
 
@@ -228,16 +231,6 @@ def create_categories(json_data: dict, goae_ids: list[str], prompts: list[str]):
             print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
             json_data[goae_id][prefix]["kategorien"] = categories
     return json_data
-
-# goae_ids = ["1", "2"]
-# write_comments_after_prefix(goae_ids)
-# json_data = read_json("group_comments_after_prefix.json")
-# json_data = get_categories_for_prefix(json_data, goae_ids)
-# write_categories_in_json("categories_for_prefix.json", json_data)
-# json_data = get_categories_for_comment(json_data, goae_ids)
-# write_categories_in_json("categories_for_comment.json", json_data)
-
-
 
 
 
