@@ -15,10 +15,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Nebeneinanderabrechnung"
+                    ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "n": {
             "kommentare": [
@@ -35,10 +37,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Textvorschlag"
+                    ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "m": {
             "kommentare": [
@@ -55,10 +59,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Verweis"
+                    ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "g": {
             "kommentare": [
@@ -75,7 +81,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "postnarkotisch",
+                        "stationär"
+                    ]
                 },
                 {
                     "id": 3276,
@@ -90,7 +100,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "postoperativ",
+                        "Beratung von Angehörigen"
+                    ]
                 },
                 {
                     "id": 3274,
@@ -111,8 +125,7 @@
                         "Aufwachraum"
                     ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "c": {
             "kommentare": [
@@ -148,7 +161,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "stationär",
+                        "Visite"
+                    ]
                 },
                 {
                     "id": 3265,
@@ -198,10 +215,13 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "stationär",
+                        "Abschlussberatung"
+                    ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "l": {
             "kommentare": [
@@ -218,10 +238,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Beratung durch Mitarbeiter"
+                    ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "k": {
             "kommentare": [
@@ -244,8 +266,7 @@
                         "Nebeneinanderabrechnung"
                     ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "a": {
             "kommentare": [
@@ -286,8 +307,7 @@
                         "Definition"
                     ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "j": {
             "kommentare": [
@@ -304,10 +324,13 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "postoperativ",
+                        "Beratung von Angehörigen"
+                    ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "i": {
             "kommentare": [
@@ -324,10 +347,13 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Hautkrebsfrüherkennungsuntersuchung",
+                        "Verweis"
+                    ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "h": {
             "kommentare": [
@@ -344,10 +370,13 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Analogabrechnung",
+                        "Gesprächsleistung"
+                    ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "b": {
             "kommentare": [
@@ -422,7 +451,12 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Abschnitte C bis O",
+                        "erhöhter Faktor",
+                        "Verweis"
+                    ]
                 },
                 {
                     "id": 3263,
@@ -456,7 +490,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Mehrfachabrechnung",
+                        "Leistungen C bis O"
+                    ]
                 },
                 {
                     "id": 3262,
@@ -471,7 +509,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Mehrfachabrechnung",
+                        "Abschnitte C bis O"
+                    ]
                 },
                 {
                     "id": 3257,
@@ -485,10 +527,13 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Mehrfachabrechnung",
+                        "Kapitel C bis O"
+                    ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "f": {
             "kommentare": [
@@ -505,7 +550,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "Nebeneinanderabrechnung",
+                        "selbe Person"
+                    ]
                 },
                 {
                     "id": 3272,
@@ -526,8 +575,7 @@
                         "Verweis"
                     ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "d": {
             "kommentare": [
@@ -544,7 +592,11 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "technische Untersuchung",
+                        "Verweis"
+                    ]
                 },
                 {
                     "id": 3269,
@@ -558,10 +610,13 @@
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",
-                    "author": "martin-gebuehreninfo"
+                    "author": "martin-gebuehreninfo",
+                    "prefered_categories": [
+                        "radiologische Untersuchung",
+                        "Aufklärungsgespräch"
+                    ]
                 }
-            ],
-            "kategorien": ""
+            ]
         },
         "e": {
             "kommentare": [
@@ -582,10 +637,8 @@
                         "Aufklärungsgespräch"
                     ]
                 }
-            ],
-            "kategorien": ""
-        },
-        "zifferTitle": "Beratung - auch mittels Fernsprecher -"
+            ]
+        }
     },
     "2": {
         "h": {
@@ -646,7 +699,7 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                        "Definition"
+                        "Definition",
                         "Inanspruchnahme des Arztes"
                     ]
                 }
