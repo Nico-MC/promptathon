@@ -14,7 +14,7 @@ load_dotenv()
 json_file = os.getenv('JSON_FILE')
 encoding = os.getenv('ENCODING')
 
-json_main_data = read_json(json_file, encoding)
+json_main_data = sort_json(read_json('ziffern.json', encoding))
 
 prompter = OpenAIPrompter()
 finetuner = OpenAIFinetuner()
