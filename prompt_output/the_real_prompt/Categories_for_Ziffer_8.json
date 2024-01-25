@@ -1,0 +1,91 @@
+{
+    "8": {
+        "f": {
+            "kommentare": [
+                {
+                    "zifferNr": "8",
+                    "title": "Nr. 8 nicht neben Nr. 28",
+                    "text": "<p>siehe Kommentar zu Nr. 28</p><p></p><p></p><p></p>",
+                    "categories": [
+                        "Nebeneinanderabrechnung",
+                        "Verweis"
+                    ]
+                }
+            ]
+        },
+        "e": {
+            "kommentare": [
+                {
+                    "zifferNr": "8",
+                    "title": "Nr. 8 nicht neben Nr. 448 bzw. Nr. 449",
+                    "text": "<p>siehe Kommentar zur Nr. 448 </p><p></p>",
+                    "categories": [
+                        "Nebeneinanderabrechnung",
+                        "Verweis"
+                    ]
+                }
+            ]
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "zifferNr": "8",
+                    "title": "Nr. 8 nicht für Untersuchung der Brust",
+                    "text": "<p>Die Untersuchung der Mammae (Brustdrüsen) und der dazugehörigen Lymphstromgebiete ist nicht mit der Nr. 8, sondern mit der Nr. 5 zu berechnen.</p><p></p>",
+                    "categories": [
+                        "Untersuchung der Brust",
+                        "Nr. 5"
+                    ]
+                },
+                {
+                    "zifferNr": "8",
+                    "title": "Nr. 8 und z.B. Gynäkologen, Urologen und andere Fachgruppen",
+                    "text": "<p>Die Nr. 8 honoriert die Untersuchung des Ganzkörperstatus. Gemäß der 2. Anmerkung nach der Nr. 8 in der GOÄ beinhaltet der Ganzkörperstatus die Untersuchung der Haut, der sichtbaren Schleimhäute, der Brust- und der Bauchorgane, der Stütz- und Bewegungsorgane sowie eine orientierende neurologische Untersuchung. Gemäß Kommentar nach Brück ist die Leistung nach Nr. 8 nur für diejenigen Arztgruppen abrechnungsfähig, denen die Erhebung des Ganzkörperstatus weiterbildungsrechtlich zugeordnet werden kann. Dies ist bei folgenden Arztgruppen der Fall: praktische Ärzte, Allgemeinärzte, Internisten, Kinderärzte, Chirurgen. Für Ärzte mit anderen Gebietsbezeichnungen ist die Nr. 8 nur berechnungsfähig, wenn sie im Rahmen einer Notfallsituation außerhalb ihres Fachgebiets tätig werden und die Durchführung eines Ganzkörperstatus indiziert ist (soweit Kommentar nach Brück). Es ist auch nicht nachvollziehbar, dass bei der hier durchgeführten bzw. geplanten Operation z.B. eine Untersuchung der Stütz- und Bewegungsorgane erforderlich ist. Da jedoch eine Untersuchung ohne Zweifel stattgefunden hat, ist die Nr. 8 in die Nr. 7 umzuwandeln. </p><p></p>",
+                    "categories": [
+                        "Ganzkörperstatus",
+                        "Fachgruppen",
+                        "Umwandlung in Nr. 7"
+                    ]
+                }
+            ]
+        },
+        "b": {
+            "kommentare": [
+                {
+                    "zifferNr": "8",
+                    "title": "Nr. 8 neben Visite",
+                    "text": "<p>Es wurde eine Visite gemäß Nr. 45 und später die Nr. 8 für die Untersuchung zur Erhebung eines Ganzkörperstatus abgerechnet. Gemäß den eindeutigen Bestimmungen kann weder anstelle noch neben einer Visite die Nr. 8 zum Ansatz kommen, so dass sie umgewandelt werden muss in eine Zweitvisite. Die abzuziehende Honorardifferenz beträgt </p><p></p>",
+                    "categories": [
+                        "Nebeneinanderabrechnung",
+                        "Visite"
+                    ]
+                }
+            ]
+        },
+        "c": {
+            "kommentare": [
+                {
+                    "zifferNr": "8",
+                    "title": "Nr. 8, Begründung für hohen Faktor",
+                    "text": "<p>Es wurde die Nr. 8 für eine Untersuchung zur Erhebung des Ganzkörperstatus abgerechnet. Diese Leistung wurde mit dem Faktor 3,5 versehen mit der Begründung \"sehr umfangreiche körperliche Untersuchung aller Organsysteme\". Diese Begründung ist keinesfalls eine Begründung für den Faktor 3,5 bei einer Untersuchungsleistung, die a priori bereits die Untersuchung des Ganzkörperstatus beinhaltet. Nur wenn die Untersuchung sehr schwierig gewesen wäre, hätte ggf. ein höherer Faktor verwendet werden können. Die angegebene Begründung reicht jedoch keinesfalls aus. Der Faktor ist daher auf 2,3 zu reduzieren. Die abzuziehende Honorardifferenz beträgt </p><p></p>",
+                    "categories": [
+                        "Faktor",
+                        "Begründung"
+                    ]
+                }
+            ]
+        },
+        "d": {
+            "kommentare": [
+                {
+                    "zifferNr": "8",
+                    "title": "Nr. 8, Narkosenachuntersuchung",
+                    "text": "<p>Eine Narkose ohne entsprechende Nachuntersuchung wäre ein Kunstfehler. Insoweit ist die Nachuntersuchung immanenter Bestandteil. Jeder Abrechnungsversuch ist unzulässig. Die Nr. 8 für die Narkosenachuntersuchung ist daher zu streichen. </p><p></p>",
+                    "categories": [
+                        "Narkosenachuntersuchung"
+                    ]
+                }
+            ]
+        }
+    }
+}

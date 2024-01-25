@@ -137,7 +137,7 @@
     },
     {
         "role": "user",
-        "content": "\"title\": \"Nr. 1, 3, 20, 30, 31, 33, 34 analog nicht berechenbar\",\n\"text\": \"Häufig werden für zeitaufwändige Gespräche die Nummern 30, 31 oder Gebührenpositionen aus dem Abschnitt G \"Neurologie, Psychiatrie und Psychotherapie\" herangezogen. Eine analoge Bewertung kann nach asd nur für selbstständige ärztliche Leistungen gebildet werden, die nicht in die GOÄ aufgenommen sind.Sowohl kurze (Nr. 1) als auch zeitaufwändige (Nr. 3 und besondere (Nr. 30, Nr. 34) Gesprächs- und Komplexleistungen (Nr. 30 und 31) sowie strukturierte Schulungen (Nr. 33) sind in die GOÄ aufgenommen, so dass eine analoge Bewertung für Gesprächsleistungen ausscheidet.(Deutsches Ärzteblatt, Heft 14, Seite C828 vom 06.04.2007)\"\n"
+        "content": "\"title\": \"Nr. 1, 3, 20, 30, 31, 33, 34 analog nicht berechenbar\",\n\"text\": \"Häufig werden für zeitaufwändige Gespräche die Nummern 30, 31 oder Gebührenpositionen aus dem Abschnitt G \"Neurologie, Psychiatrie und Psychotherapie\" herangezogen. Eine analoge Bewertung kann nach § 6 (2) nur für selbstständige ärztliche Leistungen gebildet werden, die nicht in die GOÄ aufgenommen sind.Sowohl kurze (Nr. 1) als auch zeitaufwändige (Nr. 3 und besondere (Nr. 30, Nr. 34) Gesprächs- und Komplexleistungen (Nr. 30 und 31) sowie strukturierte Schulungen (Nr. 33) sind in die GOÄ aufgenommen, so dass eine analoge Bewertung für Gesprächsleistungen ausscheidet.(Deutsches Ärzteblatt, Heft 14, Seite C828 vom 06.04.2007)\"\n"
     },
     {
         "role": "assistant",
@@ -321,10 +321,154 @@
     },
     {
         "role": "user",
+        "content": "\"title\": \"Nr. 3 nicht für mittelbare Beratung durch Mitarbeiterin\",\n\"text\": \"Auch wenn ein Gespräch der Mitarbeiterin mit dem Patienten durchaus den Charakter einer Beratung haben kann, ist Nr. 3 nicht abrechenbar. Die Beratung ist keine delegierbare Leistunge. Berechenbar ist hier nur die Nr. 2 (\"Übermittlung von ärztlichen Anordnungen\").(Abrechnung aktuell, Ausgabe 2/2012, Seite 15)\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Beratung durch Mitarbeiter']"
+    },
+    {
+        "role": "user",
         "content": "\"title\": \"Nr. 3 und Aufklärungsgespräch vor Untersuchungen\",\n\"text\": \"Aufklärungsgespräche vor Untersuchungsleistungen waren noch nie eigenständig abrechnungsfähige Leistungen. Hierfür kann weder eine psychiatrische Leistung noch die Nr. 3 abgerechnet werden. Bezüglich der Nr. 3 ist außerdem darauf zu verweisen, dass diese Nummer überhaupt nur abgerechnet werden kann, wenn sie alleine abgerechnet wird. Daneben dürfen allenfalls die Nrn. 5, 6, 7, 8, 800 oder 801 zusätzlich abgerechnet werden. Andere Nummern daneben sind ausgeschlossen (Anmerkung nach Nr. 3 in der GOÄ). Da andere höherwertige Leistungen gleichzeitig abrechnet wurden, ist die Nr. 3 zu streichen. \"\n"
     },
     {
         "role": "assistant",
         "content": "['Aufklärungsgespräch']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 3 nicht neben Nr. 448 bzw. Nr. 449\",\n\"text\": \"siehe Kommentar zur Nr. 448 \"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Nebeneinanderabrechnung', 'Verweis']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 3, Abrechnung der Hautkrebsfrüherkennungsuntersuchung, BÄK\",\n\"text\": \"Die Hautkrebsfrüherkennungsuntersuchung kann mit der Nr. 7 (\"vollständige körperliche Untersuchung mindestens eines der folgenden Organsysteme: das gesamte Hautorgan...\") abgerechnet werden. Zusätzlich erfolgt eine Beratungsleistung gemäß Nr. 1 oder (bei ausführlicher, länger dauernder Beratung) gemäß Nr. 3. Wenn zusätzlich die Nr. 750 (Auflichtmikroskopie der Haut) abgerechnet wird, kann die Nr. 3 nicht abgerechnet werden. In diesem Falle kann nur die Nr. 1 (bei erhöhtem Zeitaufwand gegebenenfalls mit erhöhtem Faktor) liquidiert werden (BÄK, Deutsches Ärzteblatt Heft 40, 02.10.2009)\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Hautkrebsfrüherkennungsuntersuchung', 'Nebeneinanderabrechnung mit Nr. 750']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 1, 3, 20, 30, 31, 33, 34 analog nicht berechenbar\",\n\"text\": \"siehe Kommentar zu Nr. 1\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Analogberechenbarkeit']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 5 nicht neben Nr. 28\",\n\"text\": \"siehe Kommentar zu Nr. 28\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Nebeneinanderabrechnung', 'Verweis']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 1 und 5 nicht neben Nrn. 45 bzw. 46 wenn keine Besonderheiten vorliegen, ÄK\",\n\"text\": \"siehe Kommentar zu Nr. 45\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Nebeneinanderabrechnung', 'Verweis']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 5 und Visite (Nrn. 45,46)\",\n\"text\": \"Es wurde eine symptombezogene Untersuchung und später eine Visite abgerechnet. Die symptombezogene Untersuchung gemäß Nr. 5 kann weder anstelle noch neben einer Visite zum Ansatz kommen, so dass die Nr. 5 in eine Zweitvisite umzuwandeln ist. Die abzuziehende Honorardifferenz beträgt \"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Nebeneinanderabrechnung', 'Visite']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 5 und stationäre Behandlung\",\n\"text\": \"Nach der Herzkatheteruntersuchung wurde die Nr. 5 für eine symptombezogene Untersuchung abgerechnet. Dies ist bei stationärer Behandlung eigentlich nicht möglich, ausgenommen der Zustand des Patienten hat sich verschlechtert und es ist exakt um diese Uhrzeit eine Untersuchung unvorhersehbar notwendig geworden. Dies ist nach einer Herzkatheteruntersuchung ohne weiteres vorstellbar, so dass die Nr. 5 hier belassen werden sollte.\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['stationär', 'Herzkatheteruntersuchung']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 5 nicht neben Nr. 448 bzw. Nr. 449\",\n\"text\": \"siehe Kommentar zur Nr. 448 \"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Nebeneinanderabrechnung', 'Verweis']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 5 nicht für Narkoseuntersuchung präoperativ LG-Urteil\",\n\"text\": \"Die präoperative Erfassung aller relevanten Befunde ist nicht gesondert berechenbar und steht mit der Erfüllung der Zielleistung in einem engen Zusammenhang (LG München II, 10.02.2009, Az.: 8S3626/08).\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['präoperative Befunderfassung', 'Urteil']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nrn. 1 und 5 mehrfach innerhalb eines Behandlungsfalles ( 1Monat)\",\n\"text\": \"Gemäß den Allgemeinen Bestimmungen kann die Nr. 5 im Zusammenhang mit Leistungen der Kapitel C bis O im Behandlungsfall (1 Monat) nur 1-mal zum Ansatz kommen. Alle darüber hinausgehenden Ansätze innerhalb dieses Zeitraums (1 Monat) sind daher zu streichen. Dies gilt nur dann nicht, wenn innerhalb dieser Zeit eine neue Erkrankung behandelt wird. Dies müsste dann aber aus der Rechnung hervorgehen.\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Mehrfachabrechnung', 'Leistungen C bis O']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 5 , 1, 3-8 und 15 stationär nur krankheitsbedingt\",\n\"text\": \"siehe Kommentar zu Nr. 1\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['stationär', 'Verweis']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 5 (oder auch Nr. 7) stationär nicht neben Ultraschallleistungen\",\n\"text\": \"siehe Kommentar zu Nr. 7\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['stationär', 'Ultraschallleistungen', 'Verweis']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 6 nicht neben Nr. 28\",\n\"text\": \"siehe Kommentar zu Nr. 28\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Nebeneinanderabrechnung', 'Verweis']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Leistungsinhalt der Nrn. 6 bzw. 7 nur bei komplettem Organstatus\",\n\"text\": \"Die Nrn. 6 oder 7 können nicht berechnet werden, wenn nur ein Teil der in den Anmerkungen zu den Ziffern beschriebenen Untersuchung durchgeführt wurde.Grundsätzlich gilt, dass eine Leistung erst dann berechnet werden kann, wenn sie vollständig erbracht wurde. Zudem verlangen die Nrn. 6 und 7 \"vollständige körperliche Untersuchungen\". Das heißt, wenn der jeweils von der Anmerkung verlangte Leistungsumfang nicht erbracht wurde, ist die Ziffer nicht berechenbar. Stattdessen ist eine entsprechende andere Leistung zu berechnen.Beispiel:Für den Gefäßstatus nach Nr. 6 verlangt die Anmerkung die Palpation und ggf. Auskultation der Arterien an beiden Handgelenken, Ellenbeugen, Achseln, Fußrücken, Sprunggelenken, Kniekehlen etc. Für die Untersuchung der arteriellen Gefäße nur an den unteren Extremitäten ist die Nr. 6 GOÄ deshalb nicht berechenbar. Auch wenn zu der Untersuchung der Bein- und Fußgefäße noch zusätzlich andere Befunde (wie zum Beispiel Ulcera) erhoben werden, macht das die Untersuchung nicht zu einem vollständigen Gefäßstatus.Für die \"kleinere\" Untersuchungsleistung ist nur 5 (symptombezogene Untersuchung) berechenbar. Diese kann dann wegen des gegenüber einer durchschnittlichen symptombezogenen Untersuchung erhöhten Aufwands mit einem höheren Faktor (bis 3,5-fach) berechnet werden. Begründung zum Beispiel: \"Ausführliche Untersuchung mehrerer Regionen und Befunde\".(Chefärzte Brief, Ausgabe 3/2012, Seite 19)\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Teiluntersuchung']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 6 und Nrn. 1415 und 1530\",\n\"text\": \"Hinweis für Sachbearbeiter:Die Nr. 6 umfasst die \"vollständige körperliche Untersuchung\" zum Beispiel des gesamten HNO-Bereichs. Spezielle Untersuchungsverfahren wie zum Beispiel die binokularmikroskopische Untersuchung (Nr. 1415) oder die Untersuchung des Kehlkopfs mit dem Laryngoskop (Nr. 1530) sind nicht Bestandteil der Nr. 6 und können daher neben der Nr. 6 abgerechnet werden. (BÄK im DÄB vom 15.10.2010)\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Nebeneinanderabrechnung', 'spezielle Untersuchungsverfahren']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 6 nicht neben Nr. 448 bzw. Nr. 449\",\n\"text\": \"siehe Kommentar zur Nr. 448 \"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Nebeneinanderabrechnung', 'Verweis']"
+    },
+    {
+        "role": "user",
+        "content": "\"title\": \"Nr. 77 nicht für Anordnung zur Weiterbehandlung\",\n\"text\": \"Die Vorstellung, dass die schriftliche Anordnung einer Weiterbehandlung gleichzusetzen ist mit einer schriftlichen, individuellen Planung und Leitung einer Kur mit diätetischen, balneologischen und/oder klimatherapeutischen Maßnahmen unter Einbeziehung gesundheitserzieherischer Aspekte, kann nicht nachvollzogen werden. Es handelt sich hier allenfalls um einen vorläufigen Entlassungsbericht, der mit der Nr. 72A abgerechnet werden kann. Die Nr. 77 ist daher in die Nr. 72A umzuwandeln.\"\n"
+    },
+    {
+        "role": "assistant",
+        "content": "['Anordnung zur Weiterbehandlung']"
     }
 ]

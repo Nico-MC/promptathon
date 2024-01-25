@@ -47,29 +47,8 @@ def get_categories_for_goae_number_from_assistant():
 
 
 
-        # format json result
-        # formatted_json_data = json_data
-        # for outer_key, outer_value in json_data.items():
-        #     for inner_key, inner_value in outer_value.items():
-        #         if 'kommentare' in inner_value:
-        #             neue_kommentare = []
-        #             for kommentar in inner_value['kommentare']:
-        #                 reduzierter_kommentar = {
-        #                     'ziffernNr': kommentar.get('zifferNr', ''),
-        #                     'title': kommentar.get('title', ''),
-        #                     'text': kommentar.get('text', ''),
-        #                     # 'categories': inner_value.get('kategorien', '')  # Annahme: 'kategorien' ist auf der gleichen Ebene wie 'kommentare'
-        #                 }
-        #                 neue_kommentare.append(reduzierter_kommentar)
-        #             # Ersetzen Sie die alte 'kommentare'-Liste durch die neue Liste
-        #             inner_value['kommentare'] = neue_kommentare
-        # print(json_data)
-
-
-
-
-        write_categories_in_json("categories_for_prefix.json", json_data)
-        return jsonify({"1": "lel"})
+        write_categories_in_json("Categories_for_Ziffer_.json", json_data)
+        return jsonify(json_data)
 
 
 if __name__ == '__main__':

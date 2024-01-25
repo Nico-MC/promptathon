@@ -1,0 +1,30 @@
+{
+    "21": {
+        "b": {
+            "kommentare": [
+                {
+                    "zifferNr": "21",
+                    "title": "Nr. 21 nicht analog für Einlesen, Beurteilung digitalisierter Bildgebung, PKV",
+                    "text": "<p>Die Beurteilung von digitalisierter Bildgebung (auch Fremdaufnahmen) als selbstständige Leistung ist nicht berechnungsfähig. (Vgl. Allgemeine Bestimmungen zu Abschnitt O. I Nr. 4.) Für die Besprechung mit den Patienten sind in der GOÄ entsprechende Beratungspositionen enthalten. Die Nr. 21 analog hierfür ist daher nicht möglich.</p><p>(PKV-Verband vom 15.12.2014 \"Kommentierung praxisrelevanter Analognummern\")</p><p></p><p></p>",
+                    "categories": [
+                        "Analogabrechnung",
+                        "digitale Bildgebung"
+                    ]
+                }
+            ]
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "zifferNr": "21",
+                    "title": "Nr. 21 analog nicht für \"pränatales diagnostisches Gespräch\"",
+                    "text": "<p>Ein \"pränatales diagnostisches Gespräch\" ist keine eigenständige Leistung, die mit einer eigenen Gebührenordnungsnummer abgerechnet werden könnte. Sie ist in den in der GOÄ vorhandenen Beratungsleistung subsummiert, so dass die Nummer 21 A nicht abgerechnet werden kann.</p><p></p>",
+                    "categories": [
+                        "Analogabrechnung",
+                        "pränatales diagnostisches Gespräch"
+                    ]
+                }
+            ]
+        }
+    }
+}

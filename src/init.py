@@ -63,7 +63,7 @@ def write_comments_after_prefix(goae_ids: list[object]) -> None:
 def load_examples(json_data: str) -> list[any]:
     examples = []
     examples_json_l = ""
-    goae_ids = ["1", "2", "3"] # load prefered_categories from this goae_ids
+    goae_ids = ["1", "2", "3", "5", "6", "77"] # load prefered_categories from this goae_ids
     for goae_id in goae_ids:
         for prefix, comments in json_data[goae_id].items():
             comments = comments['kommentare']
@@ -117,6 +117,7 @@ def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prefi
             for index, comment in enumerate(comments):
                 title = "\"title\": " + "\"" + comment['title'] + "\",\n"
                 text = "\"text\": " + "\"" + comment['text'] + "\"\n"
+                suffix = "Words that are included in the \"zifferTitel\" are already used and should be excluded. In this Case the \"zifferTitel\" is \"" + json_main_data[goae_id]["zifferText"] + "\". Words that are included in the \"zifferTitel\" are already used and should be excluded."
                 comment_str = title + text
                 comment_str = re.sub(r'<[^>]+>', '', comment_str)
                 # all_comments_in_prefix += "\"Kommentar " + str(i) + "\": { "

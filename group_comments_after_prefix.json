@@ -146,7 +146,7 @@
                     "prefered_categories": [
                         "postoperativ",
                         "Visite"
-                    ]   
+                    ]
                 },
                 {
                     "id": 3266,
@@ -287,7 +287,6 @@
                     "prefered_categories": [
                         "Definition"
                     ]
-
                 },
                 {
                     "id": 3255,
@@ -436,7 +435,6 @@
                         "Abschnitte C bis O",
                         "Verweis"
                     ]
-                    
                 },
                 {
                     "id": 3261,
@@ -1262,7 +1260,8 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                        "Nebeneinanderabrechnung", "Verweis"
+                        "Nebeneinanderabrechnung",
+                        "Verweis"
                     ]
                 }
             ],
@@ -1349,7 +1348,8 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                        "Nebeneinanderabrechnung", "Verweis"
+                        "Nebeneinanderabrechnung",
+                        "Verweis"
                     ]
                 },
                 {
@@ -1366,7 +1366,8 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                        "Nebeneinanderabrechnung", "Visite"
+                        "Nebeneinanderabrechnung",
+                        "Visite"
                     ]
                 }
             ],
@@ -1437,7 +1438,8 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                        "stationär", "Herzkatheteruntersuchung"
+                        "stationär",
+                        "Herzkatheteruntersuchung"
                     ]
                 }
             ],
@@ -1480,7 +1482,8 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                        "Nebeneinanderabrechnung", "Verweis"
+                        "Nebeneinanderabrechnung",
+                        "Verweis"
                     ]
                 }
             ],
@@ -1503,7 +1506,8 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                        "präoperative Befunderfassung", "Urteil"
+                        "präoperative Befunderfassung",
+                        "Urteil"
                     ]
                 }
             ],
@@ -1650,7 +1654,8 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                        "Mehrfachabrechnung", "Leistungen C bis O"
+                        "Mehrfachabrechnung",
+                        "Leistungen C bis O"
                     ]
                 }
             ],
@@ -1693,7 +1698,8 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                        "stationär", "Verweis"
+                        "stationär",
+                        "Verweis"
                     ]
                 },
                 {
@@ -1731,7 +1737,9 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                        "stationär", "Ultraschallleistungen", "Verweis"
+                        "stationär",
+                        "Ultraschallleistungen",
+                        "Verweis"
                     ]
                 }
             ],
@@ -1816,7 +1824,7 @@
             ],
             "kategorien": ""
         }
-    },  
+    },
     "6": {
         "f": {
             "kommentare": [
@@ -1835,7 +1843,8 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                       "Nebeneinanderabrechnung", "Verweis" 
+                        "Nebeneinanderabrechnung",
+                        "Verweis"
                     ]
                 }
             ],
@@ -1881,7 +1890,8 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                        "Nebeneinanderabrechnung", "spezielle Untersuchungsverfahren"
+                        "Nebeneinanderabrechnung",
+                        "spezielle Untersuchungsverfahren"
                     ]
                 }
             ],
@@ -1924,7 +1934,8 @@
                     "scope": "GENERAL",
                     "author": "martin-gebuehreninfo",
                     "prefered_categories": [
-                        "Nebeneinanderabrechnung", "Verweis"
+                        "Nebeneinanderabrechnung",
+                        "Verweis"
                     ]
                 }
             ],
@@ -2084,6 +2095,1026 @@
                     "updatedOn": "2021-05-24T21:01:36.514",
                     "validated": true,
                     "text": "<p>Die Nr. 77 ist hier nicht ansatzfähig, weil es sich nicht um eine Kur mit einer entsprechenden Leitung (!) dieser Kur handelt, sondern um einen postoperativen Therapieplan, der Bestandteil der stationären Behandlung insgesamt ist. </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
+    },
+    "50": {
+        "g": {
+            "kommentare": [
+                {
+                    "id": 789,
+                    "zifferNr": "50",
+                    "prefix": "g)",
+                    "title": "Nr. 50 nicht analog für \"ambulante Visite\", PKV",
+                    "createdOn": "2021-05-24T21:01:21.069",
+                    "updatedOn": "2021-05-24T21:01:36.023",
+                    "publishedOn": "2015-02-13T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Es ist nicht nachvollziehbar, was sich hinter dem Begriff \"ambulante Visite\" dargestellten Leistung verbirgt. Denkbar erscheint, dass die Gebühr für das Aufsuchen des Patienten im Aufwachraum nach erfolgter ambulanter Operation berechnet wird. Hierfür stehen aber in der GOÄ Untersuchungs -und Beratungsgebühren, beziehungsweise der Zuschlag nach der GOÄ-Nr. 448 oder 449 zur Verfügung. Die entsprechenden Bestimmungen sind zu beachten. Somit fehlt es an einer durch Analogie ausfüllungsbedürftigen Lücke in der Gebührenordnung. Die Nr. 50 analog für eine \"ambulante Visite\" kann daher nicht abgerechnet werden</p><p>(PKV-Verband vom 15.12.2014 \"Kommentierung praxisrelevanter Analognummern\")</p><p></p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "f": {
+            "kommentare": [
+                {
+                    "id": 788,
+                    "zifferNr": "50",
+                    "prefix": "f)",
+                    "title": "Nr. 3 nicht neben Nr. 50",
+                    "createdOn": "2021-05-24T21:01:21.066",
+                    "updatedOn": "2021-05-24T21:01:36.023",
+                    "publishedOn": "2012-07-29T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Siehe Kommentar zu Nr. 3.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "c": {
+            "kommentare": [
+                {
+                    "id": 784,
+                    "zifferNr": "50",
+                    "prefix": "c3)",
+                    "title": "Nr. 50 nicht am Operationstag",
+                    "createdOn": "2021-05-24T21:01:21.058",
+                    "updatedOn": "2021-05-24T21:01:36.022",
+                    "publishedOn": "2011-11-13T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die Berechnung einer Besuchsleistung am Operationstag kann gebührenrechtlich nicht anerkannt werden und ist nicht plausibel. Die Nr. 50 ist nicht erstattungsfähig.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                },
+                {
+                    "id": 783,
+                    "zifferNr": "50",
+                    "prefix": "c2)",
+                    "title": "Wegegeld und Reiseentschädigung bei Besuchen",
+                    "createdOn": "2021-05-24T21:01:21.055",
+                    "updatedOn": "2021-05-24T21:01:36.022",
+                    "publishedOn": "2004-10-12T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Geltendmachung von Wegegeld gemäß § 8 GOÄ oder Reiseentschädigung gemäß § 9 GOÄ im Zusammenhang mit der Durchführung von Besuchen ist nur dann zulässig, wenn der Besuch selbst abrechnungsfähig ist. Dies trifft beispielsweise nicht zu beim Aufsuchen der Arbeitsstätte (z.B. Belegarzt fährt ins Krankenhaus oder Anästhesist sucht eine Praxis zur Durchführung von Narkosen bei ambulanten Eingriffen auf). In diesen Fällen kann weder Wegegeld noch eine Reiseentschädigung abgerechnet werden.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                },
+                {
+                    "id": 782,
+                    "zifferNr": "50",
+                    "prefix": "c1)",
+                    "title": "Nr. 50 nicht für Aufsuchen der Arbeitsstätte",
+                    "createdOn": "2021-05-24T21:01:21.053",
+                    "updatedOn": "2021-05-24T21:01:36.022",
+                    "publishedOn": "2002-08-13T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Das Aufsuchen der Arbeitsstätte (Praxis, Belegkrankenhaus, OP-Zentrum) ist keine abrechnungsfähige ärztliche Leistung. Die Abrechnung eines Hausbesuchs gemäß Nr. 50 GOÄ hierfür ist daher nicht zulässig.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "d": {
+            "kommentare": [
+                {
+                    "id": 786,
+                    "zifferNr": "50",
+                    "prefix": "d2)",
+                    "title": "Nr. 50 nicht bei Besuch in anderen Krankenhausabteilungen",
+                    "createdOn": "2021-05-24T21:01:21.062",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2008-01-06T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Es handelt sich um keinen Besuch nach Nr. 50, wenn der Arzt die eigene Station verlassen und eine fachfremde Station aufsuchen muss. Aus Sicht des Patienten gilt als \"Besuch\" zwar das Aufsuchen des Patienten nicht allein in seiner Wohnung, sondern allgemein an seinem Aufenthaltsort - also auch im Krankenhaus. Dies gilt jedoch nicht, wenn der Arzt dabei seine regelmäßige Arbeitsstätte aufsucht.</p><p>Als Arbeitsstätte gilt dabei nicht nur die eigene Abteilung, sondern das Krankenhaus als Ganzes. Selbst wenn es sich um ein Klinikum mit mehreren Gebäuden (Pavillonsystem) handelt, gilt das gesamte Klinikum als \"regelmäßige Arbeitsstätte\". Eine Berechnung der Nr. 50 ist daher beim Besuch von Patienten im eigenen Krankenhaus (etwa im Rahmen eines Konsiliums) nicht möglich.</p><p>(Chefärzte Brief Januar 2004, Seite 19)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                },
+                {
+                    "id": 785,
+                    "zifferNr": "50",
+                    "prefix": "d1)",
+                    "title": "Nr. 50 für Besuche im Krankenhaus",
+                    "createdOn": "2021-05-24T21:01:21.06",
+                    "updatedOn": "2021-05-24T21:01:36.023",
+                    "publishedOn": "2004-09-06T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Eine Visite gemäß Nr. 45 bzw. 46 bei stationärer Behandlung durch einen Krankenhaus- oder Belegarzt ist das Pendant eines Hausbesuchs eines niedergelassenen Arztes in der Wohnung des Patienten. Die Abrechnung einer Visite beschränkt sich daher grundsätzlich auf eine stationäre Behandlung durch einen Krankenhaus- oder Belegarzt. Wenn ein niedergelassener Arzt quasi im Sinne einer konsiliarischen Tätigkeit in ein Krankenhaus gerufen wird, handelt es sich für diesen niedergelassenen Arzt zunächst nicht um eine Visite, sondern um einen Hausbesuch, so dass er auch die Nr. 50 abrechnen kann. Bei einem Konsilium handelt es sich primär (unabhängig davon, dass die Leistung letztlich der Behandlung des Patienten dient) zunächst nicht um eine Beratung des Patienten, sondern um eine beratende Tätigkeit für den behandelnden Krankenhausarzt, weil dieser aus fachlicher Überlegung einen anderen Arzt hinzuziehen möchte (siehe auch Brück`scher Kommentar zu Nr. 50). </p><p>Die vorstehenden Formulierungen betreffen in jedem Falle das gelegentliche Tätigwerden eines niedergelassenen Arztes. Wenn es sich jedoch um eine Art Mitbehandlung, z. B. mit mehr oder weniger regelmäßigem Aufsuchen des Patienten im Krankenhaus handelt, kann nicht mehr von einer konsiliarischen Tätigkeit gesprochen werden. Es handelt sich dann um eine ganz normale Behandlung eines Patienten in einem Krankenhaus mit dem gesamten technischen Background des Hauses. In diesem Falle ist die Abrechnung einer Visitengebühr zu diskutieren.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "e": {
+            "kommentare": [
+                {
+                    "id": 787,
+                    "zifferNr": "50",
+                    "prefix": "e)",
+                    "title": "Nr. 50 nicht 3,5-fach bei \"widriger Verkehrsverhältnisse\"",
+                    "createdOn": "2021-05-24T21:01:21.064",
+                    "updatedOn": "2021-05-24T21:01:36.023",
+                    "publishedOn": "2008-01-06T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die Erhöhung des Abrechnungsfaktors für die Nr. 50 (Besuch) mit der Begründung \"widrige Verkehrsverhältnisse\" ist nicht möglich. Die Umstände, die eine Erhöhung des Abrechnungsfaktors rechtfertigen, müssen bei der Behandlung des Patienten vorliegen (z.B. sich wehrender alkoholisierter Patient oder Untersuchung des Patienten im Schrebergarten bzw. im Wald). </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "b": {
+            "kommentare": [
+                {
+                    "id": 781,
+                    "zifferNr": "50",
+                    "prefix": "b)",
+                    "title": "Nr. 50 (Besuch) und Leichenschau",
+                    "createdOn": "2021-05-24T21:01:21.051",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2001-06-26T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Ein Besuch kann im Zusammenhang mit einer Leichenschau nicht abgerechnet werden, da Beratung und symptombezogene Untersuchung obligater Bestandteil eines Besuches nach Nr. 50 sind. Die Beratung kann an einer Leiche nicht erbracht werden und die Untersuchung ist Bestandteil der Leichenschau gemäß Nr. 100. Da der Leistungsinhalt der Nr. 50 aus den genannten Gründen nicht komplett erbracht werden kann, ist die Abrechnung der Nr. 50 nicht möglich. Der Besuch könnte nur dann im Sinne eines analogen Ansatzes der Nr. 50 abgerechnet werden, wenn zum Zeitpunkt des Beginns des Hausbesuches (Anforderung und Abfahrt des Arztes) noch nicht bekannt ist, dass der Patient verstorben ist, der Arzt also den Besuch in Erwartung eines lebenden Patienten antritt. Die vorstehende Ausnahmeregelung entspricht der Abrechnungsweise im GKV-Bereich. Wegegeld kann in jedem Falle abgerechnet werden.</p><p>(Bundesärztekammer (BÄK), Deutsches Ärzteblatt 98, Heft 25 v. 22.06.2001)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "id": 780,
+                    "zifferNr": "50",
+                    "prefix": "a)",
+                    "title": "Nr. 50 am gleichen Tag bei verschiedenen Familienmitgliedern",
+                    "createdOn": "2021-05-24T21:01:21.049",
+                    "updatedOn": "2021-05-24T21:01:36.022",
+                    "validated": true,
+                    "text": "<p>Am gleichen Tag wurde die Nr. 50 für einen Besuch abgerechnet, obwohl bei einem anderen Familienangehörigen ein Hausbesuch abgerechnet wurde. Da dieser Hausbesuch mit der Nr. 50 anerkannt wurde, wird der Hausbesuch bei der hier zu besprechenden Rechnung in die Nr. 51 umgewandelt (die abzuziehende Honorardifferenz beträgt </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
+    },
+    "8": {
+        "f": {
+            "kommentare": [
+                {
+                    "id": 5979,
+                    "zifferNr": "8",
+                    "prefix": "f)",
+                    "title": "Nr. 8 nicht neben Nr. 28",
+                    "createdOn": "2021-05-24T21:01:32.468",
+                    "updatedOn": "2021-05-24T21:01:37.101",
+                    "publishedOn": "2016-12-20T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zu Nr. 28</p><p></p><p></p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "e": {
+            "kommentare": [
+                {
+                    "id": 5978,
+                    "zifferNr": "8",
+                    "prefix": "e)",
+                    "title": "Nr. 8 nicht neben Nr. 448 bzw. Nr. 449",
+                    "createdOn": "2021-05-24T21:01:32.466",
+                    "updatedOn": "2021-05-24T21:01:37.101",
+                    "publishedOn": "2011-01-26T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zur Nr. 448 </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "id": 5974,
+                    "zifferNr": "8",
+                    "prefix": "a2)",
+                    "title": "Nr. 8 nicht für Untersuchung der Brust",
+                    "createdOn": "2021-05-24T21:01:32.457",
+                    "updatedOn": "2021-05-24T21:01:37.1",
+                    "publishedOn": "2010-06-23T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Untersuchung der Mammae (Brustdrüsen) und der dazugehörigen Lymphstromgebiete ist nicht mit der Nr. 8, sondern mit der Nr. 5 zu berechnen.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                },
+                {
+                    "id": 5973,
+                    "zifferNr": "8",
+                    "prefix": "a1)",
+                    "title": "Nr. 8 und z.B. Gynäkologen, Urologen und andere Fachgruppen",
+                    "createdOn": "2021-05-24T21:01:32.455",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "validated": true,
+                    "text": "<p>Die Nr. 8 honoriert die Untersuchung des Ganzkörperstatus. Gemäß der 2. Anmerkung nach der Nr. 8 in der GOÄ beinhaltet der Ganzkörperstatus die Untersuchung der Haut, der sichtbaren Schleimhäute, der Brust- und der Bauchorgane, der Stütz- und Bewegungsorgane sowie eine orientierende neurologische Untersuchung. Gemäß Kommentar nach Brück ist die Leistung nach Nr. 8 nur für diejenigen Arztgruppen abrechnungsfähig, denen die Erhebung des Ganzkörperstatus weiterbildungsrechtlich zugeordnet werden kann. Dies ist bei folgenden Arztgruppen der Fall: praktische Ärzte, Allgemeinärzte, Internisten, Kinderärzte, Chirurgen. Für Ärzte mit anderen Gebietsbezeichnungen ist die Nr. 8 nur berechnungsfähig, wenn sie im Rahmen einer Notfallsituation außerhalb ihres Fachgebiets tätig werden und die Durchführung eines Ganzkörperstatus indiziert ist (soweit Kommentar nach Brück). Es ist auch nicht nachvollziehbar, dass bei der hier durchgeführten bzw. geplanten Operation z.B. eine Untersuchung der Stütz- und Bewegungsorgane erforderlich ist. Da jedoch eine Untersuchung ohne Zweifel stattgefunden hat, ist die Nr. 8 in die Nr. 7 umzuwandeln. </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "b": {
+            "kommentare": [
+                {
+                    "id": 5975,
+                    "zifferNr": "8",
+                    "prefix": "b)",
+                    "title": "Nr. 8 neben Visite",
+                    "createdOn": "2021-05-24T21:01:32.459",
+                    "updatedOn": "2021-05-24T21:01:37.101",
+                    "validated": true,
+                    "text": "<p>Es wurde eine Visite gemäß Nr. 45 und später die Nr. 8 für die Untersuchung zur Erhebung eines Ganzkörperstatus abgerechnet. Gemäß den eindeutigen Bestimmungen kann weder anstelle noch neben einer Visite die Nr. 8 zum Ansatz kommen, so dass sie umgewandelt werden muss in eine Zweitvisite. Die abzuziehende Honorardifferenz beträgt </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "c": {
+            "kommentare": [
+                {
+                    "id": 5976,
+                    "zifferNr": "8",
+                    "prefix": "c)",
+                    "title": "Nr. 8, Begründung für hohen Faktor",
+                    "createdOn": "2021-05-24T21:01:32.462",
+                    "updatedOn": "2021-05-24T21:01:37.101",
+                    "validated": true,
+                    "text": "<p>Es wurde die Nr. 8 für eine Untersuchung zur Erhebung des Ganzkörperstatus abgerechnet. Diese Leistung wurde mit dem Faktor 3,5 versehen mit der Begründung \"sehr umfangreiche körperliche Untersuchung aller Organsysteme\". Diese Begründung ist keinesfalls eine Begründung für den Faktor 3,5 bei einer Untersuchungsleistung, die a priori bereits die Untersuchung des Ganzkörperstatus beinhaltet. Nur wenn die Untersuchung sehr schwierig gewesen wäre, hätte ggf. ein höherer Faktor verwendet werden können. Die angegebene Begründung reicht jedoch keinesfalls aus. Der Faktor ist daher auf 2,3 zu reduzieren. Die abzuziehende Honorardifferenz beträgt </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "d": {
+            "kommentare": [
+                {
+                    "id": 5977,
+                    "zifferNr": "8",
+                    "prefix": "d)",
+                    "title": "Nr. 8, Narkosenachuntersuchung",
+                    "createdOn": "2021-05-24T21:01:32.464",
+                    "updatedOn": "2021-05-24T21:01:37.101",
+                    "validated": true,
+                    "text": "<p>Eine Narkose ohne entsprechende Nachuntersuchung wäre ein Kunstfehler. Insoweit ist die Nachuntersuchung immanenter Bestandteil. Jeder Abrechnungsversuch ist unzulässig. Die Nr. 8 für die Narkosenachuntersuchung ist daher zu streichen. </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
+    },
+    "11": {
+        "f": {
+            "kommentare": [
+                {
+                    "id": 3335,
+                    "zifferNr": "11",
+                    "prefix": "f)",
+                    "title": "Nr. 11 nicht neben Nr. 28",
+                    "createdOn": "2021-05-24T21:01:26.548",
+                    "updatedOn": "2021-05-24T21:01:36.555",
+                    "publishedOn": "2016-12-20T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zu Nr. 28</p><p></p><p></p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "e": {
+            "kommentare": [
+                {
+                    "id": 3334,
+                    "zifferNr": "11",
+                    "prefix": "e)",
+                    "title": "Nr. 11 neben Nr. 29 erlaubt",
+                    "createdOn": "2021-05-24T21:01:26.546",
+                    "updatedOn": "2021-05-24T21:01:36.555",
+                    "publishedOn": "2011-03-27T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die Nr. 29 (Früherkennungsuntersuchung) beinhaltet keine Krebsfrüherkennungsuntersuchung des Mannes (Nr. 28). Aus diesem Grunde kann die Nr. 29 neben der Nr. 28 abgerechnet werden. Dies bedeutet, dass die Nr. 11 (rektale Untersuchung) neben der Nr. 29, nicht jedoch neben der Nr. 28, abgerechnet werden kann.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "d": {
+            "kommentare": [
+                {
+                    "id": 3333,
+                    "zifferNr": "11",
+                    "prefix": "d)",
+                    "title": "Nr. 11 angeblich nicht neben Nr. 3230",
+                    "createdOn": "2021-05-24T21:01:26.544",
+                    "updatedOn": "2021-05-24T21:01:36.554",
+                    "publishedOn": "2009-09-08T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Auffassung, dass eine rektal-digitale Untersuchung (Nr. 11) neben der Nr. 3230 (manuelles Zurückbringen des Mastdarms) nicht abgerechnet werden könne, ist nicht haltbar. Die rektal-digitale Untersuchung wird sicher in vielen Fällen nach dem manuellen Zurückbringen des Mastdarmvorfalls durchgeführt, sie hat jedoch ein anderes Leistungsziel als die Nr. 3230 und ist keinesfalls zwingend mit dieser Nummer verbunden. Auch wenn im Kommentar nach Lang, Schäfer, Stiel und Vogt diese nicht haltbare Auffassung vertreten wird, können beide Nummern nebeneinander abgerechnet werden. Nur wenn die rektal-digitale Untersuchung Voraussetzung für die Durchführung der Leistung nach Nr. 3230 wäre, wäre auch die Nebeneinanderberechnung ausgeschlossen. Die Reihenfolge ist jedoch gerade anders herum.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "c": {
+            "kommentare": [
+                {
+                    "id": 3332,
+                    "zifferNr": "11",
+                    "prefix": "c)",
+                    "title": "Nr. 11 nicht im Zusammenhang mit Einführen eines Staplergeräts",
+                    "createdOn": "2021-05-24T21:01:26.542",
+                    "updatedOn": "2021-05-24T21:01:36.554",
+                    "publishedOn": "2008-12-31T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die vor der Einführung des Staplergeräts durchzuführende Digitaluntersuchung des Mastdarms ist keine eigenständig abrechnungsfähige Leistung. Die Nr. 11 muss daher gestrichen werden. </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "b": {
+            "kommentare": [
+                {
+                    "id": 3331,
+                    "zifferNr": "11",
+                    "prefix": "b)",
+                    "title": "Nr. 11 nicht neben Nr. 27",
+                    "createdOn": "2021-05-24T21:01:26.54",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2006-11-29T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die digitale Untersuchung des Mastdarms nach Nr. 11 GOÄ ist im Leistungsspektrum der Nr. 27 enthalten (sh. Legendentext) und daher nicht neben der Nr. 27 gesondert berechnungsfähig.</p><p>Da Leistungsüberschneidungen gemäß § 4 (2a) der GOÄ eine Doppelberechnung nicht zulassen, verbietet sich daher eine Berechnung der Nr. 11 und 27 nebeneinander.</p><p>(Quelle: Medical Tribune, Nr. 40 v. 02.10.03)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "id": 3330,
+                    "zifferNr": "11",
+                    "prefix": "a)",
+                    "title": "Nr. 11 nicht bei gynäkol. Untersuchung nach Nr. 7",
+                    "createdOn": "2021-05-24T21:01:26.537",
+                    "updatedOn": "2021-05-24T21:01:36.554",
+                    "publishedOn": "2002-10-26T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die gynäkologische Untersuchung nach der Nr. 7 beinhaltet obligat auch die rektale Untersuchung, so dass bei gynäkologischen Untersuchungen die Nr. 11 nicht neben der Nr. 7 berechnet werden kann.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
+    },
+    "15": {
+        "j": {
+            "kommentare": [
+                {
+                    "id": 107,
+                    "zifferNr": "15",
+                    "prefix": "j)",
+                    "title": "Nr. 15 nicht postoperativ bei chronischer Sinusitis",
+                    "createdOn": "2021-05-24T21:01:19.519",
+                    "updatedOn": "2021-05-24T21:01:35.882",
+                    "publishedOn": "2014-05-26T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Nr. 15 ist bei chronischer Sinusitis nicht berechnungsfähig. Unbestritten handelt es sich zwar um die Behandlung einer chronischen entzündlichen Erkrankung (im Bereich der Nebenhöhlen), die Legende dieser Leistung zielt jedoch eindeutig auf die Mitbehandlung lebensverändernder Umstände und ihrer sozialen Konsequenzen (...flankierender therapeutischer und sozialer Maßnahmen...) ab. Die alleinigen Modifikationen im Bereich der medikamentösen Therapie oder der täglichen ärztlichen Behandlung kann die Abrechnung dieser Nummer nicht begründen.</p><p></p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "id": 95,
+                    "zifferNr": "15",
+                    "prefix": "a2a)",
+                    "title": "Nr. 15 GOÄ nicht wenn einmaliger Kontakt",
+                    "createdOn": "2021-05-24T21:01:19.491",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2012-07-29T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Nr. 15 setzt die hausärztliche Koordinierung \"während der kontinuierlichen ambulanten Betreuung\" voraus. Ein einmal, kurz vor Jahreswechsel, stattfindender Kontakt reicht für die Berechnung der Nr. 15 nicht aus.</p><p>(Abrechnung aktuell, Ausgabe 2/2012, Seite 15)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                },
+                {
+                    "id": 98,
+                    "zifferNr": "15",
+                    "prefix": "a5)",
+                    "title": "Nr. 15 , 1x im Jahr, Kurzform",
+                    "createdOn": "2021-05-24T21:01:19.499",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2011-11-13T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die Nr. 15 \"Einleitung und Koordination therapeutischer und sozialer Maßnahmen während der kontinuierlichen ambulanten Betreuung eines chronisch Kranken\" können sowohl Haus- als auch Fachärzte abrechnen, die chronisch kranke Patienten behandeln.</p><p>Die Nr. 15 ist bei 2,3-fachem Multiplikator mit 40,22 € abrechenbar, kann jedoch nur einmal im Kalenderjahr abgerechnet werden und erfordert mehrere Konsultationen in diesem Jahr. Sollte der Aufwand für die Tätigkeiten, die mit der Nr. 15 abgegolten werden, äußerst umfangreich sein, ist auch ein höherer Multiplikator denkbar.</p><p>(Ärztezeitung vom 22.09.2011)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                },
+                {
+                    "id": 93,
+                    "zifferNr": "15",
+                    "prefix": "a1)",
+                    "title": "Nr. 15 wann berechenbar?",
+                    "createdOn": "2021-05-24T21:01:19.487",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2007-01-14T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Hinweis für Sachbearbeiter (aus \"Medical Tribune. Nr. 21 - 24.05.2002\")</p><p>\"Einfache Beratung reicht nicht aus.\"</p><p>Die Legende der Nr. 15 hebt auf chronische Erkrankungen ab, worunter zweifelsohne auch Erkrankungen wie eine Hypertonie zu subsummieren sind. Entscheidend für die Abrechnung ist dann aber noch der übrige Text der Leistungslegende: \"Einleitung und Koordination flankierender therapeutischer und sozialer Maßnahmen während der kontinuierlichen ambulanten Betreuung\"!</p><p>Hierunter ist keineswegs die übliche Kernleistung zu verstehen, wie die Behandlung des Hypertonus selbst oder die geschilderte Anamneseerhebung und Erörterung des Krankheitsbildes, sondern eben flankierende (notwendige) Maßnahmen wie die Vermittlung einer Diätberatung bei zusätzlichem Übergewicht, oder das Einbeziehen der Familie (soziale Maßnahmen) oder auch des Arbeitgebers bei vermuteter Negativbeeinflussung der Grunderkrankung durch die unmittelbare Umgebung des Erkrankten.</p><p>Wichtig ist auch noch die Forderung nach der \"kontinuierlichen Betreuung\", wie sie z.B. im hausärztlichen Bereich bei Patienten mit chronischen Erkrankungen typisch ist. Die Legende der Nr. 15 fordert hier zwar direkt keinen bestimmten Zeitraum. Der Umstand, dass die Leistung aber nur einmal im Kalenderjahr berechnungsfähig ist, macht deutlich, dass es sich um einen längeren Zeitraum handeln muss, allerdings ergibt sich aus der Legende keineswegs, dass ein Jahr abgewartet werden muss.</p><p>Die Abrechnungsposition kann somit als Abgeltung von Leistungen gesehen werden, die um die Behandlung des Patienten herum über einen längeren Zeitraum notwendig werden (z.B. Gespräche mit Kontaktpersonen), ohne dass eine gesonderte Abrechnung dieser Leistung möglich ist. Aus diesem Grund ist neben der Nr. 15 auch die Nr. 4 (Fremdanamnese) nicht berechnungsfähig.</p><p>Hinweis für Sachbearbeiter: hier wird seitens der Medical Tribune nicht ausreichend herausgearbeitet, dass der Legendentext sowohl therapeutische als auch soziale Maßnahmen fordert. </p><p>In der Begründung der Bundesregierung zur 4. Änderungsverordnung der GOÄ werden die Inhalte der Gebührenordnungsposition deshalb auch wie folgt charakterisiert: \"Die Gebührenordnungsnummer 15 soll eine adäquate Honorierung der hausärztlichen Koordinierungsfunktionen im Rahmen der ambulanten Behandlung chronisch Kranker sicherstellen (Gespräche mit anderen behandelnden Ärzten. Vor- und Nachbereitung von Krankenhausaufenthalten, regelmäßige Überprüfung der Medikation, Kontakte zu sozialen Einrichtungen oder Versicherungsträgern)\".</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                },
+                {
+                    "id": 96,
+                    "zifferNr": "15",
+                    "prefix": "a3)",
+                    "title": "Nr. 15 für fortlaufende Beeinflussung des Behandlungsprozesses:",
+                    "createdOn": "2021-05-24T21:01:19.493",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2007-01-14T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>In einer Begründung der Bundesregierung zur 4. Änderungsverordnung der GOÄ heißt es: \"Die Nr. 15 soll eine adäquate Honorierung der hausärztlichen Koordinierungsfunktionen im Rahmen der ambulanten Behandlung chronisch Kranker sicherstellen (Gespräche mit anderen behandelnden Ärzten, Vor- und Nachbereitung von Krankenhausaufenthalten. regelmäßige Überprüfung der Medikation. Kontakte zu sozialen Einrichtungen oder Versicherungsträgern).</p><p>Die auschließliche Erwähnung der \"hausärztlichen Koordinierungsfunktionen\" im Begründungstext ist dabei richtungsweisend. Allerdings findet sich im eigentlichen Text keine Bestimmung, welche die Abrechnung der Nr. 15 GOÄ durch nicht hausärztlich tätige Ärzte untersagen würde.</p><p>Die Abrechnung der Nr. 15 GOÄ setzt die Einleitung und Koordination flankierender therapeutischer und sozialer Maßnahmen voraus. Daher genügt nicht die einmalige Maßnahme, sondern die fortlaufende Beeinflussung des Behandlungs- und Betreuungsprozesses ist erforderlich. Dabei werden therapeutische und soziale Maßnahmen gefordert.</p><p>Bei einem Schlaganfall-Patienten kann zum Beispiel die Verordnung entsprechender physiotherapeutischer Maßnahmen als Einleitung einer flankierenden therapeutischen Maßnahme gesehen werden, als soziale Komponente müsste dann aber z.B. die Organisation des Pflegedienstes und behördlicher Maßnahmen hinzukommen. Ferner wird das Vorliegen einer chronischen Erkrankung wie Diabetes mellitus, aber auch systemischer Krankheiten wie z.B. Morbus Hodgkin vorausgesetzt. So gesehen gelten als Eingangskriterien - was die Erkrankungen betrifft - die gleichen Grundsätze wie bei der Nr. 34 GOÄ! Die Nr. 15 ist neben der Nr. 4 GOÄ ausgeschlossen: nicht aber neben der Nr. 34, so dass hier parallele Berechnungen möglich und auch durchaus denkbar sind!</p><p>(Quelle: Medical Tribune, Nr. 35 vom 27.08.2004, Seite 27)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                },
+                {
+                    "id": 97,
+                    "zifferNr": "15",
+                    "prefix": "a4)",
+                    "title": "Nr. 15 und chronische Erkrankung:",
+                    "createdOn": "2021-05-24T21:01:19.497",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2007-01-14T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>In der Begründung der Regierung zur 4. Änderungsverordnung der GOÄ heißt es:</p><p>Die Gebührenordnungsnr. 15 soll eine adäquate Honorierung der hausärztlichen Koordinierungsfunktionen im Rahmen der ambulanten Behandlung chronisch Kranker sicherstellen.</p><p class=\"comment-indent\">- Gespräche mit anderen behandelnden Ärzten,</p><p class=\"comment-indent\">- Vor- und Nachbereitung von Krankenhausaufenthalten,</p><p class=\"comment-indent\">- regelmäßige Überprüfung der Medikation,</p><p class=\"comment-indent\">- Kontakte zu sozialen Einrichtungen oder Versicherungsträgern</p><p>Die Abrechnung setzt die Einleitung und Koordination flankierender therapeutischer und sozialer Maßnahmen voraus. Eine fortlaufende Beeinflussung des Behandlungs- und Betreuungsprozesses ist erforderlich - und typischerweise bei Hausärzten auch gegeben.</p><p>Die Verordnung physiotherapeutischer Maßnahmen bei einem Schlaganfall-Patienten etwa kann als die Einleitung einer flankierenden therapeutischen Maßnahme gesehen werden, als soziale Komponente müsste dann z.B. die Organisation des Pflegedienstes und oder behördlicher Maßnahmen hinzukommen.</p><p>Für Nr. 15 muss eine chronische Erkrankung wie</p><p class=\"comment-indent\">- Diabetes,</p><p class=\"comment-indent\">- Krankheiten aus dem rheumatischen Formenkreis,</p><p class=\"comment-indent\">- Z.n. Apoplex,</p><p class=\"comment-indent\">- KHK,</p><p class=\"comment-indent\">- Hypertonie oder</p><p class=\"comment-indent\">- systemische Krankheiten wie z.B. Morbus Hodgkin, Morbus Parkinson vorliegen.</p><p>Nr. 15 ist nicht neben Nr. 4 berechenbar.</p><p>(Quelle: Medical Tribune, Nr. 21 vom 23.05.2003)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                },
+                {
+                    "id": 94,
+                    "zifferNr": "15",
+                    "prefix": "a2)",
+                    "title": "Nr. 15 und Einleitung flankierender Maßnahmen",
+                    "createdOn": "2021-05-24T21:01:19.489",
+                    "updatedOn": "2021-05-24T21:01:35.879",
+                    "validated": true,
+                    "text": "<p>Es wurde die Nr. 15 für die Einleitung flankierender Maßnahmen abgerechnet. Offensichtlich hat der Rechnungsersteller übersehen, dass diese Leistung nur dann abgerechnet werden kann, wenn es sich um die kontinuierliche, ambulante Betreuung eines chronisch Kranken handelt. Von einer kontinuierlichen Betreuung bei einer einmaligen Untersuchung zu sprechen, ist nicht möglich. Die Nr. 15 ist zu sreichen </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "i": {
+            "kommentare": [
+                {
+                    "id": 106,
+                    "zifferNr": "15",
+                    "prefix": "i)",
+                    "title": "Nr. 15 nicht für Organisation Weiterbehandlung nach OP",
+                    "createdOn": "2021-05-24T21:01:19.517",
+                    "updatedOn": "2021-05-24T21:01:35.882",
+                    "publishedOn": "2010-09-30T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Organisation der Weiterbehandlung und der fachgerechten Weiterbetreuung nach einer OP ist Bestandteil bzw. erfüllt die Kriterien einer Beratungsleistung. Insofern können auch nur Beratungsleistungen abgerechnet werden. Die Nr. 15 kann hierfür nicht berechnet werden.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "g": {
+            "kommentare": [
+                {
+                    "id": 104,
+                    "zifferNr": "15",
+                    "prefix": "g)",
+                    "title": "Nr. 15 nicht neben Nr. 4 GOÄ berechenbar:",
+                    "createdOn": "2021-05-24T21:01:19.511",
+                    "updatedOn": "2021-05-24T21:01:35.882",
+                    "publishedOn": "2007-01-14T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Siehe Überschrift a4).</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "h": {
+            "kommentare": [
+                {
+                    "id": 105,
+                    "zifferNr": "15",
+                    "prefix": "h)",
+                    "title": "Nr. 15 nicht bei Hypertonie und entspr. Aufklärungsgesprächen:",
+                    "createdOn": "2021-05-24T21:01:19.513",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2007-01-14T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Mit dem Ansatz der Nr. 15 soll laut Leistungsinhalt die vom behandelnden Arzt erbrachte hausärztliche Koordinierungsfunktion bei einem chronisch kranken Patienten abgegolten werden.</p><p>Die erforderlichen Leistungsbestandteile sind die Einleitung und Koordination flankierender therapeutischer und sozialer Maßnahmen. Dabei muss der Arzt auf Grund der Art und Schwere des chronischen Krankheitsbildes sowohl therapeutische als auch soziale Maßnahmen koordinieren. Dies bedeutet, dass z.B. neben therapeutischen Maßnahmen wie Ergotherapie oder Logopädie auch der ärztliche Einsatz betreffend pflegerischer und sozialer Maßnahmen, wie z.B. Wohnungsauflösung bzw. Übergabe in eine Pflegeeinrichtung, hinzutreten muss. Die beschriebene ärztliche Leistung (Feststellung einer essenziellen Hypertonie und intensive Aufklärungsgespräche bezüglich Krankheit, Ernährung etc.) entspricht eher dem Ansatz der Nr. 34.</p><p>(Quelle: Medical Tribune, Nr. 23, 06.06.2003)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "f": {
+            "kommentare": [
+                {
+                    "id": 103,
+                    "zifferNr": "15",
+                    "prefix": "f)",
+                    "title": "Nr. 15 nicht, wenn keine sozialen Maßnahmen, Anfrage",
+                    "createdOn": "2021-05-24T21:01:19.509",
+                    "updatedOn": "2021-05-24T21:01:35.881",
+                    "publishedOn": "2001-04-04T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Der Legendentext der Nr. 15 verlangt zwingend nicht nur die Einleitung, sondern auch die Koordination von flankierenden therapeutischen Maßnahmen und außerdem zusätzlich (obligater Bestandteil des Legendentextes) nicht nur die Einleitung, sondern auch die Koordination von flankierenden sozialen Maßnahmen. Letzteres kann hier nicht nachvollzogen werden, so dass vor Honorierung dieser Leistung um Mitteilung der Maßnahmen gebeten wird, die sowohl im therapeutischen als auch im sozialen Bereich eingeleitet und anschließend koordiniert worden sind. </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "d": {
+            "kommentare": [
+                {
+                    "id": 101,
+                    "zifferNr": "15",
+                    "prefix": "d)",
+                    "title": "Nr. 15 nicht für OP-Planung",
+                    "createdOn": "2021-05-24T21:01:19.505",
+                    "updatedOn": "2021-05-24T21:01:35.881",
+                    "publishedOn": "2000-09-24T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Es wurde die Nr. 15 für eine Operationsplanung abgerechnet. Dies ist keine abrechnungsfähige Leistung. Der Leistungsinhalt ist allgemeiner Bestandteil der ärztlichen Behandlung und mit Beratungs- bzw. operativen Leistungen abgegolten, so dass die Nr. 15 gestrichen werden muss </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "e": {
+            "kommentare": [
+                {
+                    "id": 102,
+                    "zifferNr": "15",
+                    "prefix": "e)",
+                    "title": "Nr. 15 nicht für Thromboseprophylaxe",
+                    "createdOn": "2021-05-24T21:01:19.507",
+                    "updatedOn": "2021-05-24T21:01:35.881",
+                    "publishedOn": "2000-09-24T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Thromboseprophylaxe ist heute Stand der Medizin und in den abrechnungsfähigen Visiten subsummiert. Die Vorstellung, dass hier die Nr. 15 analog abgerechnet werden könnte, kann nicht nachvollzogen werden. </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "c": {
+            "kommentare": [
+                {
+                    "id": 100,
+                    "zifferNr": "15",
+                    "prefix": "c)",
+                    "title": "Nr. 15 nicht bei stationärer Behandlung",
+                    "createdOn": "2021-05-24T21:01:19.503",
+                    "updatedOn": "2021-05-24T21:01:35.881",
+                    "publishedOn": "1999-08-21T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Der Legendentext der Nr. 15 lautet: \"Einleitung und Koordination flankierender therapeutischer und sozialer Maßnahmen während der kontinuierlichen ambulanten Betreuung eines chronisch Kranken\". Es handelt sich hier ausdrücklich um eine Leistung im Rahmen einer kontinuierlichen ambulanten Betreuung, deren Leistungsdauer gemäß erster Anmerkung nach der Nr. 15 sich über ein ganzes Jahr erstreckt. Dies hat nichts mit der Einleitung von flankierenden Maßnahmen im Rahmen einer stationären Behandlung zu tun. Die Nr. 15 muss daher gestrichen werden </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "b": {
+            "kommentare": [
+                {
+                    "id": 99,
+                    "zifferNr": "15",
+                    "prefix": "b)",
+                    "title": "Nr. 15 und Einleitung ambulanter Physiotherapie",
+                    "createdOn": "2021-05-24T21:01:19.501",
+                    "updatedOn": "2021-05-24T21:01:35.88",
+                    "validated": true,
+                    "text": "<p>Die Abrechnung der Einleitung einer erweiterten ambulanten Physiotherapie ist als Leistung nicht möglich (auch nicht als analoger Ansatz der Nr. 15). Der analoge Ansatz einer GOÄ-Nummer ist nur dann zulässig, wenn es für den durchgeführten Leistungsinhalt keine anderen Nummern gibt. Die Nr. 15 selbst ist ausdrücklich mit einem anderen Leistungsinhalt versehen. Eine Physiotherapie wird entweder vom Arzt selbst geleitet und durchgeführt und somit auch abgerechnet, oder aber es erfolgen Anweisungen an denjenigen, der die Physiotherapie durchzuführen hat. Wenn dies im Rahmen eines Arztbriefes als Therapieempfehlung erfolgt, kann hierfür die Nr. 75 abgerechnet werden. Erfolgen die Anweisungen nicht im Rahmen eines Arztbriefes, ist eine eigenständige Abrechnung nicht möglich.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
+    },
+    "20": {
+        "b": {
+            "kommentare": [
+                {
+                    "id": 3885,
+                    "zifferNr": "20",
+                    "prefix": "b)",
+                    "title": "Nr. 1, 3, 20, 30, 31, 33, 34 analog nicht berechenbar",
+                    "createdOn": "2021-05-24T21:01:27.754",
+                    "updatedOn": "2021-05-24T21:01:36.667",
+                    "publishedOn": "2008-03-03T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zu Nr. 1</p><p></p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "id": 3884,
+                    "zifferNr": "20",
+                    "prefix": "a)",
+                    "title": "Nr. 20 mehrfach für Diabetiker-Schulungen",
+                    "createdOn": "2021-05-24T21:01:27.753",
+                    "updatedOn": "2021-05-24T21:01:36.667",
+                    "publishedOn": "2002-06-25T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>In der modernen Diabetes-Behandlung wird eine strukturierte, mehrtägige (meist 4-tägige) Diabetikerschulung (nach den DDG-Richtlinien) angestrebt. Die Schulung umfasst in der Regel über den Zeitraum von 4 Tagen pro Schulungstag 4 Schulungseinheiten mit einer jeweiligen Dauer von 50-60 Minuten. Die Schulungseinheiten werden thematisch aufeinander abgestimmt, sind zeitlich komprimiert und werden in Schulungsgruppen durchgeführt. Da die jeweiligen Einheiten als getrennte Sitzungen zu betrachten sind, kann eine mehrfache Abrechnung der Nr. 20 am Tag (jeweils 1x pro Einheit) erfolgen.</p><p>Erfolgt die Schulung im Rahmen einer Einzelbehandlung kann pro Sitzung einmal die Nr. 33 abgerechnet werden.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
+    },
+    "21": {
+        "b": {
+            "kommentare": [
+                {
+                    "id": 3998,
+                    "zifferNr": "21",
+                    "prefix": "b)",
+                    "title": "Nr. 21 nicht analog für Einlesen, Beurteilung digitalisierter Bildgebung, PKV",
+                    "createdOn": "2021-05-24T21:01:28.009",
+                    "updatedOn": "2021-05-24T21:01:36.689",
+                    "publishedOn": "2015-02-13T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die Beurteilung von digitalisierter Bildgebung (auch Fremdaufnahmen) als selbstständige Leistung ist nicht berechnungsfähig. (Vgl. Allgemeine Bestimmungen zu Abschnitt O. I Nr. 4.) Für die Besprechung mit den Patienten sind in der GOÄ entsprechende Beratungspositionen enthalten. Die Nr. 21 analog hierfür ist daher nicht möglich.</p><p>(PKV-Verband vom 15.12.2014 \"Kommentierung praxisrelevanter Analognummern\")</p><p></p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "id": 3997,
+                    "zifferNr": "21",
+                    "prefix": "a)",
+                    "title": "Nr. 21 analog nicht für \"pränatales diagnostisches Gespräch\"",
+                    "createdOn": "2021-05-24T21:01:28.007",
+                    "updatedOn": "2021-05-24T21:01:36.689",
+                    "publishedOn": "2002-03-13T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Ein \"pränatales diagnostisches Gespräch\" ist keine eigenständige Leistung, die mit einer eigenen Gebührenordnungsnummer abgerechnet werden könnte. Sie ist in den in der GOÄ vorhandenen Beratungsleistung subsummiert, so dass die Nummer 21 A nicht abgerechnet werden kann.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
+    },
+    "22": {
+        "a": {
+            "kommentare": [
+                {
+                    "id": 2061,
+                    "zifferNr": "22",
+                    "prefix": "a)",
+                    "title": "Nr. 22 nicht wenn Terminüberschreitung",
+                    "createdOn": "2021-05-24T21:01:23.723",
+                    "updatedOn": "2021-05-24T21:01:36.284",
+                    "publishedOn": "2013-11-03T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Der Legendentext der Nr. 22 lautet: \"Eingehende Beratung einer Schwangeren im Konfliktfall über die Erhaltung oder den Abbruch der Schwangerschaft - auch einschließlich Beratung über soziale Hilfen, gegebenenfalls auch einschließlich Beurteilung über das Vorliegen einer Indikation für einen nicht rechtswidrigen Schwangerschaftsabbruch\".</p><p>Eine Terminüberschreitung stellt keine Indikation für eine Konfliktberatung über den Erhalt oder den Abbruch einer Schwangerschaft dar. Die Nr. 22 kann hierfür nicht abgerechnet werden</p><p></p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
+    },
+    "24": {
+        "a": {
+            "kommentare": [
+                {
+                    "id": 2193,
+                    "zifferNr": "24",
+                    "prefix": "a1)",
+                    "title": "Nr. 24 nicht für Untersuchung des Entbindungsverlaufs, Bayer. LÄK",
+                    "createdOn": "2021-05-24T21:01:24.005",
+                    "updatedOn": "2021-05-24T21:01:36.31",
+                    "publishedOn": "2015-06-02T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Bei der Berechnung der Nr. 7 neben der Visite ist die Angabe von Uhrzeiten in der GOÄ vorgeschrieben.</p><p>Die Aussage \"zeitlich unabhängig\" ist im Grunde genommen nicht ausreichend. Sofern eine Krankenversicherung auf die Angabe der Uhrzeiten besteht, müsste diese Angabe nachträglich erfolgen.</p><p>(Bayer. Landesärztekammer vom 28.08.2014, Az.: hs/142392)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                },
+                {
+                    "id": 2192,
+                    "zifferNr": "24",
+                    "prefix": "a)",
+                    "title": "Nr. 24 nicht für Überprüfung des Geburtsfortschritts",
+                    "createdOn": "2021-05-24T21:01:24.002",
+                    "updatedOn": "2021-05-24T21:01:36.31",
+                    "publishedOn": "2012-08-04T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Überprüfung des Geburtsfortschritts unter der Geburt kann nicht mit der Nr. 24 für eine Untersuchung im Schwangerschaftsverlauf abgerechnet werden. Die Legende und der Leistungsinhalt der Nr. 24 verwiesen auf: \"Untersuchung im Schwangerschaftsverlauf - einschl. Beratung und Bewertung der Befunde, gegebenenfalls auch im Hinblick auf Schwangerschaftsrisiken\". Für die Überprüfung des Geburtsfortschritts unter der Geburt klann daher nur die Nr. 5 abgerechnet werden.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
+    },
+    "25": {
+        "a": {
+            "kommentare": [
+                {
+                    "id": 4395,
+                    "zifferNr": "25",
+                    "prefix": "a)",
+                    "title": "Nr. 25 nur bei Neugeborenem",
+                    "createdOn": "2021-05-24T21:01:28.877",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2009-06-20T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>In der GOÄ sind einige Leistungen auf die Erbringung beim \"Neugeborenen\" abgestellt. Gebührenrechtlich gilt als \"Neugeborenes\" ein Kind bis zum 28. Lebenstag. Somit ist Leistung nach Nr. 25 (Neugeborenen Erstuntersuchung) nur für Neugeborene bis zum 28. Lebenstag anzuwenden.</p><p>(IWW, Chefärzte-Brief 11/2008, Seite 20)</p><p></p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
+    },
+    "26": {
+        "a": {
+            "kommentare": [
+                {
+                    "id": 4505,
+                    "zifferNr": "26",
+                    "prefix": "a)",
+                    "title": "Nr. 26 und zusätzliche Leistungen",
+                    "createdOn": "2021-05-24T21:01:29.118",
+                    "updatedOn": "2021-05-24T21:01:36.793",
+                    "publishedOn": "2007-05-28T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Grundsätzlich gilt, dass der Leistungsinhalt der Nr. 26 (Früherkennung von Krankheiten bei einem Kind) neben der Anamnese auch die Feststellung der Körpermaße, die Untersuchung des Nervensystems, der Sinnesorgane, des Skelettsystems, der Haut, der Brust, des Bauchs und der Geschlechtsorgane beinhaltet. Ebenfalls eingeschlossen ist eine Beratung der Bezugsperson.</p><p>Die vorgenannten Untersuchungsziele beinhalten letztlich eine komplette Untersuchung des Kindes. Nur wenn hierbei entsprechende Auffälligkeiten festgestellt werden, die über den Leistungsinhalt einer Ganzkörperuntersuchung hinausgehende Untersuchungen erforderlich machen, können diese Untersuchungen auch abgerechnet werden.</p><p>Das häufig gebrachte Argument, dass es sinnvoll ist, eine Erkrankung auszuschließen, führe letztlich dazu, dass sämtliche Untersuchungsverfahren durchgeführt und auch abgerechnet werden könnten. Nur um das Problem an einem Beispiel darzustellen, könnte mit dieser Argumentation auch zusätzlich ein EEG durchgeführt werden, nur um ein Krampfleiden auszuschließen. Diese Vorgehensweise bei der Durchführung und Abrechnung von Früherkennungsuntersuchungen ist nicht zulässig. Nur Verdachtsdiagnosen als Ergebnis der Früherkennungsuntersuchung rechtfertigen weitere Untersuchungsmaßnahmen.</p><p></p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        }
+    },
+    "27": {
+        "e": {
+            "kommentare": [
+                {
+                    "id": 4544,
+                    "zifferNr": "27",
+                    "prefix": "e)",
+                    "title": "Nr. 27 neben Nr. 29",
+                    "createdOn": "2021-05-24T21:01:29.205",
+                    "updatedOn": "2021-05-24T21:01:36.8",
+                    "publishedOn": "2013-12-29T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zu Nr. 29</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "d": {
+            "kommentare": [
+                {
+                    "id": 4543,
+                    "zifferNr": "27",
+                    "prefix": "d)",
+                    "title": "Ausweitung von Vorsorge-Untersuchungen",
+                    "createdOn": "2021-05-24T21:01:29.203",
+                    "updatedOn": "2021-05-24T21:01:36.8",
+                    "publishedOn": "2012-09-03T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zu Nr. 29</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "c": {
+            "kommentare": [
+                {
+                    "id": 4542,
+                    "zifferNr": "27",
+                    "prefix": "c)",
+                    "title": "Durchführung / Abrechnung der Nr. 27 für Nicht-Gynäkologen fachfremd",
+                    "createdOn": "2021-05-24T21:01:29.201",
+                    "updatedOn": "2021-05-24T21:01:36.8",
+                    "publishedOn": "2010-10-13T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Heilberufe- und Kammergesetze der Länder schreiben eine Bindung des Facharztes an seine durch die Weiterbildungsordnungen bestimmten Grenzen vor. Das Bundesverfassungsgericht hat hierzu in seinem sog. Facharztbeschluss bereits im Jahre 1972 entschieden, dass die Verpflichtung des Arztes, sich im Rahmen seiner Gebietsbezeichnung auf ein Gebiet zu beschränken, grundsätzlich sachgerecht sei, weil eine solche Regel vernünftigen Erwägungen des Gemeinwohls entspreche. </p><p>Die Durchführung und Abrechnung einer gynäkologischen Früherkennungsuntersuchung gemäß Nr. 27 ist eine hochspezifische, fachärztliche Leistung, die von einem Nicht-Gynäkologen als fachfremde Leistung weder durchgeführt noch abgerechnet werden kann. </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "id": 4540,
+                    "zifferNr": "27",
+                    "prefix": "a2)",
+                    "title": "Nr. 11 neben Nr. 27",
+                    "createdOn": "2021-05-24T21:01:29.196",
+                    "updatedOn": "2021-05-24T21:01:36.8",
+                    "publishedOn": "2008-03-03T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zu Nr. 11 </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                },
+                {
+                    "id": 4539,
+                    "zifferNr": "27",
+                    "prefix": "a1)",
+                    "title": "Nr. 27, Umfang und Leistungspflicht",
+                    "createdOn": "2021-05-24T21:01:29.192",
+                    "updatedOn": "2021-05-24T21:01:36.8",
+                    "publishedOn": "2000-05-20T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Krebsfrüherkennungs-Untersuchung der Frau hat in der GOÄ einen definierten Leistungsinhalt. Es handelt sich hierbei um die Nr. 27 für die eigentliche Untersuchung und die Nr. 4851 für die zytologische Untersuchung. Leistungen, die von dieser definierten präventiven Diagnostik nicht subsummiert werden, können nur im Rahmen einer kurativen Diagnostik, d. h. bei vorliegendem Krankheitsverdacht, abgerechnet werden. Dies schließt nicht aus, dass Leistungen vom Patienten verlangt werden und dann auch abgerechnet werden können (§ 1, Abs. 2, 2. Satz). Eine Leistungspflicht der Krankenversicherung könnte hierbei nur dann entstehen, wenn diese in den vertraglichen Vereinbarungen zwischen Versicherung und Versicherungsnehmer fixiert wäre. Da dies üblicherweise nicht der Fall ist sind Leistungen, die den vorgegebenen Rahmen der Krebsfrühdiagnostik überschreiten und nicht im Zusammenhang mit einer kurativen Diagnostik anfallen, seitens der Versicherung nicht zu übernehmen.</p><p>Wenn die Auffassung geäußert wird, dass die im Rahmen einer Krebsfrüherkennung durchgeführte Untersuchung auf Zellveränderungen, die zu Entartungen führen können (aber nicht müssen) (z. B. HPV-Kriterien, Humanes Papillomvirus) eigenständig zusätzlich mit der Nr. 4851 analog abgerechnet werden können, ist dem zu widersprechen. Es wird von den Vertretern dieser Auffassung argumentiert, dass die erweiterte Untersuchung auf solche Zellveränderungen unerlässlich sei, auch wenn die eigentliche zytologische Untersuchung zur Krebsdiagnostik einen unauffälligen Abstrichbefund ergeben habe. Es handelt sich hierbei ganz eindeutig um eine Untersuchung auf Krebsrisiken, die über den eigentlichen Untersuchungsauftrag (Krebsfrüherkennung) hinausgeht. Unter diesem Aspekt müsste z. B. bei Rauchern in kurzen Abständen nicht nur eine Röntgenuntersuchung der Lunge, sondern auch eine Bronchoskopie durchgeführt werden. Außerdem müssten (in diesem Beispiel) regelmäßig die Blutgefäße sowohl sonographisch als auch radiologisch auf Veränderungen untersucht werden. </p><p>Die Ausweitung der Krebsfrüherkennungs-Untersuchung der Frau auf Untersuchungsinhalte, die nicht durch eine Verdachtsdiagnose induziert werden, kann ggf. von der Frau gewünscht werden. Dies führt jedoch nicht zur Leistungspflicht der privaten Krankenversicherung, weil bei einer Verallgemeinerung dieses Grundsatzes jeder Versicherungsnehmer nach von ihm selbst zu bestimmenden Zeitabständen das Recht hätte, sich auf Kosten der Krankenversicherung von Kopf bis Fuß ohne jegliche Verdachtsdiagnosen auf alle nur denkbaren Krankheitsrisiken untersuchen zu lassen.</p><p>-</p><p>Unabhängig von der vorstehend herausgearbeiteten, fehlenden Verpflichtung der Kostenübernahme durch die Krankenversicherung hängt die Wahl der entsprechenden GOÄ-Nummer (existente oder analoge Nummer) in der Liquidation der Arztes gegenüber dem Patienten von der Art der durchgeführten zusätzlichen Untersuchung ab. Wenn Leistungsinhalte erbracht werden, die mit dem Aufwand, wie er zur Erfüllung des Leistungsinhalts der Nr. 4851 erforderlich ist, vergleichbar sind, kann hierfür der analoge Ansatz der Nr. 4851 in Frage kommen. Zur Klarstellung wird jedoch noch einmal darauf hingewiesen, dass dies nur dann zulässig ist, wenn die Bedingungen des § 1, Abs. 2, 2. Satz der GOÄ erfüllt sind und dass trotz der Abrechnung entsprechender Leistungen gegenüber der Patientin hierdurch keine Leistungspflicht der Krankenversicherung entsteht.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo"
+                }
+            ],
+            "kategorien": ""
+        },
+        "b": {
+            "kommentare": [
+                {
+                    "id": 4541,
+                    "zifferNr": "27",
+                    "prefix": "b)",
+                    "title": "Nr. 1103 analog nicht für Cytobrush neben Nr. 27",
+                    "createdOn": "2021-05-24T21:01:29.198",
+                    "updatedOn": "2021-05-24T21:01:36.8",
+                    "publishedOn": "2007-03-18T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die Nr. 1103 hat folgenden Leistungsinhalt: \"Probeexzision aus dem Gebärmutterhals und / oder dem Muttermund und / oder der Vaginalwand - ggf. einschl. Abrasion und auch einschl. Entfernung eines oder mehrerer Polypen\". Die Position kann analog für ein \"Cytobrush\" berechnet werden. Die Früherkennungsuntersuchung gemäß Nr. 27 beinhaltet jedoch die Abstrichentnahme zur Zytologie, so dass der Ansatz der Nr. 1103 daneben nicht möglich ist.</p><p></p>",
                     "createdBy": "martin-gebuehreninfo",
                     "updatedBy": "martin-gebuehreninfo",
                     "scope": "GENERAL",

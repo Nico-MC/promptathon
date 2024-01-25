@@ -1,0 +1,17 @@
+{
+    "22": {
+        "a": {
+            "kommentare": [
+                {
+                    "zifferNr": "22",
+                    "title": "Nr. 22 nicht wenn Terminüberschreitung",
+                    "text": "<p>Der Legendentext der Nr. 22 lautet: \"Eingehende Beratung einer Schwangeren im Konfliktfall über die Erhaltung oder den Abbruch der Schwangerschaft - auch einschließlich Beratung über soziale Hilfen, gegebenenfalls auch einschließlich Beurteilung über das Vorliegen einer Indikation für einen nicht rechtswidrigen Schwangerschaftsabbruch\".</p><p>Eine Terminüberschreitung stellt keine Indikation für eine Konfliktberatung über den Erhalt oder den Abbruch einer Schwangerschaft dar. Die Nr. 22 kann hierfür nicht abgerechnet werden</p><p></p><p></p>",
+                    "categories": [
+                        "Konfliktberatung",
+                        "Terminüberschreitung"
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "20": {
+        "b": {
+            "kommentare": [
+                {
+                    "zifferNr": "20",
+                    "title": "Nr. 1, 3, 20, 30, 31, 33, 34 analog nicht berechenbar",
+                    "text": "<p>siehe Kommentar zu Nr. 1</p><p></p><p></p>",
+                    "categories": [
+                        "Analogberechenbarkeit"
+                    ]
+                }
+            ]
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "zifferNr": "20",
+                    "title": "Nr. 20 mehrfach für Diabetiker-Schulungen",
+                    "text": "<p>In der modernen Diabetes-Behandlung wird eine strukturierte, mehrtägige (meist 4-tägige) Diabetikerschulung (nach den DDG-Richtlinien) angestrebt. Die Schulung umfasst in der Regel über den Zeitraum von 4 Tagen pro Schulungstag 4 Schulungseinheiten mit einer jeweiligen Dauer von 50-60 Minuten. Die Schulungseinheiten werden thematisch aufeinander abgestimmt, sind zeitlich komprimiert und werden in Schulungsgruppen durchgeführt. Da die jeweiligen Einheiten als getrennte Sitzungen zu betrachten sind, kann eine mehrfache Abrechnung der Nr. 20 am Tag (jeweils 1x pro Einheit) erfolgen.</p><p>Erfolgt die Schulung im Rahmen einer Einzelbehandlung kann pro Sitzung einmal die Nr. 33 abgerechnet werden.</p><p></p>",
+                    "categories": [
+                        "Diabetiker-Schulungen",
+                        "mehrfache Abrechnung"
+                    ]
+                }
+            ]
+        }
+    }
+}
