@@ -62,6 +62,7 @@ def write_comments_after_prefix(goae_ids: list[object]) -> None:
 
 def load_examples(json_data: str) -> list[any]:
     examples = []
+    examples_json_l = ""
     goae_ids = ["1", "2", "3"] # load prefered_categories from this goae_ids
     for goae_id in goae_ids:
         for prefix, comments in json_data[goae_id].items():
@@ -72,6 +73,9 @@ def load_examples(json_data: str) -> list[any]:
                     text = "\"text\": " + "\"" + comment['text'] + "\"\n"
                     comment_str = title + text
                     comment_str = re.sub(r'<[^>]+>', '', comment_str)
+                    json_l = {"messages":[{"role": "system", "content": "You are an AI assistant that helps people find categories for a given text. Categories that have already been used for other comments and are therefore ignored = ['Abrechnung', 'GOÄ', 'Behandlungsfall', 'Beratungsleistung']"}, {"role": "user", "content": comment_str}, {"role": "assistant", "content": str(comment["prefered_categories"])}]}
+                    examples_json_l = json.dumps(json_l)
+                    examples_json_l += examples_json_l + "\n"
                     examples.append({"role": "user", "content": comment_str})
                     examples.append({"role": "assistant", "content": str(comment["prefered_categories"])})
 
