@@ -20,28 +20,6 @@ prompter = OpenAIPrompter()
 finetuner = OpenAIFinetuner()
 
 
-# load environment variables (.env)
-# load_dotenv()
-
-# load json file
-# json_file = os.getenv('JSON_FILE')
-# encoding = os.getenv('ENCODING')
-# json_main_data = sort_json(read_json(json_file, encoding))
-# json_main_data = read_json(json_file, encoding)
-
-# logit_bias = {}
-# logit_bias_data = read_json("logit_bias.json")
-# for key, value in logit_bias_data.items():
-#     tokenIds = getTokenId(key)
-#     logit_bias[tokenIds] = value
-    # for tokenId in tokenIds:
-    #     logit_bias[tokenId] = value
-
-# connect with open ai api
-# prompter = OpenAIPrompter()
-# finetuner = OpenAIFinetuner()
-
-
 
 ##### ----- HELPERS ----- #####
 def get_categories_out_of_str(str: str):
@@ -103,8 +81,111 @@ def load_examples(json_data: str) -> list[any]:
 
 
 
-
 ##### ----- PROMPTING ----- #####
+def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prefixes: list[str], prompts: list[str], format: bool = False):
+    examples = load_examples(json_data)
+    prompt = [
+        {"role": "system", "content": prompts[0]},
+        *examples
+    ]
+    formatted_json_data = {}
+    # --- iterate over goae numbers --- #
+    for goae_id in goae_ids:
+        goae_id = str(goae_id)
+        if goae_id not in formatted_json_data:
+            formatted_json_data[goae_id] = {}
+        if(goae_id == None):
+            return
+        j = 0
+        # --- iterate over prefixes --- #
+        for prefix, comments in json_data[goae_id].items():
+            comments = comments['kommentare']
+            if prefixes:
+                if prefix not in prefixes:
+                    continue
+            if prefix not in formatted_json_data[goae_id]:
+                formatted_json_data[goae_id][prefix] = {"kommentare": []}
+            # prompt_for_prefix = prompts[0]
+            # all_comments_in_prefix = ""
+            i = 1
+            # --- iterate over comments --- #
+            for index, comment in enumerate(comments):
+                title = "\"title\": " + "\"" + comment['title'] + "\",\n"
+                text = "\"text\": " + "\"" + comment['text'] + "\"\n"
+                comment_str = title + text
+                comment_str = re.sub(r'<[^>]+>', '', comment_str)
+                # all_comments_in_prefix += "\"Kommentar " + str(i) + "\": { "
+                # all_comments_in_prefix += comment_str
+                # if i == len(comments):
+                #     continue
+                # all_comments_in_prefix += "\n\n"
+                i += 1
+
+                # print(prompt)
+                temp_prompt = prompt[:]
+                temp_prompt.append({"role": "user", "content": comment_str})
+                print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | KOMMENTAR {index + 1} -----{ConsoleColors.ENDC}")
+                print(temp_prompt)
+                categories = prompter.create_chat(temp_prompt,model="gpt-3.5-turbo-16k", temperature=0.9, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=None)
+                cmt = {
+                    "zifferNr": comment['zifferNr'],
+                    "title": comment['title'],
+                    "text": comment['text'],
+                    "categories": ast.literal_eval(categories)
+                }
+                formatted_json_data[goae_id][prefix]["kommentare"].append(cmt)
+                # categories = get_categories_out_of_str(categories)
+                print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
+                json_data[goae_id][prefix]["kommentare"][index]["categories"] = ast.literal_eval(categories)
+            j += 1
+            # prompt_for_prefix = prompt_for_prefix.replace("$comments", all_comments_in_prefix)
+            # print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | PROMPT {j} -----{ConsoleColors.ENDC}")
+            # print(prompt_for_prefix)
+            # categories = prompter.create_completion(prompt=prompt_for_prefix,model="gpt-3.5-turbo-instruct", temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
+            # categories = get_categories_out_of_str(categories)
+            # print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
+            # json_data[goae_id][prefix]["kategorien"] = categories
+    if format == True:
+        return formatted_json_data
+    else:
+        return json_data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##### ----- OLD PROMPTING ----- #####
 def get_categories_for_comment(json_data: dict, goae_ids: list = None): # get categories for each comment
     pre_prompt = "Bitte gib mir 3 1-Wort Kategorien, die für den folgenden Kommentar passend sind und ärztliche Fachbegriffe sind.\n\n"
     post_prompt = "Die 3 am besten passenden Kategorien sind: [\""
@@ -230,78 +311,3 @@ def create_categories(json_data: dict, goae_ids: list[str], prompts: list[str]):
             print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
             json_data[goae_id][prefix]["kategorien"] = categories
     return json_data
-
-
-
-
-
-
-
-
-def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prefixes: list[str], prompts: list[str], format: bool = False):
-    examples = load_examples(json_data)
-    prompt = [
-        {"role": "system", "content": prompts[0]},
-        *examples
-    ]
-    formatted_json_data = {}
-    # --- iterate over goae numbers --- #
-    for goae_id in goae_ids:
-        goae_id = str(goae_id)
-        if goae_id not in formatted_json_data:
-            formatted_json_data[goae_id] = {}
-        if(goae_id == None):
-            return
-        j = 0
-        # --- iterate over prefixes --- #
-        for prefix, comments in json_data[goae_id].items():
-            comments = comments['kommentare']
-            if prefixes:
-                if prefix not in prefixes:
-                    continue
-            if prefix not in formatted_json_data[goae_id]:
-                formatted_json_data[goae_id][prefix] = {"kommentare": []}
-            # prompt_for_prefix = prompts[0]
-            # all_comments_in_prefix = ""
-            i = 1
-            # --- iterate over comments --- #
-            for index, comment in enumerate(comments):
-                title = "\"title\": " + "\"" + comment['title'] + "\",\n"
-                text = "\"text\": " + "\"" + comment['text'] + "\"\n"
-                comment_str = title + text
-                comment_str = re.sub(r'<[^>]+>', '', comment_str)
-                # all_comments_in_prefix += "\"Kommentar " + str(i) + "\": { "
-                # all_comments_in_prefix += comment_str
-                # if i == len(comments):
-                #     continue
-                # all_comments_in_prefix += "\n\n"
-                i += 1
-
-                # print(prompt)
-                temp_prompt = prompt[:]
-                temp_prompt.append({"role": "user", "content": comment_str})
-                print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | KOMMENTAR {index + 1} -----{ConsoleColors.ENDC}")
-                print(temp_prompt)
-                categories = prompter.create_chat(temp_prompt,model="gpt-3.5-turbo-16k", temperature=0.9, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=None)
-                cmt = {
-                    "zifferNr": comment['zifferNr'],
-                    "title": comment['title'],
-                    "text": comment['text'],
-                    "categories": ast.literal_eval(categories)
-                }
-                formatted_json_data[goae_id][prefix]["kommentare"].append(cmt)
-                # categories = get_categories_out_of_str(categories)
-                print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
-                json_data[goae_id][prefix]["kommentare"][index]["categories"] = ast.literal_eval(categories)
-            j += 1
-            # prompt_for_prefix = prompt_for_prefix.replace("$comments", all_comments_in_prefix)
-            # print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | PROMPT {j} -----{ConsoleColors.ENDC}")
-            # print(prompt_for_prefix)
-            # categories = prompter.create_completion(prompt=prompt_for_prefix,model="gpt-3.5-turbo-instruct", temperature=1, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=["\"]"])
-            # categories = get_categories_out_of_str(categories)
-            # print(f"{ConsoleColors.OKGREEN}{categories}{ConsoleColors.ENDC}\n\n")
-            # json_data[goae_id][prefix]["kategorien"] = categories
-    if format == True:
-        return formatted_json_data
-    else:
-        return json_data
