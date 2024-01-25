@@ -1,2 +1,6 @@
 - Prefix-Prompt über Assistant
 - Prefix Auswahl übers Frontend
+
+Was macht ChatGPT ohne Titel? Wie viel zählt der Titel rein?
+Ziffern.sorted goä nummern werden nicht übernommen, sondern als Index der for-Schleife angegeben
+Beispiele hochladen

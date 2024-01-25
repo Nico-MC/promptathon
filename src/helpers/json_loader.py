@@ -4,7 +4,7 @@ import tiktoken
 from src.helpers.console_colors import ConsoleColors
 
 def sort_json(json_data: str) -> dict[str, object]:
-    json_dict = {str(item["id"]): item for item in json_data}
+    json_dict = {str(item["zifferNr"]): item for item in json_data}
     write_json(json_dict, 'ziffern_sorted.json')
     return json_dict
 
