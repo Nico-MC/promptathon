@@ -84,6 +84,7 @@ def load_examples(json_data: str) -> list[any]:
 ##### ----- PROMPTING ----- #####
 def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prefixes: list[str], prompts: list[str], format: bool = False):
     examples = load_examples(json_data)
+    write_json(examples, "prompt_output\examples.json")
     prompt = [
         {"role": "system", "content": prompts[0]},
         *examples
@@ -123,9 +124,10 @@ def create_categories_from_assistant(json_data: dict, goae_ids: list[str], prefi
 
                 # print(prompt)
                 temp_prompt = prompt[:]
-                temp_prompt.append({"role": "user", "content": comment_str})
+                prompt_obj = {"role": "user", "content": comment_str}
+                temp_prompt.append(prompt_obj)
                 print(f"{ConsoleColors.OKCYAN}----- GOÄ {goae_id} | PREFIX {prefix} | KOMMENTAR {index + 1} -----{ConsoleColors.ENDC}")
-                print(temp_prompt)
+                print(prompt_obj)
                 categories = prompter.create_chat(temp_prompt,model="gpt-3.5-turbo-16k", temperature=0.9, top_p=0.1, max_tokens=100, frequency_penalty=0, presence_penalty=0, stop=None)
                 cmt = {
                     "zifferNr": comment['zifferNr'],
