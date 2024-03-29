@@ -1,0 +1,123 @@
+{
+    "50": {
+        "g": {
+            "kommentare": [
+                {
+                    "zifferNr": "50",
+                    "title": "Nr. 50 nicht analog für \"ambulante Visite\", PKV",
+                    "text": "<p>Es ist nicht nachvollziehbar, was sich hinter dem Begriff \"ambulante Visite\" dargestellten Leistung verbirgt. Denkbar erscheint, dass die Gebühr für das Aufsuchen des Patienten im Aufwachraum nach erfolgter ambulanter Operation berechnet wird. Hierfür stehen aber in der GOÄ Untersuchungs -und Beratungsgebühren, beziehungsweise der Zuschlag nach der GOÄ-Nr. 448 oder 449 zur Verfügung. Die entsprechenden Bestimmungen sind zu beachten. Somit fehlt es an einer durch Analogie ausfüllungsbedürftigen Lücke in der Gebührenordnung. Die Nr. 50 analog für eine \"ambulante Visite\" kann daher nicht abgerechnet werden</p><p>(PKV-Verband vom 15.12.2014 \"Kommentierung praxisrelevanter Analognummern\")</p><p></p><p></p>",
+                    "categories": [
+                        "Analogabrechnung",
+                        "ambulante Visite"
+                    ]
+                }
+            ]
+        },
+        "f": {
+            "kommentare": [
+                {
+                    "zifferNr": "50",
+                    "title": "Nr. 3 nicht neben Nr. 50",
+                    "text": "<p>Siehe Kommentar zu Nr. 3.</p><p></p>",
+                    "categories": [
+                        "Nebeneinanderabrechnung",
+                        "Verweis"
+                    ]
+                }
+            ]
+        },
+        "c": {
+            "kommentare": [
+                {
+                    "zifferNr": "50",
+                    "title": "Nr. 50 nicht am Operationstag",
+                    "text": "<p>Die Berechnung einer Besuchsleistung am Operationstag kann gebührenrechtlich nicht anerkannt werden und ist nicht plausibel. Die Nr. 50 ist nicht erstattungsfähig.</p><p></p>",
+                    "categories": [
+                        "Besuch",
+                        "Operationstag"
+                    ]
+                },
+                {
+                    "zifferNr": "50",
+                    "title": "Wegegeld und Reiseentschädigung bei Besuchen",
+                    "text": "<p>Die Geltendmachung von Wegegeld gemäß § 8 GOÄ oder Reiseentschädigung gemäß § 9 GOÄ im Zusammenhang mit der Durchführung von Besuchen ist nur dann zulässig, wenn der Besuch selbst abrechnungsfähig ist. Dies trifft beispielsweise nicht zu beim Aufsuchen der Arbeitsstätte (z.B. Belegarzt fährt ins Krankenhaus oder Anästhesist sucht eine Praxis zur Durchführung von Narkosen bei ambulanten Eingriffen auf). In diesen Fällen kann weder Wegegeld noch eine Reiseentschädigung abgerechnet werden.</p><p></p>",
+                    "categories": [
+                        "Wegegeld",
+                        "Reiseentschädigung",
+                        "Besuche"
+                    ]
+                },
+                {
+                    "zifferNr": "50",
+                    "title": "Nr. 50 nicht für Aufsuchen der Arbeitsstätte",
+                    "text": "<p>Das Aufsuchen der Arbeitsstätte (Praxis, Belegkrankenhaus, OP-Zentrum) ist keine abrechnungsfähige ärztliche Leistung. Die Abrechnung eines Hausbesuchs gemäß Nr. 50 GOÄ hierfür ist daher nicht zulässig.</p><p></p>",
+                    "categories": [
+                        "Aufsuchen der Arbeitsstätte"
+                    ]
+                }
+            ]
+        },
+        "d": {
+            "kommentare": [
+                {
+                    "zifferNr": "50",
+                    "title": "Nr. 50 nicht bei Besuch in anderen Krankenhausabteilungen",
+                    "text": "<p>Es handelt sich um keinen Besuch nach Nr. 50, wenn der Arzt die eigene Station verlassen und eine fachfremde Station aufsuchen muss. Aus Sicht des Patienten gilt als \"Besuch\" zwar das Aufsuchen des Patienten nicht allein in seiner Wohnung, sondern allgemein an seinem Aufenthaltsort - also auch im Krankenhaus. Dies gilt jedoch nicht, wenn der Arzt dabei seine regelmäßige Arbeitsstätte aufsucht.</p><p>Als Arbeitsstätte gilt dabei nicht nur die eigene Abteilung, sondern das Krankenhaus als Ganzes. Selbst wenn es sich um ein Klinikum mit mehreren Gebäuden (Pavillonsystem) handelt, gilt das gesamte Klinikum als \"regelmäßige Arbeitsstätte\". Eine Berechnung der Nr. 50 ist daher beim Besuch von Patienten im eigenen Krankenhaus (etwa im Rahmen eines Konsiliums) nicht möglich.</p><p>(Chefärzte Brief Januar 2004, Seite 19)</p><p></p>",
+                    "categories": [
+                        "Besuch in anderen Krankenhausabteilungen"
+                    ]
+                },
+                {
+                    "zifferNr": "50",
+                    "title": "Nr. 50 für Besuche im Krankenhaus",
+                    "text": "<p>Eine Visite gemäß Nr. 45 bzw. 46 bei stationärer Behandlung durch einen Krankenhaus- oder Belegarzt ist das Pendant eines Hausbesuchs eines niedergelassenen Arztes in der Wohnung des Patienten. Die Abrechnung einer Visite beschränkt sich daher grundsätzlich auf eine stationäre Behandlung durch einen Krankenhaus- oder Belegarzt. Wenn ein niedergelassener Arzt quasi im Sinne einer konsiliarischen Tätigkeit in ein Krankenhaus gerufen wird, handelt es sich für diesen niedergelassenen Arzt zunächst nicht um eine Visite, sondern um einen Hausbesuch, so dass er auch die Nr. 50 abrechnen kann. Bei einem Konsilium handelt es sich primär (unabhängig davon, dass die Leistung letztlich der Behandlung des Patienten dient) zunächst nicht um eine Beratung des Patienten, sondern um eine beratende Tätigkeit für den behandelnden Krankenhausarzt, weil dieser aus fachlicher Überlegung einen anderen Arzt hinzuziehen möchte (siehe auch Brück`scher Kommentar zu Nr. 50). </p><p>Die vorstehenden Formulierungen betreffen in jedem Falle das gelegentliche Tätigwerden eines niedergelassenen Arztes. Wenn es sich jedoch um eine Art Mitbehandlung, z. B. mit mehr oder weniger regelmäßigem Aufsuchen des Patienten im Krankenhaus handelt, kann nicht mehr von einer konsiliarischen Tätigkeit gesprochen werden. Es handelt sich dann um eine ganz normale Behandlung eines Patienten in einem Krankenhaus mit dem gesamten technischen Background des Hauses. In diesem Falle ist die Abrechnung einer Visitengebühr zu diskutieren.</p><p></p>",
+                    "categories": [
+                        "Besuch im Krankenhaus",
+                        "Visite",
+                        "Konsilium"
+                    ]
+                }
+            ]
+        },
+        "e": {
+            "kommentare": [
+                {
+                    "zifferNr": "50",
+                    "title": "Nr. 50 nicht 3,5-fach bei \"widriger Verkehrsverhältnisse\"",
+                    "text": "<p>Die Erhöhung des Abrechnungsfaktors für die Nr. 50 (Besuch) mit der Begründung \"widrige Verkehrsverhältnisse\" ist nicht möglich. Die Umstände, die eine Erhöhung des Abrechnungsfaktors rechtfertigen, müssen bei der Behandlung des Patienten vorliegen (z.B. sich wehrender alkoholisierter Patient oder Untersuchung des Patienten im Schrebergarten bzw. im Wald). </p><p></p>",
+                    "categories": [
+                        "Abrechnungsfaktor",
+                        "widrige Verkehrsverhältnisse"
+                    ]
+                }
+            ]
+        },
+        "b": {
+            "kommentare": [
+                {
+                    "zifferNr": "50",
+                    "title": "Nr. 50 (Besuch) und Leichenschau",
+                    "text": "<p>Ein Besuch kann im Zusammenhang mit einer Leichenschau nicht abgerechnet werden, da Beratung und symptombezogene Untersuchung obligater Bestandteil eines Besuches nach Nr. 50 sind. Die Beratung kann an einer Leiche nicht erbracht werden und die Untersuchung ist Bestandteil der Leichenschau gemäß Nr. 100. Da der Leistungsinhalt der Nr. 50 aus den genannten Gründen nicht komplett erbracht werden kann, ist die Abrechnung der Nr. 50 nicht möglich. Der Besuch könnte nur dann im Sinne eines analogen Ansatzes der Nr. 50 abgerechnet werden, wenn zum Zeitpunkt des Beginns des Hausbesuches (Anforderung und Abfahrt des Arztes) noch nicht bekannt ist, dass der Patient verstorben ist, der Arzt also den Besuch in Erwartung eines lebenden Patienten antritt. Die vorstehende Ausnahmeregelung entspricht der Abrechnungsweise im GKV-Bereich. Wegegeld kann in jedem Falle abgerechnet werden.</p><p>(Bundesärztekammer (BÄK), Deutsches Ärzteblatt 98, Heft 25 v. 22.06.2001)</p><p></p>",
+                    "categories": [
+                        "Besuch",
+                        "Leichenschau"
+                    ]
+                }
+            ]
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "zifferNr": "50",
+                    "title": "Nr. 50 am gleichen Tag bei verschiedenen Familienmitgliedern",
+                    "text": "<p>Am gleichen Tag wurde die Nr. 50 für einen Besuch abgerechnet, obwohl bei einem anderen Familienangehörigen ein Hausbesuch abgerechnet wurde. Da dieser Hausbesuch mit der Nr. 50 anerkannt wurde, wird der Hausbesuch bei der hier zu besprechenden Rechnung in die Nr. 51 umgewandelt (die abzuziehende Honorardifferenz beträgt </p><p></p>",
+                    "categories": [
+                        "Besuch",
+                        "Hausbesuch",
+                        "Umwandlung in Nr. 51"
+                    ]
+                }
+            ]
+        }
+    }
+}

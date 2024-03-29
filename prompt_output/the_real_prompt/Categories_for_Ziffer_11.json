@@ -1,0 +1,80 @@
+{
+    "11": {
+        "f": {
+            "kommentare": [
+                {
+                    "zifferNr": "11",
+                    "title": "Nr. 11 nicht neben Nr. 28",
+                    "text": "<p>siehe Kommentar zu Nr. 28</p><p></p><p></p><p></p>",
+                    "categories": [
+                        "Nebeneinanderabrechnung",
+                        "Verweis"
+                    ]
+                }
+            ]
+        },
+        "e": {
+            "kommentare": [
+                {
+                    "zifferNr": "11",
+                    "title": "Nr. 11 neben Nr. 29 erlaubt",
+                    "text": "<p>Die Nr. 29 (Früherkennungsuntersuchung) beinhaltet keine Krebsfrüherkennungsuntersuchung des Mannes (Nr. 28). Aus diesem Grunde kann die Nr. 29 neben der Nr. 28 abgerechnet werden. Dies bedeutet, dass die Nr. 11 (rektale Untersuchung) neben der Nr. 29, nicht jedoch neben der Nr. 28, abgerechnet werden kann.</p><p></p>",
+                    "categories": [
+                        "Nebeneinanderabrechnung",
+                        "Früherkennungsuntersuchung"
+                    ]
+                }
+            ]
+        },
+        "d": {
+            "kommentare": [
+                {
+                    "zifferNr": "11",
+                    "title": "Nr. 11 angeblich nicht neben Nr. 3230",
+                    "text": "<p>Die Auffassung, dass eine rektal-digitale Untersuchung (Nr. 11) neben der Nr. 3230 (manuelles Zurückbringen des Mastdarms) nicht abgerechnet werden könne, ist nicht haltbar. Die rektal-digitale Untersuchung wird sicher in vielen Fällen nach dem manuellen Zurückbringen des Mastdarmvorfalls durchgeführt, sie hat jedoch ein anderes Leistungsziel als die Nr. 3230 und ist keinesfalls zwingend mit dieser Nummer verbunden. Auch wenn im Kommentar nach Lang, Schäfer, Stiel und Vogt diese nicht haltbare Auffassung vertreten wird, können beide Nummern nebeneinander abgerechnet werden. Nur wenn die rektal-digitale Untersuchung Voraussetzung für die Durchführung der Leistung nach Nr. 3230 wäre, wäre auch die Nebeneinanderberechnung ausgeschlossen. Die Reihenfolge ist jedoch gerade anders herum.</p><p></p>",
+                    "categories": [
+                        "Nebeneinanderabrechnung",
+                        "Rektal-digitale Untersuchung"
+                    ]
+                }
+            ]
+        },
+        "c": {
+            "kommentare": [
+                {
+                    "zifferNr": "11",
+                    "title": "Nr. 11 nicht im Zusammenhang mit Einführen eines Staplergeräts",
+                    "text": "<p>Die vor der Einführung des Staplergeräts durchzuführende Digitaluntersuchung des Mastdarms ist keine eigenständig abrechnungsfähige Leistung. Die Nr. 11 muss daher gestrichen werden. </p><p></p>",
+                    "categories": [
+                        "Digitaluntersuchung des Mastdarms"
+                    ]
+                }
+            ]
+        },
+        "b": {
+            "kommentare": [
+                {
+                    "zifferNr": "11",
+                    "title": "Nr. 11 nicht neben Nr. 27",
+                    "text": "<p>Die digitale Untersuchung des Mastdarms nach Nr. 11 GOÄ ist im Leistungsspektrum der Nr. 27 enthalten (sh. Legendentext) und daher nicht neben der Nr. 27 gesondert berechnungsfähig.</p><p>Da Leistungsüberschneidungen gemäß § 4 (2a) der GOÄ eine Doppelberechnung nicht zulassen, verbietet sich daher eine Berechnung der Nr. 11 und 27 nebeneinander.</p><p>(Quelle: Medical Tribune, Nr. 40 v. 02.10.03)</p><p></p>",
+                    "categories": [
+                        "Nebeneinanderabrechnung"
+                    ]
+                }
+            ]
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "zifferNr": "11",
+                    "title": "Nr. 11 nicht bei gynäkol. Untersuchung nach Nr. 7",
+                    "text": "<p>Die gynäkologische Untersuchung nach der Nr. 7 beinhaltet obligat auch die rektale Untersuchung, so dass bei gynäkologischen Untersuchungen die Nr. 11 nicht neben der Nr. 7 berechnet werden kann.</p><p></p>",
+                    "categories": [
+                        "gynäkologische Untersuchung",
+                        "Nebeneinanderabrechnung"
+                    ]
+                }
+            ]
+        }
+    }
+}

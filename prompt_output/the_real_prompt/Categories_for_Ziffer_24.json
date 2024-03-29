@@ -1,0 +1,25 @@
+{
+    "24": {
+        "a": {
+            "kommentare": [
+                {
+                    "zifferNr": "24",
+                    "title": "Nr. 24 nicht für Untersuchung des Entbindungsverlaufs, Bayer. LÄK",
+                    "text": "<p>Bei der Berechnung der Nr. 7 neben der Visite ist die Angabe von Uhrzeiten in der GOÄ vorgeschrieben.</p><p>Die Aussage \"zeitlich unabhängig\" ist im Grunde genommen nicht ausreichend. Sofern eine Krankenversicherung auf die Angabe der Uhrzeiten besteht, müsste diese Angabe nachträglich erfolgen.</p><p>(Bayer. Landesärztekammer vom 28.08.2014, Az.: hs/142392)</p><p></p>",
+                    "categories": [
+                        "Untersuchung des Entbindungsverlaufs",
+                        "Uhrzeiten"
+                    ]
+                },
+                {
+                    "zifferNr": "24",
+                    "title": "Nr. 24 nicht für Überprüfung des Geburtsfortschritts",
+                    "text": "<p>Die Überprüfung des Geburtsfortschritts unter der Geburt kann nicht mit der Nr. 24 für eine Untersuchung im Schwangerschaftsverlauf abgerechnet werden. Die Legende und der Leistungsinhalt der Nr. 24 verwiesen auf: \"Untersuchung im Schwangerschaftsverlauf - einschl. Beratung und Bewertung der Befunde, gegebenenfalls auch im Hinblick auf Schwangerschaftsrisiken\". Für die Überprüfung des Geburtsfortschritts unter der Geburt klann daher nur die Nr. 5 abgerechnet werden.</p><p></p>",
+                    "categories": [
+                        "Überprüfung des Geburtsfortschritts"
+                    ]
+                }
+            ]
+        }
+    }
+}

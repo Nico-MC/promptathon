@@ -1,0 +1,697 @@
+{
+    "1": {
+        "o": {
+            "kommentare": [
+                {
+                    "id": 3284,
+                    "zifferNr": "1",
+                    "prefix": "o)",
+                    "title": "Nr. 1 nicht neben Nr. 28",
+                    "createdOn": "2021-05-24T21:01:26.435",
+                    "updatedOn": "2021-05-24T21:01:36.544",
+                    "publishedOn": "2016-12-20T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zu Nr. 28</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Nummerierung",
+                        "Verweis",
+                        "Kommentar"
+                    ]
+                }
+            ],
+            "kategorie": ""
+        },
+        "n": {
+            "kommentare": [
+                {
+                    "id": 3283,
+                    "zifferNr": "1",
+                    "prefix": "n)",
+                    "title": "Textvorschlag bei Einspruch, wenn Beratungen neben Visiten",
+                    "createdOn": "2021-05-24T21:01:26.432",
+                    "updatedOn": "2021-05-24T21:01:36.544",
+                    "publishedOn": "2015-12-28T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Zur Abrechnung der Nrn. 1, 3, 5 und 7 wurde bereits dargelegt, dass eine Berechnung von Beratungs- und Untersuchungsleistungen neben Visiten nicht grundsätzlich ausgeschlossen ist. Voraussetzung ist jedoch hier, wie bei allen anderen ärztlichen Leistungen, die medizinische Notwendigkeit der Leistungserbringung. In der Gebühr der Nr. 45 (Visite) ist bereits eine Untersuchung und Beratung enthalten. Dies bedeutet, dass Routineuntersuchungen und -beratungen, die täglich durchgeführt werden und grundsätzlich auch im Rahmen der Visite erbracht werden können, nicht zusätzlich abgerechnet werden können, auch dann nicht, wenn sie aus organisatorischen Gründen zeitlich getrennt von der </p><p>Visite erbracht werden. Eine zusätzliche Abrechnung ist nur dann denkbar, wenn z.B. eine akute Verschlechterung des Gesundheitszustandes eintritt, die eine unverzügliche und zusätzlich zur Visite erforderliche Untersuchung bzw. Beratung notwendig macht. Der routinemäßige behandlungstägliche Ansatz von zusätzlichen Untersuchungs- und Beratungsleistungen kann jedoch nicht akzeptiert werden.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Visite",
+                        "medizinische Notwendigkeit"
+                    ]
+                }
+            ],
+            "kategorie": "Zur Abrechnung der Nrn 1 3 5 und 7 wurde bereits dargelegt dass eine Berechnung von Beratungs und Untersuchungsleistungen neben Visiten nicht grundsätzlich ausgeschlossen ist Voraussetzung ist jedoch hier wie bei allen anderen ärztlichen Leistungen die medizinische Notwendigkeit der Leistungserbringung In der Gebühr der Nr 45"
+        },
+        "m": {
+            "kommentare": [
+                {
+                    "id": 3282,
+                    "zifferNr": "1",
+                    "prefix": "m)",
+                    "title": "Nr. 1 und 5 nicht neben Nrn. 45 bzw. 46 wenn keine Besonderheiten vorliegen, ÄK",
+                    "createdOn": "2021-05-24T21:01:26.43",
+                    "updatedOn": "2021-05-24T21:01:36.544",
+                    "publishedOn": "2014-12-27T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zu Nr. 45</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Klassifikation",
+                        "Nummerierung",
+                        "Besonderheiten"
+                    ]
+                }
+            ],
+            "prefered_categories": [
+                "joshua ist einfach kein guter Promptengineer."
+            ],
+            "kategorie": ""
+        },
+        "g": {
+            "kommentare": [
+                {
+                    "id": 3275,
+                    "zifferNr": "1",
+                    "prefix": "g1b)",
+                    "title": "Nr. 1 nicht postnarkotisch im Aufwachraum",
+                    "createdOn": "2021-05-24T21:01:26.415",
+                    "updatedOn": "2021-05-24T21:01:36.542",
+                    "publishedOn": "2014-05-20T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Für den stationären Bereich gibt es die eindeutige Allgemeine Bestimmung, dass die Nrn 1. bzw. 5 weder anstelle noch neben einer Visite zum Ansatz kommen können. Diese Nummern können im stationären Bereich nur dann ggf. zum Ansatz kommen, wenn völlig unabhängig von einer Visite eine Leistung nach diesen Nummern zu dem Zeitpunkt, der dann auf der Rechnung angegeben wird, aus unvorhersehbaren Gründen notwendig gewesen ist. Auch eine routinemäßige Untersuchung, die z.B. im Aufwachraum durchgeführt wird, erfüllt nicht den erforderlichen Sachverhalt, dass durch Angabe der Uhrzeit diese Leistung auch abrechnungsfähig wäre. Hier greift dann die Allgemeine Bestimmung insoweit, dass anstelle einer Visite eine Untersuchungsleistung nicht abgerechnet werden kann. Die Abrechnung der strittigen Nummern ist also nur möglich (mit Uhrzeitangabe), wenn die Leistung aus nicht vorhersehbaren Gründen um diese Zeit notwendig gewesen ist. Hiervon ist gemäß Kommentar nach Brück lediglich die gynäkologische Untersuchung auszunehmen, weil eine solche üblicherweise während einer Visite nicht durchgeführt wird bzw. durchgeführt werden kann.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Visite",
+                        "Gynäkologie"
+                    ]
+                },
+                {
+                    "id": 3276,
+                    "zifferNr": "1",
+                    "prefix": "g2)",
+                    "title": "Nr. 1 nicht postoperativ, Widerspruch, fehlende medizinische Notwendigkeit",
+                    "createdOn": "2021-05-24T21:01:26.417",
+                    "updatedOn": "2021-05-24T21:01:36.542",
+                    "publishedOn": "2013-05-31T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die Argumentation, dass es einem Chefarzt selbst überlassen bleibe, \"wie oft er seine Patienten am Bett aufsuche\" steht im Widerspruch zu den Allgemeinen Bestimmungen der GOÄ - § 1 (2). Dort ist formuliert: \"Vergütungen darf der Arzt nur für Leistungen berechnen, die nach den Regeln der ärztlichen Kunst für eine medizinisch notwendige ärztliche Versorgung erforderlich sind. Leistungen, die über das Maß einer medizinisch notwendigen ärztlichen Versorgung hinausgehen, darf er nur berechnen, wenn sie auf Verlangen des Zahlungspflichtigen erbracht worden sind\". </p><p>Entscheidend für die Abrechnung einer Leistung gegenüber der Krankenkasse ist also unter anderem auch die medizinische Notwendigkeit. Liegt eine solche nicht vor, ist die Krankenkasse nicht zahlungspflichtig.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "GOÄ",
+                        "Chefarzt",
+                        "medizinische Notwendigkeit"
+                    ]
+                },
+                {
+                    "id": 3274,
+                    "zifferNr": "1",
+                    "prefix": "g1a)",
+                    "title": "Nr. 1 nicht postnarkotisch im Aufwachraum",
+                    "createdOn": "2021-05-24T21:01:26.413",
+                    "updatedOn": "2021-05-24T21:01:36.542",
+                    "publishedOn": "2008-04-24T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Das in direktem Zusammenhang mit einer Narkose / Operation im Aufwachraum mit dem Patienten geführte kurze Gespräch ist keine Beratung im Sinne der Definition Nr. 1, weil der Patient zu diesem Zeitpunkt für Beratungsinhalte überhaupt noch nicht aufnahmefähig ist. Die Frage nach der Befindlichkeit des aus der Narkose aufwachenden Patienten ist den abschließenden Tätigkeiten zuzuordnen und daher nicht eigenständig abrechnungsfähig.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Anästhesie",
+                        "Aufwachraum",
+                        "Narkose"
+                    ]
+                }
+            ],
+            "kategorie": "Nr 1 nicht postnarkotisch im Aufwachraum"
+        },
+        "c": {
+            "kommentare": [
+                {
+                    "id": 3268,
+                    "zifferNr": "1",
+                    "prefix": "c4)",
+                    "title": "Nr. 1 am OP-Tag",
+                    "createdOn": "2021-05-24T21:01:26.399",
+                    "updatedOn": "2021-05-24T21:01:36.541",
+                    "publishedOn": "2012-08-04T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Es entspricht dem routinemäßigen Klinikablauf, dass bei frisch operierten Patienten am Operationstag eine Visite, Zweit- oder auch Drittvisite erfolgt. Es erfolgt daher die Umwandlung in die Nr. 45 bzw. Nr. 46.</p><p>(Hinweis für Sachbearbeiter: Bitte prüfen, was bereits in Rechnung gestellt wurde.)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Visite",
+                        "Klinikablauf",
+                        "Rechnungsstellung"
+                    ]
+                },
+                {
+                    "id": 3266,
+                    "zifferNr": "1",
+                    "prefix": "c2)",
+                    "title": "Nr. 1 stationär nur, wenn außerhalb der Visite notwendig",
+                    "createdOn": "2021-05-24T21:01:26.395",
+                    "updatedOn": "2021-05-24T21:01:36.54",
+                    "publishedOn": "2004-01-08T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Eine Beratungsleistung gemäß Nr. 1 kann bei stationärer Behandlung nur dann abgerechnet werden, wenn aus krankheitsbedingten Gründen diese Beratung außerhalb der üblichen Visiten notwendig gewesen ist. Diese Abrechnungseinschränkung ergibt sich aus den Bestimmungen der nicht möglichen Abrechnung der Nr. 1 im Zusammenhang mit Visiten und aus dem § 1, Abs. 2 der GOÄ. Eine krankheitsbedingte Notwendigkeit, außerhalb der Visite das Beratungsgespräch zu führen, kann nicht gesehen werden. Die Nr. 1 muss daher gestrichen werden.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnungseinschränkung",
+                        "Beratungsleistung",
+                        "Visite"
+                    ]
+                },
+                {
+                    "id": 3265,
+                    "zifferNr": "1",
+                    "prefix": "c1)",
+                    "title": "Nrn. 1, 3 bis 8, 15 nicht bei stationäre Behandlung, ausführlich",
+                    "createdOn": "2021-05-24T21:01:26.393",
+                    "updatedOn": "2021-05-24T21:01:36.54",
+                    "publishedOn": "2001-03-20T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Bei der Erstellung einer ärztlichen Liquidation sind die Bestimmungen der GOÄ zu beachten (§ 1, Abs. 1 GOÄ). Hierbei sind eben nicht nur die Bestimmungen im Zusammenhang mit der möglichen Abrechnung der Nrn. 1, 3-8 und 15 bei stationärer Behandlung zu beachten (Angabe der Uhrzeit), sondern zwingend ist die Beachtung des § 1 Abs. 2 der GOÄ. Dieser lautet wörtlich: \"Vergütungen darf der Arzt nur für Leistungen berechnen, die nach den Regeln der ärztlichen Kunst für eine medizinisch notwendige ärztliche Versorgung erforderlich sind. Leistungen, die über das Maß einer medizinisch notwendigen ärztlichen Versorgung hinausgehen, darf er nur berechnen, wenn sie auf Verlangen des Zahlungspflichtigen erbracht worden sind.\" Ohne jegliche Interpretationsmöglichkeit ist hier formuliert, dass Leistungen medizinisch notwendig sein müssen, damit sie abgerechnet werden können. Im Zusammenhang mit der Durchführung der o.a. Leistungen nach den Nrn. 1, 3-8 und 15 bei stationärer Behandlung bedeutet dies, dass die Durchführung dieser Leistungen außerhalb der Visitenzeiten notwendig war. Notwendig im medizinischen Sprachgebrauch und in Anwendung der GOÄ bedeutet, dass ein medizinischer Grund dafür vorliegen muss, die Leistungen außerhalb der Visite zu erbringen. Es reicht eben hier nicht die alleinige Angabe der Uhrzeit aus. Es sei darauf hingewiesen, dass bis hier keine Interpretation irgendwelcher schwammigen Formulierungen erfolgt, sondern dass sich diese Formulierungen in der beschriebenen Weise wörtlich in der GOÄ finden. Zur Abrundung des Problems sei zunächst eine Stellungnahme der Landesärztekammer Rheinland-Pfalz bezüglich des Leistungsinhalts einer Visite wiedergegeben: Die Landesärztekammer Rheinland-Pfalz hat in einer Stellungnahme vom 23.02.2000 Az.: 823.2-155/99 den Leistungsinhalt der Visite umschrieben: \"Die Visite ist die regelmäßige tägliche Beratung und ggf. Untersuchung am Bett des in stationärer Behandlung befindlichen Kranken. Ziel der Visite ist es, dass sich der Arzt über den Zustand des Kranken im Rahmen der kontinuierlichen Krankenhausbehandlung aufgrund von Befragung, Untersuchung, Bewertung von Untersuchungsbefunden, Einblick in die Krankenakte sowie Mitteilungen des ärztlichen und pflegerischen Dienstes umfassend orientiert und die erforderlichen Anordnungen trifft\" (Ende des Zitats). Weiterhin hat die LÄK in der gleichen Stellungnahme folgendes erklärt: \"....Nur Tatsachen, die ausnahmsweise eine Beratung und Untersuchung notwendig machen, ermöglichen den Ansatz von Beratungs- und Untersuchungsleistungen außerhalb der Visite.\" (im konkreten Fall der LÄK ging es um die Nrn. 1 u. 7). Aus den angeführten Zitaten aus der GOÄ und aus diesen Stellungnahmen wird ersichtlich, dass ohne Begründung für die Unaufschiebbarkeit der Durchführung dieser Leistungen eine Abrechnung nicht möglich ist.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "GOÄ",
+                        "ärztliche Liquidation",
+                        "medizinisch notwendig"
+                    ]
+                },
+                {
+                    "id": 3264,
+                    "zifferNr": "1",
+                    "prefix": "c)",
+                    "title": "Nrn. 1, 3 bis 8, 15 und stationäre Behandlung",
+                    "createdOn": "2021-05-24T21:01:26.391",
+                    "updatedOn": "2021-05-24T21:01:36.54",
+                    "validated": true,
+                    "text": "<p>Bezüglich der Abrechnung der Nrn. 1, 3 bis 8 und 15 im Zusammenhang mit stationären Behandlungen wird immer wieder das Argument gebracht, dass allein durch die Angabe einer Uhrzeit diese Leistungen im stationären Bereich abrechnungsfähig seien. Diese Auffassung ist falsch. Für den stationären Bereich gibt es die eindeutige Allgemeine Bestimmung, dass diese Nummern weder anstelle noch neben einer Visite zum Ansatz kommen können. Diese Nummern können im stationären Bereich nur dann ggf. zum Ansatz kommen, wenn völlig unabhängig von einer Visite eine Leistung nach diesen Nummern zu dem Zeitpunkt, der dann auf der Rechnung angegeben wird, aus unvorhersehbaren Gründen notwendig gewesen ist. Auch eine routinemäßige Untersuchung, die z.B. jeweils zwischen zwei Visiten durchgeführt wird, erfüllt nicht den erforderlichen Sachverhalt, dass durch Angabe der Uhrzeit diese Leistung auch abrechnungsfähig wäre. Hier greift dann die Allgemeine Bestimmung insoweit, dass anstelle einer Visite eine Untersuchungsleistung nicht abgerechnet werden kann. Die Abrechnung der strittigen Nummern ist also nur möglich (mit Uhrzeitangabe), wenn die Leistung aus nicht vorhersehbaren Gründen um diese Zeit notwendig gewesen ist. Hiervon ist gemäß Kommentar nach Brück lediglich die gynäkologische Untersuchung auszunehmen, weil eine solche üblicherweise während einer Visite nicht durchgeführt wird bzw. durchgeführt werden kann. Gleiches gilt für ein OP-vorbereitendes Gespräch, welches analog nach Nr. 3 abgerechnet werden kann, weil der Zeitaufwand für solche Gespräche nicht mit dem einer normalen Visite gleichgesetzt werden kann.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Visite",
+                        "stationär"
+                    ]
+                },
+                {
+                    "id": 3267,
+                    "zifferNr": "1",
+                    "prefix": "c3)",
+                    "title": "Nr. 1, Abschlussberatung, stationäre Behandlung",
+                    "createdOn": "2021-05-24T21:01:26.397",
+                    "updatedOn": "2021-05-24T21:01:36.541",
+                    "validated": true,
+                    "text": "<p>Es wurde die Nr. 1 abgerechnet, die gemäß den Allgemeinen Bestimmungen weder anstelle noch neben einer Visite zum Ansatz kommen kann. Da es sich hier um den Entlassungstag handelte, ist davon auszugehen, dass lediglich ein abschließendes Gespräch stattgefunden hat, welches durchaus auch während der Visite hätte erfolgen können. Es ergibt sich somit kein medizinisch notwendiger Grund, die Leistung exakt zu dem auf der Rechnung angegebenen Zeitpunkt durchzuführen. Die Nr. 1 muss hier daher gestrichen werden.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Visite",
+                        "Entlassung"
+                    ]
+                }
+            ],
+            "kategorie": "Visite"
+        },
+        "l": {
+            "kommentare": [
+                {
+                    "id": 3281,
+                    "zifferNr": "1",
+                    "prefix": "l)",
+                    "title": "Nr. 1 nicht für mittelbare Beratung durch Mitarbeiterin",
+                    "createdOn": "2021-05-24T21:01:26.428",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2012-07-29T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Auch wenn ein Gespräch der Mitarbeiterin mit dem Patienten durchaus den Charakter einer Beratung haben kann, ist die Nr. 1 nicht abrechenbar. Die Beratung ist keine delegierbare Leistung. Berechenbar ist hier nur die Nr. 2 (\"Übermittlung von ärztlichen Anordnungen\").</p><p>(Abrechnung aktuell, Ausgabe 2/2012, Seite 15)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Beratung",
+                        "Delegierbarkeit"
+                    ]
+                }
+            ],
+            "kategorie": "Kommentar 1"
+        },
+        "k": {
+            "kommentare": [
+                {
+                    "id": 3280,
+                    "zifferNr": "1",
+                    "prefix": "k)",
+                    "title": "Nr. 1 nicht neben Nr. 448 bzw. Nr. 449",
+                    "createdOn": "2021-05-24T21:01:26.426",
+                    "updatedOn": "2021-05-24T21:01:36.543",
+                    "publishedOn": "2011-01-26T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zur Nr. 448 </p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Medikation",
+                        "Diagnose",
+                        "Behandlung"
+                    ]
+                }
+            ],
+            "kategorie": "Diagnose"
+        },
+        "a": {
+            "kommentare": [
+                {
+                    "id": 3254,
+                    "zifferNr": "1",
+                    "prefix": "a1)",
+                    "title": "Definition einer Beratung",
+                    "createdOn": "2021-05-24T21:01:26.368",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2010-03-30T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Nachfolgend ist der Brück'sche Kommentar zur Definition der Beratung wörtlich wiedergegeben:</p><p>Die Beratung gehört zu den wichtigsten ärztlichen Leistungen überhaupt. Der Begriff der \"Beratung\" in der Gebührenordnung ist umfassend und schließt z. B. folgende Teilleistungen ein:</p><p class=\"comment-indent\">· Anhören der Beschwerden bzw. gezielte Befragung nach den Beschwerden, </p><p class=\"comment-indent\">· Aufnahme der Krankheitsvorgeschichte (Anamnese), soweit nicht hierfür gesondert berechnungsfähige Anamneseleistungen ausgewiesen sind (z. B. Nrn. 30, 31, 807, 860),</p><p class=\"comment-indent\">· Erteilung von Auskünften (Aufklärung, Information, Belehrung etc.), </p><p class=\"comment-indent\">· Besprechung von Verhaltensmaßnahmen, </p><p class=\"comment-indent\">· Beantwortung von spezifischen Fragen des Patienten, </p><p class=\"comment-indent\">· Erläuterung der beabsichtigten diagnostischen und/oder therapeutischen Maßnahmen,</p><p class=\"comment-indent\">· Ausstellung von Verordnungen oder Überweisungen (nur zusammen mit anderen Teilleistungen der Beratung nach Nr. 1, ansonsten - z. B. ausschließlich Wiederholungsrezept - nach Nr. 2 berechnungsfähig) \" (Ende des Zitats).</p><p>Die Beratung ist weder an eine Mindest- noch an eine Höchstzeit gebunden. Übersteigt die Dauer jedoch 10 Minuten, kann anstelle der Nr. 1 die Nr. 3 abgerechnet werden. Grundsätzlich kann der Aufwand für länger dauernde Beratungen nur über den Steigerungsfaktor ausgeglichen werden.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "ärztliche Leistungen",
+                        "Gebührenordnung",
+                        "Beratung"
+                    ]
+                },
+                {
+                    "id": 3255,
+                    "zifferNr": "1",
+                    "prefix": "a2)",
+                    "title": "Nr. 1, wann ist Beratungsleistung erfüllt?",
+                    "createdOn": "2021-05-24T21:01:26.37",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2006-11-29T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die Leistungslegende der Nr. 1 setzt die Beratung des Patienten (auch mittels Fernsprecher) voraus. Beratung liegt beispielsweise nicht vor bei alleiniger Blutdruckmessung, organisatorischen Absprachen über Besuchs- und Behandlungstermine, Auswertung überbrachter Befunde, Aushändigung von Merkblättern etc.</p><p>Es kommt nicht nur auf den Kontakt mit dem Arzt selbst an (auch am Telefon), sondern auch auf dessen Inhalt.</p><p>(Quelle: Medical Tribune, Nr. 42 v. 17.10.03)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Beratung",
+                        "Leistungslegende",
+                        "Fernsprecher"
+                    ]
+                }
+            ],
+            "kategorie": "Beratung"
+        },
+        "j": {
+            "kommentare": [
+                {
+                    "id": 3279,
+                    "zifferNr": "1",
+                    "prefix": "j)",
+                    "title": "Nr. 1 nicht für postoperative Information von Angehörigen",
+                    "createdOn": "2021-05-24T21:01:26.424",
+                    "updatedOn": "2021-05-24T21:01:36.543",
+                    "publishedOn": "2010-02-03T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die GOÄ honoriert Leistungen am Patienten und nicht die Aufklärung von Angehörigen über den Verlauf einer Operation. Dies könnte allenfalls bei kleinen Kindern eine abrechnungsfähige Leistung darstellen, die dann mit einer Beratungsziffer im Sinne einer \"mittelbaren\" Beratung abzurechnen wäre. Bei Erwachsenen trifft diese Bedingung nicht zu, so das die hierfür postoperativ abgerechnete Nr. 1 zu streichen ist.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Patientenversorgung",
+                        "Beratung"
+                    ]
+                }
+            ],
+            "kategorie": "Kommentar 1"
+        },
+        "i": {
+            "kommentare": [
+                {
+                    "id": 3278,
+                    "zifferNr": "1",
+                    "prefix": "i)",
+                    "title": "Abrechnung der Hautkrebsfrüherkennungsuntersuchung",
+                    "createdOn": "2021-05-24T21:01:26.422",
+                    "updatedOn": "2021-05-24T21:01:36.543",
+                    "publishedOn": "2009-08-08T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zu Nr. 750 und Kommentar zu Nr. 3</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Hautkrebsfrüherkennungsuntersuchung",
+                        "ärztliche Fachbegriffe"
+                    ]
+                }
+            ],
+            "kategorie": "Abrechnung der Hautkrebsfrüherkennungsuntersuchung"
+        },
+        "h": {
+            "kommentare": [
+                {
+                    "id": 3277,
+                    "zifferNr": "1",
+                    "prefix": "h)",
+                    "title": "Nr. 1, 3, 20, 30, 31, 33, 34 analog nicht berechenbar",
+                    "createdOn": "2021-05-24T21:01:26.419",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2008-03-03T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Häufig werden für zeitaufwändige Gespräche die Nummern 30, 31 oder Gebührenpositionen aus dem Abschnitt G \"Neurologie, Psychiatrie und Psychotherapie\" herangezogen. Eine analoge Bewertung kann nach § 6 (2) nur für selbstständige ärztliche Leistungen gebildet werden, die nicht in die GOÄ aufgenommen sind.</p><p>Sowohl kurze (Nr. 1) als auch zeitaufwändige (Nr. 3 und besondere (Nr. 30, Nr. 34) Gesprächs- und Komplexleistungen (Nr. 30 und 31) sowie strukturierte Schulungen (Nr. 33) sind in die GOÄ aufgenommen, so dass eine analoge Bewertung für Gesprächsleistungen ausscheidet.</p><p>(Deutsches Ärzteblatt, Heft 14, Seite C828 vom 06.04.2007)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "GOÄ",
+                        "Gesprächsleistungen",
+                        "Analogbewertung"
+                    ]
+                }
+            ],
+            "kategorie": "Kommentar 1"
+        },
+        "b": {
+            "kommentare": [
+                {
+                    "id": 3256,
+                    "zifferNr": "1",
+                    "prefix": "b)",
+                    "title": "Nr. 1 und Definition Behandlungsfall, BAK:",
+                    "createdOn": "2021-05-24T21:01:26.373",
+                    "updatedOn": "2021-05-24T21:01:36.539",
+                    "publishedOn": "2006-11-29T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Der Behandlungsfall ist (in bezug auf eine Erkrankung) dann verstrichen, wenn sich der Monatsname geändert und das Datum um mindestens 1 erhöht hat. </p><p>(Quelle: Beschluss des Ausschusses \"Gebührenordnung\" der Bundesärztekammer; Stand: 13.03.1996)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Behandlungsfall",
+                        "BAK",
+                        "Bundesärztekammer"
+                    ]
+                },
+                {
+                    "id": 3258,
+                    "zifferNr": "1",
+                    "prefix": "b2)",
+                    "title": "Nr. 1 und / oder Nr. 5 im Behandlungsfall, Kommentar Brück:",
+                    "createdOn": "2021-05-24T21:01:26.377",
+                    "updatedOn": "2022-11-30T09:30:59.808984",
+                    "publishedOn": "2006-11-29T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Mit der Verknüpfung \"und/oder\" wird zum Ausdruck gebracht, dass in demselben Behandlungsfall Sonderleistungen nach den Abschnitten C bis O i n s g e s a m t nur einmal neben Leistungen nach den Nrn. 1 und/oder Nr. 5</p><p>berechnungsfähig sind. Die Möglichkeit zur Nebeneinanderberechnung ist somit bereits mit der ersten Kombination z.B. der Nr. 1 und 651 \"verbraucht\", so dass für denselben Behandlungsfall z.B. die Kombination der Nrn. 5 und 651 nicht mehr möglich wäre.</p><p>(Quelle: Kommentar nach Brück, 3. Auflage, Seite 249, vom 01.01.2002)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Behandlung",
+                        "Kombination"
+                    ]
+                },
+                {
+                    "id": 3260,
+                    "zifferNr": "1",
+                    "prefix": "b4)",
+                    "title": "Nrn. 1 / 5 neben Leistungen C bis O, Chefärzte-Brief falsch",
+                    "createdOn": "2021-05-24T21:01:26.381",
+                    "updatedOn": "2021-05-24T21:01:36.539",
+                    "publishedOn": "2004-10-12T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Die im Chefärztebrief 10-2004 geäußerte Auffassung bezüglich der Nebeneinanderberechnung der Nrn. 1 und/oder 5 neben Leistungen der Abschnitte C bis O ist falsch. Ausführliche Darstellung siehe Kommentar zu Nr. 5.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Fehler",
+                        "Korrektur"
+                    ]
+                },
+                {
+                    "id": 3261,
+                    "zifferNr": "1",
+                    "prefix": "b5)",
+                    "title": "kein erhöhter Faktor bei Nrn. 1 / 5 ohne C bis O",
+                    "createdOn": "2021-05-24T21:01:26.383",
+                    "updatedOn": "2021-05-24T21:01:36.539",
+                    "publishedOn": "2004-10-12T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Erhöhter Faktor nicht möglich, wenn Nrn. 1 und/oder 5 neben Leistungen aus C bis O nicht möglich sind. Ausführliche Darstellung: siehe Kommentar zu Nr. 5.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Faktor",
+                        "Leistungen",
+                        "Darstellung"
+                    ]
+                },
+                {
+                    "id": 3263,
+                    "zifferNr": "1",
+                    "prefix": "b7)",
+                    "title": "Nrn. 1 und /oder 5 und Dauerdiagnosen",
+                    "createdOn": "2021-05-24T21:01:26.388",
+                    "updatedOn": "2021-05-24T21:01:36.54",
+                    "publishedOn": "2004-02-08T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Bei der Behandlung eines Patienten sind die zu einem definierten Zeitpunkt bekannten Diagnosen abrechnungstechnisch als eine Diagnose zu betrachten. Ob es sich hierbei um passagere Erkrankungen und/oder um Dauerdiagnosen handelt, ist in diesem Zusammenhang unerheblich. Dies betrifft insbesondere die Definition des \"Behandlungsfalls\" in den einschränkenden Bestimmungen zur nicht mehrfach möglichen Nebeneinanderberechnung der Nrn. 1 und/oder 5 neben Leistungen aus den Abschnitten C bis O der GOÄ. Nur eine zum definierten Zeitpunkt neue oder erst zu diesem Zeitpunkt festgestellte Erkrankung (neue zusätzliche Diagnose) begründet einen neuen Behandlungsfall mit der dann zulässigen erneuten einmaligen Abrechnung der Nrn. 1 und/oder 5 neben den Leistungen nach Abschnitt C bis O der GOÄ.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Diagnosen",
+                        "Behandlungsfälle"
+                    ]
+                },
+                {
+                    "id": 3259,
+                    "zifferNr": "1",
+                    "prefix": "b3)",
+                    "title": "Nr. 1 und/oder Nr. 5 mehrfach neben Leistungen C bis 0",
+                    "createdOn": "2021-05-24T21:01:26.379",
+                    "updatedOn": "2021-05-24T21:01:36.539",
+                    "publishedOn": "2001-04-04T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Es wurde die Nr. 1 im gleichen Behandlungsfall erneut neben einer Leistung aus den Abschnitten C bis O abgerechnet. Gemäß Allgemeiner Bestimmungen B 2 ist dies nicht zulässig. Als Behandlungsfall gilt gemäß Allgemeiner Bestimmungen B 1 der Zeitraum eines Monats, jeweils nach der ersten Inanspruchnahme. Die vorstehende Bestimmung gilt gemäß Formulierung in der GOÄ nicht nur für die Nr. 1, sondern auch für die Nr. 5 und die Kombination der Nr. 1 mit der Nr. 5.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Fachbegriffe",
+                        "GOÄ (Gebührenordnung für Ärzte)"
+                    ]
+                },
+                {
+                    "id": 3262,
+                    "zifferNr": "1",
+                    "prefix": "b6)",
+                    "title": "Nr. 1 im Behandlungsfall, Gegenargumentation, sehr intensiv",
+                    "createdOn": "2021-05-24T21:01:26.385",
+                    "updatedOn": "2021-05-24T21:01:36.54",
+                    "publishedOn": "1999-05-12T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>Es ist seitens des Rechnungserstellers zur Kenntnis zu nehmen, dass die GOÄ zwingend vorschreibt, dass die Nr. 1 neben Leistungen nach den Abschnitten C bis O nur einmal im Behandlungsfall abgerechnet werden darf. In der primären Stellungnahme wurde bereits dargestellt, dass die Abrechnungsvariante vorher (jedoch innerhalb des Zeitraums für einen Behandlungsfall) durchgefiihrt, akzeptiert und somit auch verbraucht ist, so dass die Nr. 1 innerhalb dieses Zeitraums nicht erneut abgerechnet werden kann. Die Vorstellung des Rechnungserstellers, dass dies stattfand und somit auch abgerechnet werden könne, zeigt allenfalls, dass es an der erforderlichen Bereitschaft fehlt, die zwingenden Vorschriften der GOÄ zu beachten.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "GOÄ",
+                        "Behandlungsfall"
+                    ]
+                },
+                {
+                    "id": 3257,
+                    "zifferNr": "1",
+                    "prefix": "b1)",
+                    "title": "Nr. 1 und Nr. 5",
+                    "createdOn": "2021-05-24T21:01:26.375",
+                    "updatedOn": "2021-05-24T21:01:36.539",
+                    "validated": true,
+                    "text": "<p>Eine Beratung nach Nr. 1 und eine symptombezogene Untersuchung nach Nr. 5 können nur einmal im Behandlungsfall neben Leistungen aus den Kapiteln C - 0 abgerechnet werden. Die Nrn. 1 und 5 sind daher zu streichen.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Beratung",
+                        "Untersuchung"
+                    ]
+                }
+            ],
+            "kategorie": "Kommentar 1"
+        },
+        "f": {
+            "kommentare": [
+                {
+                    "id": 3273,
+                    "zifferNr": "1",
+                    "prefix": "f1)",
+                    "title": "Nr. 4 nicht neben Nr. 1, BÄK:",
+                    "createdOn": "2021-05-24T21:01:26.412",
+                    "updatedOn": "2021-05-24T21:01:36.542",
+                    "publishedOn": "2006-11-29T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>Die Nrn. 4 und Nr. 1 sind nicht nebeneinander berechenbar, wenn sich sämtliche Bestandteile der Legenden zu den Nrn. 1 und 4 (Anamnese, Beratung, Fremdanamnese, Unterweisung) an ein und dieselbe Person richten, wie dies z.B. der Fall ist bei Mutter und Kleinkind oder Betreuer und schwerstkommunikationsgestörten Patienten. In allen anderen Fällen ist die Nebeneinanderberechenbarkeit möglich.</p><p>(Quelle: Beschluss des Ausschusses \"Gebührenordnung\" der BÄK v. 21.05.96)</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Gebührenordnung",
+                        "Nebeneinanderberechenbarkeit"
+                    ]
+                },
+                {
+                    "id": 3272,
+                    "zifferNr": "1",
+                    "prefix": "f)",
+                    "title": "Nr. 1 neben Nr. 4",
+                    "createdOn": "2021-05-24T21:01:26.41",
+                    "updatedOn": "2021-05-24T21:01:36.542",
+                    "publishedOn": "1999-09-17T01:00:00+02:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zu Nr. 4</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Verweis",
+                        "Zusammenhang",
+                        "Ergänzung"
+                    ]
+                }
+            ],
+            "kategorie": "Kommentar 1"
+        },
+        "d": {
+            "kommentare": [
+                {
+                    "id": 3270,
+                    "zifferNr": "1",
+                    "prefix": "d1)",
+                    "title": "Nr. 1 und/oder Nr. 5 vor technischen Untersuchungen",
+                    "createdOn": "2021-05-24T21:01:26.404",
+                    "updatedOn": "2021-05-24T21:01:36.541",
+                    "publishedOn": "2001-02-20T00:00:00+01:00",
+                    "validated": true,
+                    "text": "<p>siehe Kommentar zu Nr. 5</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Diagnose",
+                        "Untersuchung",
+                        "Fachbegriffe"
+                    ]
+                },
+                {
+                    "id": 3269,
+                    "zifferNr": "1",
+                    "prefix": "d)",
+                    "title": "Nr. 1 und radiologische Untersuchungen",
+                    "createdOn": "2021-05-24T21:01:26.401",
+                    "updatedOn": "2021-05-24T21:01:36.541",
+                    "validated": true,
+                    "text": "<p>Die Aufklärung eines Patienten vor radiologischen Untersuchungsleistungen ist Bestandteil der radiologischen Leistung und kann nicht zusätzlich, beispielsweise mit der Nr. 1, abgerechnet werden.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Abrechnung",
+                        "Radiologie",
+                        "Aufklärung"
+                    ]
+                }
+            ],
+            "kategorie": ""
+        },
+        "e": {
+            "kommentare": [
+                {
+                    "id": 3271,
+                    "zifferNr": "1",
+                    "prefix": "e)",
+                    "title": "Nr. 1 und Aufklärungsgespräch, ausführlich:",
+                    "createdOn": "2021-05-24T21:01:26.406",
+                    "updatedOn": "2021-05-24T21:01:36.541",
+                    "validated": true,
+                    "text": "<p>Bei der Durchführung von Untersuchungs- oder Behandlungsleistungen am Patient besteht, je nach Art der Leistung, ein mehr oder weniger großes Risiko, dass der Patient auch bei korrekter Durchführung der Leistung geschädigt wird. Hierbei ist es unerheblich, ob diese Schädigung sofort sichtbar wird oder ggf. erst später erkennbar ist. Beispielhaft seien hier radiologische Leistungen und die damit im Zusammenhang bestehende Strahlenbelastung aufgeführt. Das grundsätzlich Gleiche gilt jedoch auch, wenn z.B. eine Injektion durchgeführt wird. Die Gebührenordnung ist mit dem für eine bestimmte Leistung zuerkannten Honorar auf diese unterschiedlichen Risiken, die nicht nur der Patient, sondern auch der Arzt trägt, abgestellt. Zwingender, nicht nur vom Berufsrecht, sondern auch von der Rechtsprechung verlangter Teil einer jeglichen ärztlichen Untersuchung/Behandlung ist die Aufklärung des Patienten über Zweck und Risiko der geplanten Maßnahmen. Diese Aufklärungspflicht geht sogar so weit, dass praktisch jedes nicht auszuschließende Risiko dem Patient bekannt sein muss (mitgeteilt sein muss!) , damit er in Kenntnis aller Umstände seine Einwilligung zur geplanten Maßnahme geben oder versagen kann. Warum nun die zwingende Aufklärung des Patienten vor einer entsprechenden Maßnahme eine zusätzlich abrechnungsfähige Leistung sein soll, kann nicht nachvollzogen werden.</p><p></p>",
+                    "createdBy": "martin-gebuehreninfo",
+                    "updatedBy": "martin-gebuehreninfo",
+                    "scope": "GENERAL",
+                    "author": "martin-gebuehreninfo",
+                    "kategorien": [
+                        "Risiko",
+                        "Aufklärung",
+                        "Honorar"
+                    ]
+                }
+            ],
+            "kategorie": "Kommentar 1"
+        }
+    }
+}

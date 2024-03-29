@@ -36,6 +36,7 @@ pip install -r requirements.txt
 
 ### How to start:
 - (optional but recommended) <span style="color: green;">(.venv)</span> sollte in der Konsole grün hervorgehoben sein, damit man weiß, dass man in der virtuellen Umgebung ist. Normalerweise reicht es in vscode eine neue Konsole zu starten, dann geht es automatisch.
+- Achte darauf, dass JSON_FILE=ziffern_sorted.json
 - Programm einfach mit ```python index.py``` ausführen.
 
 

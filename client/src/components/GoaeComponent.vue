@@ -1,0 +1,104 @@
+<template>
+  <!-- Goä -->
+  <div class="p-4">
+    <div class="flex items-center space-x-2 mb-4">
+      <input
+        type="number"
+        v-model.number="newNumber"
+        @keyup.enter="addNumber"
+        class="border border-gray-300 p-2 rounded"
+        placeholder="GOÄ-Ziffern"
+      />
+      <button
+        @click="addNumber"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      >
+        Hinzufügen
+      </button>
+    </div>
+
+    <ul class="list-disc pl-5">
+      <li v-for="(number, index) in numbers" :key="index" class="mb-2">
+        <span class="mr-2">{{ number }}</span>
+        <button
+          @click="removeNumber(index)"
+          class="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-3 rounded text-xs"
+        >
+          Entfernen
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Prefix -->
+  <div class="p-4">
+    <div class="flex items-center space-x-2 mb-4">
+      <input
+        type="text"
+        v-model="newPrefix"
+        @keyup.enter="addPrefix"
+        class="border border-gray-300 p-2 rounded"
+        placeholder="Prefix"
+      />
+      <button
+        @click="addPrefix"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      >
+        Hinzufügen
+      </button>
+    </div>
+
+    <ul class="list-disc pl-5">
+      <li v-for="(prefix, index) in prefixes" :key="index" class="mb-2">
+        <span class="mr-2">{{ prefix }}</span>
+        <button
+          @click="removePrefix(index)"
+          class="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-3 rounded text-xs"
+        >
+          Entfernen
+        </button>
+      </li>
+    </ul>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      inputNumber: "",
+      newNumber: "",
+      inputPrefix: "",
+      newPrefix: "",
+    };
+  },
+  computed: {
+    numbers() {
+      return this.$store.state.numbers;
+    },
+    prefixes() {
+      return this.$store.state.prefixes;
+    },
+  },
+  methods: {
+    addNumber() {
+      if (this.newNumber !== "") {
+        this.$store.commit("addNumber", this.newNumber);
+        this.newNumber = "";
+      }
+    },
+    removeNumber(index) {
+      this.$store.commit("removeNumber", index);
+    },
+    addPrefix() {
+      if (this.newPrefix !== "") {
+        this.$store.commit("addPrefix", this.newPrefix);
+        this.newPrefix = "";
+      }
+    },
+    removePrefix(index) {
+      this.$store.commit("removePrefix", index);
+    },
+  },
+};
+</script>

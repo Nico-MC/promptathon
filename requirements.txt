@@ -1,3 +1,6 @@
 openai
 python-dotenv
 requests
+tiktoken
+flask
+flask-cors
